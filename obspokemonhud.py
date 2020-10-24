@@ -1,83 +1,56 @@
+"""OBSPokemonHUD
+
+This is the main script for the OBSPokemonHUD project
+"""
+
 import obspython as obs
-import urllib.request
-import urllib.error
 
-url = ""
-interval = 30
-source_name = ""
+# Interval in seconds for the script to check the team file
+check_interval = 5
 
-# ------------------------------------------------------------
-
-
-def update_text():
-    global url
-    global interval
-    global source_name
-
-    source = obs.obs_get_source_by_name(source_name)
-    if source is not None:
-        try:
-            with urllib.request.urlopen(url) as response:
-                data = response.read()
-                text = data.decode('utf-8')
-
-                settings = obs.obs_data_create()
-                obs.obs_data_set_string(settings, "text", text)
-                obs.obs_source_update(source, settings)
-                obs.obs_data_release(settings)
-
-        except urllib.error.URLError as err:
-            obs.script_log(obs.LOG_WARNING, "Error opening URL '" + url + "': " + err.reason)
-            obs.remove_current_callback()
-
-        obs.obs_source_release(source)
-
-
-def refresh_pressed(props, prop):
-    update_text()
-
-# ------------------------------------------------------------
+# Global storage for the team image sources
+team_image_sources = {
+    "member1": None,
+    "member2": None,
+    "member3": None,
+    "member4": None,
+    "member5": None,
+    "member6": None,
+}
 
 
 def script_description():
     return "Pokemon team HUD for OBS.\n\nBy GT"
 
 
-def script_update(settings):
-    global url
-    global interval
-    global source_name
-
-    url = obs.obs_data_get_string(settings, "url")
-    interval = obs.obs_data_get_int(settings, "interval")
-    source_name = obs.obs_data_get_string(settings, "source")
-
-    obs.timer_remove(update_text)
-
-    if url != "" and source_name != "":
-        obs.timer_add(update_text, interval * 1000)
-
-
-def script_defaults(settings):
-    obs.obs_data_set_default_int(settings, "interval", 30)
-
-
 def script_properties():
-    props = obs.obs_properties_create()
+    # Declare the properties object for us to mess with
+    properties = obs.obs_properties_create()
 
-    obs.obs_properties_add_text(props, "url", "URL", obs.OBS_TEXT_DEFAULT)
-    obs.obs_properties_add_int(props, "interval", "Update Interval (seconds)", 5, 3600, 1)
+    obs.obs_properties_add_int(properties, "check_interval", "Update Interval (seconds)", 1, 120, 1)
 
-    p = obs.obs_properties_add_list(props, "source", "Text Source", obs.OBS_COMBO_TYPE_EDITABLE, obs.OBS_COMBO_FORMAT_STRING)
+    # Add in a file path property for the team.json file
+    obs.obs_properties_add_path(properties, "team_file", "Team JSON File", obs.OBS_PATH_FILE, "*.json", None)
+
+    # Team image locations
+    image_list1 = obs.obs_properties_add_list(properties, "source1", "Team Member 1", obs.OBS_COMBO_TYPE_LIST, obs.OBS_COMBO_FORMAT_STRING)
+    image_list2 = obs.obs_properties_add_list(properties, "source2", "Team Member 2", obs.OBS_COMBO_TYPE_LIST, obs.OBS_COMBO_FORMAT_STRING)
+    image_list3 = obs.obs_properties_add_list(properties, "source3", "Team Member 3", obs.OBS_COMBO_TYPE_LIST, obs.OBS_COMBO_FORMAT_STRING)
+    image_list4 = obs.obs_properties_add_list(properties, "source4", "Team Member 4", obs.OBS_COMBO_TYPE_LIST, obs.OBS_COMBO_FORMAT_STRING)
+    image_list5 = obs.obs_properties_add_list(properties, "source5", "Team Member 5", obs.OBS_COMBO_TYPE_LIST, obs.OBS_COMBO_FORMAT_STRING)
+    image_list6 = obs.obs_properties_add_list(properties, "source6", "Team Member 6", obs.OBS_COMBO_TYPE_LIST, obs.OBS_COMBO_FORMAT_STRING)
     sources = obs.obs_enum_sources()
     if sources is not None:
         for source in sources:
             source_id = obs.obs_source_get_unversioned_id(source)
-            if source_id == "text_gdiplus" or source_id == "text_ft2_source":
+            if source_id == "image_source":
                 name = obs.obs_source_get_name(source)
-                obs.obs_property_list_add_string(p, name, name)
+                obs.obs_property_list_add_string(image_list1, name, name)
+                obs.obs_property_list_add_string(image_list2, name, name)
+                obs.obs_property_list_add_string(image_list3, name, name)
+                obs.obs_property_list_add_string(image_list4, name, name)
+                obs.obs_property_list_add_string(image_list5, name, name)
+                obs.obs_property_list_add_string(image_list6, name, name)
 
-        obs.source_list_release(sources)
-
-    obs.obs_properties_add_button(props, "button", "Refresh", refresh_pressed)
-    return props
+    # Finally, return the properties so they show up
+    return properties
