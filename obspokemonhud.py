@@ -207,6 +207,11 @@ def script_update(settings):
 
 
 def update_team():
+    """Updates the different sources for the team
+
+    This function gets run on a timer, loading up a JSON file and running the
+    different update functions
+    """
     # Set up the required global variables
     global json_file
     global team_sprite_image_sources
@@ -214,6 +219,7 @@ def update_team():
     with open(json_file, 'r') as file:
         array = json.load(file)
 
+    # NOTE Debug output for now
     print("slot1: ", array['slot1'])
     print("slot2: ", array['slot2'])
     print("slot3: ", array['slot3'])
@@ -222,19 +228,29 @@ def update_team():
     print("slot6: ", array['slot6'])
     print("team_sprite_image_sources: ", team_sprite_image_sources)
 
-    # source = obs.obs_get_source_by_name(team_sprite_image_sources["slot1"])
-    # print(obs.obs_source_info(source))
+    update_sprite_sources(team_sprite_image_sources)
 
-    source = obs.obs_get_source_by_name(team_sprite_image_sources["slot1"])
-    if source is not None:
-        try:
-            text = f"{script_path()}alcremie-gmax.gif"
-            settings = obs.obs_data_create()
-            obs.obs_data_set_string(settings, "file", text)
-            obs.obs_source_update(source, settings)
-            obs.obs_data_release(settings)
 
-        except urllib.error.URLError as err:
-            print("Error?", err)
+def update_sprite_sources(source_list):
+    """Updates the settings values
 
-        obs.obs_source_release(source)
+    Gets called by update_team.
+
+    Given the source name list, it updates the path for the sprite sources
+    """
+    for source_name in source_list:
+        source = obs.obs_get_source_by_name(source_list[source_name])
+        if source is not None:
+            try:
+                text = f"{script_path()}alcremie-gmax.gif"
+                settings = obs.obs_data_create()
+                obs.obs_data_set_string(settings, "file", text)
+                obs.obs_source_update(source, settings)
+                obs.obs_data_release(settings)
+
+            except urllib.error.URLError as err:
+                return err
+
+            obs.obs_source_release(source)
+
+    return True
