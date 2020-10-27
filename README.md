@@ -9,7 +9,20 @@ This project is based on an idea that [ShockSlayer](https://www.youtube.com/c/sh
 I have been wanting to redo this project from scratch for a couple years now, but between work and now school I haven't had a whole lot of time to do it.
 
 ## Install Instructions
-TBA
+### Windows
+You will need to have a version of Python 3.6 installed, as that's what OBS currently supports. Right now that is [Python 3.6.8](https://www.python.org/downloads/release/python-368/). Make sure you install the 64-bit version or it won't load up correctly and give this error in the log:
+
+```
+13:54:17.152: LoadLibrary failed for 'C:/Users/Thomas/AppData/Local/Programs/Python/Python36-32/python36.dll': %1 is not a valid Win32 application.
+13:54:17.152:  (193)
+13:54:17.152: [Python] Could not load library: C:/Users/Thomas/AppData/Local/Programs/Python/Python36-32/python36.dll
+```
+
+### Linux
+All you should need is the `obs-studio` and `python` packages installed and setup on your distribution. If that isn't working, start up an [issue](issues/) and let me know what you had to do and I'll add notes for it here.
+
+### Mac...
+I'm not sure, I don't have a Mac machine or VM to test this on. If someone would like to start an [issue](issues/) and give me instructions for how to install and set up OBS and Python, that would be appreciated.
 
 ## To Do:
 * Variants (Alolan, Galarian)
