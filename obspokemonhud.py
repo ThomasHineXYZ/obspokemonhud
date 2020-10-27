@@ -171,18 +171,14 @@ def script_update(settings):
     team_sprite_image_sources["slot5"] = obs.obs_data_get_string(settings, "slot5_sprite_image_source")
     team_sprite_image_sources["slot6"] = obs.obs_data_get_string(settings, "slot6_sprite_image_source")
 
-    # settings = obs.obs_data_create()
-    # source = obs.obs_get_source_by_name(team_sprite_image_sources["slot1"])
-    # print(obs.obs_data_get_string(source, ""))
-
     # Set up the run bool
     run_boolean = obs.obs_data_get_bool(settings, "run_boolean")
 
     # NOTE Debug output for now
-    print(check_interval)
-    print(json_file)
-    print(run_boolean)
-    print(team_sprite_image_sources)
+    print("check_interval: ", check_interval)
+    print("json_file: ", json_file)
+    print("run_boolean: ", run_boolean)
+    print("team_sprite_image_sources: ", team_sprite_image_sources)
 
     # Remove the timer for the update_team function, if it exists
     obs.timer_remove(update_team)
@@ -218,9 +214,27 @@ def update_team():
     with open(json_file, 'r') as file:
         array = json.load(file)
 
-    print(array['slot1'])
-    print(array['slot2'])
-    print(array['slot3'])
-    print(array['slot4'])
-    print(array['slot5'])
-    print(array['slot6'])
+    print("slot1: ", array['slot1'])
+    print("slot2: ", array['slot2'])
+    print("slot3: ", array['slot3'])
+    print("slot4: ", array['slot4'])
+    print("slot5: ", array['slot5'])
+    print("slot6: ", array['slot6'])
+    print("team_sprite_image_sources: ", team_sprite_image_sources)
+
+    # source = obs.obs_get_source_by_name(team_sprite_image_sources["slot1"])
+    # print(obs.obs_source_info(source))
+
+    source = obs.obs_get_source_by_name(team_sprite_image_sources["slot1"])
+    if source is not None:
+        try:
+            text = f"{script_path()}alcremie-gmax.gif"
+            settings = obs.obs_data_create()
+            obs.obs_data_set_string(settings, "file", text)
+            obs.obs_source_update(source, settings)
+            obs.obs_data_release(settings)
+
+        except urllib.error.URLError as err:
+            print("Error?", err)
+
+        obs.obs_source_release(source)
