@@ -4,6 +4,7 @@ This is the main script for the OBSPokemonHUD project
 """
 
 import obspython as obs
+import json
 
 # Interval in seconds for the script to check the team file
 check_interval = 5
@@ -170,6 +171,10 @@ def script_update(settings):
     team_sprite_image_sources["slot5"] = obs.obs_data_get_string(settings, "slot5_sprite_image_source")
     team_sprite_image_sources["slot6"] = obs.obs_data_get_string(settings, "slot6_sprite_image_source")
 
+    # settings = obs.obs_data_create()
+    # source = obs.obs_get_source_by_name(team_sprite_image_sources["slot1"])
+    # print(obs.obs_data_get_string(source, ""))
+
     # Set up the run bool
     run_boolean = obs.obs_data_get_bool(settings, "run_boolean")
 
@@ -206,4 +211,16 @@ def script_update(settings):
 
 
 def update_team():
-    print("update test")
+    # Set up the required global variables
+    global json_file
+    global team_sprite_image_sources
+
+    with open(json_file, 'r') as file:
+        array = json.load(file)
+
+    print(array['slot1'])
+    print(array['slot2'])
+    print(array['slot3'])
+    print(array['slot4'])
+    print(array['slot5'])
+    print(array['slot6'])
