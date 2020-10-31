@@ -7,6 +7,7 @@
         "line": "",
         "line": "This notes section is not a requirement and can be removed."
     },
+    "cache_location": "example",
     "sprites": {
         "base_url": "https://example.com/pokemonsprites/animated",
         "shiny_url": "https://example.com/pokemonsprites/shiny-animated",

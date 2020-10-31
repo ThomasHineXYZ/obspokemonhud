@@ -5,6 +5,7 @@ This is the main script for the OBSPokemonHUD project
 
 import json
 import obspython as obs
+import os.path
 
 # Interval in seconds for the script to check the team file
 check_interval = 5
@@ -282,20 +283,17 @@ def update_sprite_sources(source_name, team_slot):
     Given the source name list, it updates the path for the sprite sources
     """
     sprite = get_sprite_location(sprite_map['sprites'], team_slot['shiny'], team_slot["dexnumber"], None)
-    print(sprite)
+    location = cache_image(sprite, team_slot['shiny'], sprite_map['cache_location'], "sprites")
 
     source = obs.obs_get_source_by_name(source_name)
     if source is not None:
-        try:
-            text = f"{script_path()}kyogre.gif"
-            settings = obs.obs_data_create()
-            obs.obs_data_set_string(settings, "file", text)
-            obs.obs_source_update(source, settings)
-            obs.obs_data_release(settings)
+        # Set the text element as being the local cached version of the file
+        settings = obs.obs_data_create()
+        obs.obs_data_set_string(settings, "file", location)
+        obs.obs_source_update(source, settings)
+        obs.obs_data_release(settings)
 
-        except urllib.error.URLError as err:
-            return err
-
+        # Release the source
         obs.obs_source_release(source)
 
 
@@ -318,5 +316,21 @@ def get_sprite_location(sprites, shiny, dex_number, variant):
     return link + sprites[str(dex_number)]['standard']
 
 
-def cache_image(link, location):
-    pass
+def cache_image(link, shiny, location, image_type):
+    # Set the cache folder
+    cache_folder = f"{script_path()}cache/{location}/"
+
+    # If it's a shiny, tack that on to the end
+    if shiny:
+        cache_folder += "shiny/"
+
+    # Get the file name from the image link
+    filename = link.split("/")[-1]
+
+    # Check if the file exists or not
+    print(cache_folder + filename)
+    if not os.path.isfile(cache_folder + filename):
+        print("File not exist")
+        return ""
+
+    return cache_folder + filename

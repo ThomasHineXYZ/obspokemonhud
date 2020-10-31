@@ -1,4 +1,5 @@
 {
+    "cache_location": "showdown",
     "sprites": {
         "base_url": "https://play.pokemonshowdown.com/sprites/ani/",
         "shiny_url": "https://play.pokemonshowdown.com/sprites/ani-shiny/",
