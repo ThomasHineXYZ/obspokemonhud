@@ -1,44 +1,26 @@
 {
     "slot1": {
         "dexnumber": 68,
-        "nickname": "Sven",
-        "ball": "ultra",
-        "shiny": false,
-        "level": 100
+        "shiny": false
     },
     "slot2": {
-        "dexnumber": 103,
-        "nickname": "Treant",
-        "ball": "master",
-        "shiny": false,
-        "level": 83
+        "dexnumber": 102,
+        "shiny": false
     },
     "slot3": {
         "dexnumber": 25,
-        "nickname": "PeekAtChu",
-        "ball": "great",
-        "shiny": false,
-        "level": 93
+        "shiny": false
     },
     "slot4": {
         "dexnumber": 73,
-        "nickname": "DopeSquid",
-        "ball": "poke",
-        "shiny": false,
-        "level": 5
+        "shiny": false
     },
     "slot5": {
         "dexnumber": 382,
-        "nickname": "BlueFish",
-        "ball": "heavy",
-        "shiny": true,
-        "level": 7
+        "shiny": true
     },
     "slot6": {
         "dexnumber": 384,
-        "nickname": "Dragon",
-        "ball": "timer",
-        "shiny": false,
-        "level": 70
+        "shiny": false
     }
 }
