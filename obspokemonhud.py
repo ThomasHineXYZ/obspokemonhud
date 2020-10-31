@@ -3,20 +3,24 @@
 This is the main script for the OBSPokemonHUD project
 """
 
-import obspython as obs
 import json
+import obspython as obs
 
 # Interval in seconds for the script to check the team file
 check_interval = 5
 
 # The location for the JSON file
 json_file = ""
+json_file_contents = {}
 
 # Boolean to toggle if to run this or not
 run_boolean = False
 
+# The style for the sprites to use
+sprite_map = {}
+
 # Dictionary for the team sprite image sources
-team_sprite_image_sources = {}
+team_sprite_image_sources = []
 
 
 def script_description():
@@ -51,6 +55,16 @@ def script_properties():
 
     # Add in a file path property for the team.json file
     obs.obs_properties_add_path(properties, "json_file", "Team JSON File", obs.OBS_PATH_FILE, "*.json", None)
+
+    sprite_style = obs.obs_properties_add_list(
+        properties,
+        "sprite_style",
+        "Sprite Style",
+        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_FORMAT_STRING
+    )
+    obs.obs_property_list_add_string(sprite_style, "", "")
+    obs.obs_property_list_add_string(sprite_style, "showdown", "showdown")
 
     # Team image locations.
     # Set up the settings and add in a blank value as the first value
@@ -139,8 +153,15 @@ def script_defaults(settings):
     It sets all of the default values when the user presses the "Defaults"
     button on the "Scripts" screen.
     """
+
+    # Set the run boolean as false by default, just in case
     obs.obs_data_set_default_bool(settings, "run_boolean", False)
+
+    # Set the default update interval at 1 second
     obs.obs_data_set_default_int(settings, "check_interval_int", 1)
+
+    # Set the default sprite style as using the Showdown type
+    obs.obs_data_set_default_string(settings, "sprite_style", "showdown")
 
 
 def script_update(settings):
@@ -155,6 +176,7 @@ def script_update(settings):
     global check_interval
     global json_file
     global run_boolean
+    global sprite_map
     global team_sprite_image_sources
 
     # Set up the check interval
@@ -164,21 +186,19 @@ def script_update(settings):
     json_file = obs.obs_data_get_string(settings, "json_file")
 
     # Set up the team sprites
-    team_sprite_image_sources["slot1"] = obs.obs_data_get_string(settings, "slot1_sprite_image_source")
-    team_sprite_image_sources["slot2"] = obs.obs_data_get_string(settings, "slot2_sprite_image_source")
-    team_sprite_image_sources["slot3"] = obs.obs_data_get_string(settings, "slot3_sprite_image_source")
-    team_sprite_image_sources["slot4"] = obs.obs_data_get_string(settings, "slot4_sprite_image_source")
-    team_sprite_image_sources["slot5"] = obs.obs_data_get_string(settings, "slot5_sprite_image_source")
-    team_sprite_image_sources["slot6"] = obs.obs_data_get_string(settings, "slot6_sprite_image_source")
+    team_sprite_image_sources = []
+    team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot1_sprite_image_source"))
+    team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot2_sprite_image_source"))
+    team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot3_sprite_image_source"))
+    team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot4_sprite_image_source"))
+    team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot5_sprite_image_source"))
+    team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot6_sprite_image_source"))
+
+    # Set up the sprite style
+    sprite_style = obs.obs_data_get_string(settings, "sprite_style")
 
     # Set up the run bool
     run_boolean = obs.obs_data_get_bool(settings, "run_boolean")
-
-    # NOTE Debug output for now
-    print("check_interval: ", check_interval)
-    print("json_file: ", json_file)
-    print("run_boolean: ", run_boolean)
-    print("team_sprite_image_sources: ", team_sprite_image_sources)
 
     # Remove the timer for the update_team function, if it exists
     obs.timer_remove(update_team)
@@ -191,16 +211,24 @@ def script_update(settings):
     if not json_file:
         return
 
+    # If the sprite style isn't chosen
+    if not sprite_style:
+        return
+
     # If not all of the team slots are set, return out
     if not (
-        team_sprite_image_sources["slot1"] and
-        team_sprite_image_sources["slot2"] and
-        team_sprite_image_sources["slot3"] and
-        team_sprite_image_sources["slot4"] and
-        team_sprite_image_sources["slot5"] and
-        team_sprite_image_sources["slot6"]
+        team_sprite_image_sources[0] and
+        team_sprite_image_sources[1] and
+        team_sprite_image_sources[2] and
+        team_sprite_image_sources[3] and
+        team_sprite_image_sources[4] and
+        team_sprite_image_sources[5]
     ):
         return
+
+    # Load up the sprite map
+    with open(f"{script_path()}map_{sprite_style}.json", 'r') as file:
+        sprite_map = json.load(file)
 
     # So now, if everything is set up then set the timer
     obs.timer_add(update_team, check_interval * 1000)
@@ -214,43 +242,81 @@ def update_team():
     """
     # Set up the required global variables
     global json_file
+    global json_file_contents
+    global sprite_style
     global team_sprite_image_sources
 
+    # Load up the JSON file in to a dictionary
     with open(json_file, 'r') as file:
         array = json.load(file)
 
+    # If the JSON file hasn't changed since the last check, just return out
+    if json_file_contents == array:
+        return
+    else:
+        json_file_contents = array
+
     # NOTE Debug output for now
-    print("slot1: ", array['slot1'])
-    print("slot2: ", array['slot2'])
-    print("slot3: ", array['slot3'])
-    print("slot4: ", array['slot4'])
-    print("slot5: ", array['slot5'])
-    print("slot6: ", array['slot6'])
+    print("slot0: ", json_file_contents['slot1'])
+    print("slot1: ", json_file_contents['slot2'])
+    print("slot2: ", json_file_contents['slot3'])
+    print("slot3: ", json_file_contents['slot4'])
+    print("slot4: ", json_file_contents['slot5'])
+    print("slot5: ", json_file_contents['slot6'])
     print("team_sprite_image_sources: ", team_sprite_image_sources)
 
-    update_sprite_sources(team_sprite_image_sources)
+    # Update all of the team sprites
+    update_sprite_sources(team_sprite_image_sources[0], json_file_contents['slot1'])
+    update_sprite_sources(team_sprite_image_sources[1], json_file_contents['slot2'])
+    update_sprite_sources(team_sprite_image_sources[2], json_file_contents['slot3'])
+    update_sprite_sources(team_sprite_image_sources[3], json_file_contents['slot4'])
+    update_sprite_sources(team_sprite_image_sources[4], json_file_contents['slot5'])
+    update_sprite_sources(team_sprite_image_sources[5], json_file_contents['slot6'])
 
 
-def update_sprite_sources(source_list):
+def update_sprite_sources(source_name, team_slot):
     """Updates the settings values
 
     Gets called by update_team.
 
     Given the source name list, it updates the path for the sprite sources
     """
-    for source_name in source_list:
-        source = obs.obs_get_source_by_name(source_list[source_name])
-        if source is not None:
-            try:
-                text = f"{script_path()}alcremie-gmax.gif"
-                settings = obs.obs_data_create()
-                obs.obs_data_set_string(settings, "file", text)
-                obs.obs_source_update(source, settings)
-                obs.obs_data_release(settings)
+    sprite = get_sprite_location(sprite_map['sprites'], team_slot['shiny'], team_slot["dexnumber"], None)
+    print(sprite)
 
-            except urllib.error.URLError as err:
-                return err
+    source = obs.obs_get_source_by_name(source_name)
+    if source is not None:
+        try:
+            text = f"{script_path()}kyogre.gif"
+            settings = obs.obs_data_create()
+            obs.obs_data_set_string(settings, "file", text)
+            obs.obs_source_update(source, settings)
+            obs.obs_data_release(settings)
 
-            obs.obs_source_release(source)
+        except urllib.error.URLError as err:
+            return err
 
-    return True
+        obs.obs_source_release(source)
+
+
+def get_sprite_location(sprites, shiny, dex_number, variant):
+    link = ""
+    if shiny:
+        link = sprites['shiny_url']
+    else:
+        link = sprites['base_url']
+
+    if str(dex_number) not in sprites.keys():
+        print("I don't belong")
+        return
+
+    if variant in sprites[str(dex_number)].keys():
+        return link + sprites[str(dex_number)][variant]
+
+    # If the given forms, genders, etc aren't available, just give the standard
+    # sprite
+    return link + sprites[str(dex_number)]['standard']
+
+
+def cache_image(link, location):
+    pass

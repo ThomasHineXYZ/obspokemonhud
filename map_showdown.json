@@ -1,0 +1,2171 @@
+{
+    "sprites": {
+        "base_url": "https://play.pokemonshowdown.com/sprites/ani/",
+        "shiny_url": "https://play.pokemonshowdown.com/sprites/ani-shiny/",
+        "1": {
+            "standard": "bulbasaur.gif"
+        },
+        "2": {
+            "standard": "ivysaur.gif"
+        },
+        "3": {
+            "standard": "venusaur.gif"
+        },
+        "4": {
+            "standard": "charmander.gif"
+        },
+        "5": {
+            "standard": "charmeleon.gif"
+        },
+        "6": {
+            "standard": "charizard.gif"
+        },
+        "7": {
+            "standard": "squirtle.gif"
+        },
+        "8": {
+            "standard": "wartortle.gif"
+        },
+        "9": {
+            "standard": "blastoise.gif"
+        },
+        "10": {
+            "standard": "caterpie.gif"
+        },
+        "11": {
+            "standard": "metapod.gif"
+        },
+        "12": {
+            "standard": "butterfree.gif"
+        },
+        "13": {
+            "standard": "weedle.gif"
+        },
+        "14": {
+            "standard": "kakuna.gif"
+        },
+        "15": {
+            "standard": "beedrill.gif"
+        },
+        "16": {
+            "standard": "pidgey.gif"
+        },
+        "17": {
+            "standard": "pidgeotto.gif"
+        },
+        "18": {
+            "standard": "pidgeot.gif"
+        },
+        "19": {
+            "standard": "rattata.gif"
+        },
+        "20": {
+            "standard": "raticate.gif"
+        },
+        "21": {
+            "standard": "spearow.gif"
+        },
+        "22": {
+            "standard": "fearow.gif"
+        },
+        "23": {
+            "standard": "ekans.gif"
+        },
+        "24": {
+            "standard": "arbok.gif"
+        },
+        "25": {
+            "standard": "pikachu.gif"
+        },
+        "26": {
+            "standard": "raichu.gif"
+        },
+        "27": {
+            "standard": "sandshrew.gif"
+        },
+        "28": {
+            "standard": "sandslash.gif"
+        },
+        "29": {
+            "standard": "nidoran.gif"
+        },
+        "30": {
+            "standard": "nidorina.gif"
+        },
+        "31": {
+            "standard": "nidoqueen.gif"
+        },
+        "32": {
+            "standard": "nidoran.gif"
+        },
+        "33": {
+            "standard": "nidorino.gif"
+        },
+        "34": {
+            "standard": "nidoking.gif"
+        },
+        "35": {
+            "standard": "clefairy.gif"
+        },
+        "36": {
+            "standard": "clefable.gif"
+        },
+        "37": {
+            "standard": "vulpix.gif"
+        },
+        "38": {
+            "standard": "ninetales.gif"
+        },
+        "39": {
+            "standard": "jigglypuff.gif"
+        },
+        "40": {
+            "standard": "wigglytuff.gif"
+        },
+        "41": {
+            "standard": "zubat.gif"
+        },
+        "42": {
+            "standard": "golbat.gif"
+        },
+        "43": {
+            "standard": "oddish.gif"
+        },
+        "44": {
+            "standard": "gloom.gif"
+        },
+        "45": {
+            "standard": "vileplume.gif"
+        },
+        "46": {
+            "standard": "paras.gif"
+        },
+        "47": {
+            "standard": "parasect.gif"
+        },
+        "48": {
+            "standard": "venonat.gif"
+        },
+        "49": {
+            "standard": "venomoth.gif"
+        },
+        "50": {
+            "standard": "diglett.gif"
+        },
+        "51": {
+            "standard": "dugtrio.gif"
+        },
+        "52": {
+            "standard": "meowth.gif"
+        },
+        "53": {
+            "standard": "persian.gif"
+        },
+        "54": {
+            "standard": "psyduck.gif"
+        },
+        "55": {
+            "standard": "golduck.gif"
+        },
+        "56": {
+            "standard": "mankey.gif"
+        },
+        "57": {
+            "standard": "primeape.gif"
+        },
+        "58": {
+            "standard": "growlithe.gif"
+        },
+        "59": {
+            "standard": "arcanine.gif"
+        },
+        "60": {
+            "standard": "poliwag.gif"
+        },
+        "61": {
+            "standard": "poliwhirl.gif"
+        },
+        "62": {
+            "standard": "poliwrath.gif"
+        },
+        "63": {
+            "standard": "abra.gif"
+        },
+        "64": {
+            "standard": "kadabra.gif"
+        },
+        "65": {
+            "standard": "alakazam.gif"
+        },
+        "66": {
+            "standard": "machop.gif"
+        },
+        "67": {
+            "standard": "machoke.gif"
+        },
+        "68": {
+            "standard": "machamp.gif"
+        },
+        "69": {
+            "standard": "bellsprout.gif"
+        },
+        "70": {
+            "standard": "weepinbell.gif"
+        },
+        "71": {
+            "standard": "victreebel.gif"
+        },
+        "72": {
+            "standard": "tentacool.gif"
+        },
+        "73": {
+            "standard": "tentacruel.gif"
+        },
+        "74": {
+            "standard": "geodude.gif"
+        },
+        "75": {
+            "standard": "graveler.gif"
+        },
+        "76": {
+            "standard": "golem.gif"
+        },
+        "77": {
+            "standard": "ponyta.gif"
+        },
+        "78": {
+            "standard": "rapidash.gif"
+        },
+        "79": {
+            "standard": "slowpoke.gif"
+        },
+        "80": {
+            "standard": "slowbro.gif"
+        },
+        "81": {
+            "standard": "magnemite.gif"
+        },
+        "82": {
+            "standard": "magneton.gif"
+        },
+        "83": {
+            "standard": "farfetchd.gif"
+        },
+        "84": {
+            "standard": "doduo.gif"
+        },
+        "85": {
+            "standard": "dodrio.gif"
+        },
+        "86": {
+            "standard": "seel.gif"
+        },
+        "87": {
+            "standard": "dewgong.gif"
+        },
+        "88": {
+            "standard": "grimer.gif"
+        },
+        "89": {
+            "standard": "muk.gif"
+        },
+        "90": {
+            "standard": "shellder.gif"
+        },
+        "91": {
+            "standard": "cloyster.gif"
+        },
+        "92": {
+            "standard": "gastly.gif"
+        },
+        "93": {
+            "standard": "haunter.gif"
+        },
+        "94": {
+            "standard": "gengar.gif"
+        },
+        "95": {
+            "standard": "onix.gif"
+        },
+        "96": {
+            "standard": "drowzee.gif"
+        },
+        "97": {
+            "standard": "hypno.gif"
+        },
+        "98": {
+            "standard": "krabby.gif"
+        },
+        "99": {
+            "standard": "kingler.gif"
+        },
+        "100": {
+            "standard": "voltorb.gif"
+        },
+        "101": {
+            "standard": "electrode.gif"
+        },
+        "102": {
+            "standard": "exeggcute.gif"
+        },
+        "103": {
+            "standard": "exeggutor.gif"
+        },
+        "104": {
+            "standard": "cubone.gif"
+        },
+        "105": {
+            "standard": "marowak.gif"
+        },
+        "106": {
+            "standard": "hitmonlee.gif"
+        },
+        "107": {
+            "standard": "hitmonchan.gif"
+        },
+        "108": {
+            "standard": "lickitung.gif"
+        },
+        "109": {
+            "standard": "koffing.gif"
+        },
+        "110": {
+            "standard": "weezing.gif"
+        },
+        "111": {
+            "standard": "rhyhorn.gif"
+        },
+        "112": {
+            "standard": "rhydon.gif"
+        },
+        "113": {
+            "standard": "chansey.gif"
+        },
+        "114": {
+            "standard": "tangela.gif"
+        },
+        "115": {
+            "standard": "kangaskhan.gif"
+        },
+        "116": {
+            "standard": "horsea.gif"
+        },
+        "117": {
+            "standard": "seadra.gif"
+        },
+        "118": {
+            "standard": "goldeen.gif"
+        },
+        "119": {
+            "standard": "seaking.gif"
+        },
+        "120": {
+            "standard": "staryu.gif"
+        },
+        "121": {
+            "standard": "starmie.gif"
+        },
+        "122": {
+            "standard": "mr.gif"
+        },
+        "123": {
+            "standard": "scyther.gif"
+        },
+        "124": {
+            "standard": "jynx.gif"
+        },
+        "125": {
+            "standard": "electabuzz.gif"
+        },
+        "126": {
+            "standard": "magmar.gif"
+        },
+        "127": {
+            "standard": "pinsir.gif"
+        },
+        "128": {
+            "standard": "tauros.gif"
+        },
+        "129": {
+            "standard": "magikarp.gif"
+        },
+        "130": {
+            "standard": "gyarados.gif"
+        },
+        "131": {
+            "standard": "lapras.gif"
+        },
+        "132": {
+            "standard": "ditto.gif"
+        },
+        "133": {
+            "standard": "eevee.gif"
+        },
+        "134": {
+            "standard": "vaporeon.gif"
+        },
+        "135": {
+            "standard": "jolteon.gif"
+        },
+        "136": {
+            "standard": "flareon.gif"
+        },
+        "137": {
+            "standard": "porygon.gif"
+        },
+        "138": {
+            "standard": "omanyte.gif"
+        },
+        "139": {
+            "standard": "omastar.gif"
+        },
+        "140": {
+            "standard": "kabuto.gif"
+        },
+        "141": {
+            "standard": "kabutops.gif"
+        },
+        "142": {
+            "standard": "aerodactyl.gif"
+        },
+        "143": {
+            "standard": "snorlax.gif"
+        },
+        "144": {
+            "standard": "articuno.gif"
+        },
+        "145": {
+            "standard": "zapdos.gif"
+        },
+        "146": {
+            "standard": "moltres.gif"
+        },
+        "147": {
+            "standard": "dratini.gif"
+        },
+        "148": {
+            "standard": "dragonair.gif"
+        },
+        "149": {
+            "standard": "dragonite.gif"
+        },
+        "150": {
+            "standard": "mewtwo.gif"
+        },
+        "151": {
+            "standard": "mew.gif"
+        },
+        "152": {
+            "standard": "chikorita.gif"
+        },
+        "153": {
+            "standard": "bayleef.gif"
+        },
+        "154": {
+            "standard": "meganium.gif"
+        },
+        "155": {
+            "standard": "cyndaquil.gif"
+        },
+        "156": {
+            "standard": "quilava.gif"
+        },
+        "157": {
+            "standard": "typhlosion.gif"
+        },
+        "158": {
+            "standard": "totodile.gif"
+        },
+        "159": {
+            "standard": "croconaw.gif"
+        },
+        "160": {
+            "standard": "feraligatr.gif"
+        },
+        "161": {
+            "standard": "sentret.gif"
+        },
+        "162": {
+            "standard": "furret.gif"
+        },
+        "163": {
+            "standard": "hoothoot.gif"
+        },
+        "164": {
+            "standard": "noctowl.gif"
+        },
+        "165": {
+            "standard": "ledyba.gif"
+        },
+        "166": {
+            "standard": "ledian.gif"
+        },
+        "167": {
+            "standard": "spinarak.gif"
+        },
+        "168": {
+            "standard": "ariados.gif"
+        },
+        "169": {
+            "standard": "crobat.gif"
+        },
+        "170": {
+            "standard": "chinchou.gif"
+        },
+        "171": {
+            "standard": "lanturn.gif"
+        },
+        "172": {
+            "standard": "pichu.gif"
+        },
+        "173": {
+            "standard": "cleffa.gif"
+        },
+        "174": {
+            "standard": "igglybuff.gif"
+        },
+        "175": {
+            "standard": "togepi.gif"
+        },
+        "176": {
+            "standard": "togetic.gif"
+        },
+        "177": {
+            "standard": "natu.gif"
+        },
+        "178": {
+            "standard": "xatu.gif"
+        },
+        "179": {
+            "standard": "mareep.gif"
+        },
+        "180": {
+            "standard": "flaaffy.gif"
+        },
+        "181": {
+            "standard": "ampharos.gif"
+        },
+        "182": {
+            "standard": "bellossom.gif"
+        },
+        "183": {
+            "standard": "marill.gif"
+        },
+        "184": {
+            "standard": "azumarill.gif"
+        },
+        "185": {
+            "standard": "sudowoodo.gif"
+        },
+        "186": {
+            "standard": "politoed.gif"
+        },
+        "187": {
+            "standard": "hoppip.gif"
+        },
+        "188": {
+            "standard": "skiploom.gif"
+        },
+        "189": {
+            "standard": "jumpluff.gif"
+        },
+        "190": {
+            "standard": "aipom.gif"
+        },
+        "191": {
+            "standard": "sunkern.gif"
+        },
+        "192": {
+            "standard": "sunflora.gif"
+        },
+        "193": {
+            "standard": "yanma.gif"
+        },
+        "194": {
+            "standard": "wooper.gif"
+        },
+        "195": {
+            "standard": "quagsire.gif"
+        },
+        "196": {
+            "standard": "espeon.gif"
+        },
+        "197": {
+            "standard": "umbreon.gif"
+        },
+        "198": {
+            "standard": "murkrow.gif"
+        },
+        "199": {
+            "standard": "slowking.gif"
+        },
+        "200": {
+            "standard": "misdreavus.gif"
+        },
+        "201": {
+            "standard": "unown.gif"
+        },
+        "202": {
+            "standard": "wobbuffet.gif"
+        },
+        "203": {
+            "standard": "girafarig.gif"
+        },
+        "204": {
+            "standard": "pineco.gif"
+        },
+        "205": {
+            "standard": "forretress.gif"
+        },
+        "206": {
+            "standard": "dunsparce.gif"
+        },
+        "207": {
+            "standard": "gligar.gif"
+        },
+        "208": {
+            "standard": "steelix.gif"
+        },
+        "209": {
+            "standard": "snubbull.gif"
+        },
+        "210": {
+            "standard": "granbull.gif"
+        },
+        "211": {
+            "standard": "qwilfish.gif"
+        },
+        "212": {
+            "standard": "scizor.gif"
+        },
+        "213": {
+            "standard": "shuckle.gif"
+        },
+        "214": {
+            "standard": "heracross.gif"
+        },
+        "215": {
+            "standard": "sneasel.gif"
+        },
+        "216": {
+            "standard": "teddiursa.gif"
+        },
+        "217": {
+            "standard": "ursaring.gif"
+        },
+        "218": {
+            "standard": "slugma.gif"
+        },
+        "219": {
+            "standard": "magcargo.gif"
+        },
+        "220": {
+            "standard": "swinub.gif"
+        },
+        "221": {
+            "standard": "piloswine.gif"
+        },
+        "222": {
+            "standard": "corsola.gif"
+        },
+        "223": {
+            "standard": "remoraid.gif"
+        },
+        "224": {
+            "standard": "octillery.gif"
+        },
+        "225": {
+            "standard": "delibird.gif"
+        },
+        "226": {
+            "standard": "mantine.gif"
+        },
+        "227": {
+            "standard": "skarmory.gif"
+        },
+        "228": {
+            "standard": "houndour.gif"
+        },
+        "229": {
+            "standard": "houndoom.gif"
+        },
+        "230": {
+            "standard": "kingdra.gif"
+        },
+        "231": {
+            "standard": "phanpy.gif"
+        },
+        "232": {
+            "standard": "donphan.gif"
+        },
+        "233": {
+            "standard": "porygon2.gif"
+        },
+        "234": {
+            "standard": "stantler.gif"
+        },
+        "235": {
+            "standard": "smeargle.gif"
+        },
+        "236": {
+            "standard": "tyrogue.gif"
+        },
+        "237": {
+            "standard": "hitmontop.gif"
+        },
+        "238": {
+            "standard": "smoochum.gif"
+        },
+        "239": {
+            "standard": "elekid.gif"
+        },
+        "240": {
+            "standard": "magby.gif"
+        },
+        "241": {
+            "standard": "miltank.gif"
+        },
+        "242": {
+            "standard": "blissey.gif"
+        },
+        "243": {
+            "standard": "raikou.gif"
+        },
+        "244": {
+            "standard": "entei.gif"
+        },
+        "245": {
+            "standard": "suicune.gif"
+        },
+        "246": {
+            "standard": "larvitar.gif"
+        },
+        "247": {
+            "standard": "pupitar.gif"
+        },
+        "248": {
+            "standard": "tyranitar.gif"
+        },
+        "249": {
+            "standard": "lugia.gif"
+        },
+        "250": {
+            "standard": "hooh.gif"
+        },
+        "251": {
+            "standard": "celebi.gif"
+        },
+        "252": {
+            "standard": "treecko.gif"
+        },
+        "253": {
+            "standard": "grovyle.gif"
+        },
+        "254": {
+            "standard": "sceptile.gif"
+        },
+        "255": {
+            "standard": "torchic.gif"
+        },
+        "256": {
+            "standard": "combusken.gif"
+        },
+        "257": {
+            "standard": "blaziken.gif"
+        },
+        "258": {
+            "standard": "mudkip.gif"
+        },
+        "259": {
+            "standard": "marshtomp.gif"
+        },
+        "260": {
+            "standard": "swampert.gif"
+        },
+        "261": {
+            "standard": "poochyena.gif"
+        },
+        "262": {
+            "standard": "mightyena.gif"
+        },
+        "263": {
+            "standard": "zigzagoon.gif"
+        },
+        "264": {
+            "standard": "linoone.gif"
+        },
+        "265": {
+            "standard": "wurmple.gif"
+        },
+        "266": {
+            "standard": "silcoon.gif"
+        },
+        "267": {
+            "standard": "beautifly.gif"
+        },
+        "268": {
+            "standard": "cascoon.gif"
+        },
+        "269": {
+            "standard": "dustox.gif"
+        },
+        "270": {
+            "standard": "lotad.gif"
+        },
+        "271": {
+            "standard": "lombre.gif"
+        },
+        "272": {
+            "standard": "ludicolo.gif"
+        },
+        "273": {
+            "standard": "seedot.gif"
+        },
+        "274": {
+            "standard": "nuzleaf.gif"
+        },
+        "275": {
+            "standard": "shiftry.gif"
+        },
+        "276": {
+            "standard": "taillow.gif"
+        },
+        "277": {
+            "standard": "swellow.gif"
+        },
+        "278": {
+            "standard": "wingull.gif"
+        },
+        "279": {
+            "standard": "pelipper.gif"
+        },
+        "280": {
+            "standard": "ralts.gif"
+        },
+        "281": {
+            "standard": "kirlia.gif"
+        },
+        "282": {
+            "standard": "gardevoir.gif"
+        },
+        "283": {
+            "standard": "surskit.gif"
+        },
+        "284": {
+            "standard": "masquerain.gif"
+        },
+        "285": {
+            "standard": "shroomish.gif"
+        },
+        "286": {
+            "standard": "breloom.gif"
+        },
+        "287": {
+            "standard": "slakoth.gif"
+        },
+        "288": {
+            "standard": "vigoroth.gif"
+        },
+        "289": {
+            "standard": "slaking.gif"
+        },
+        "290": {
+            "standard": "nincada.gif"
+        },
+        "291": {
+            "standard": "ninjask.gif"
+        },
+        "292": {
+            "standard": "shedinja.gif"
+        },
+        "293": {
+            "standard": "whismur.gif"
+        },
+        "294": {
+            "standard": "loudred.gif"
+        },
+        "295": {
+            "standard": "exploud.gif"
+        },
+        "296": {
+            "standard": "makuhita.gif"
+        },
+        "297": {
+            "standard": "hariyama.gif"
+        },
+        "298": {
+            "standard": "azurill.gif"
+        },
+        "299": {
+            "standard": "nosepass.gif"
+        },
+        "300": {
+            "standard": "skitty.gif"
+        },
+        "301": {
+            "standard": "delcatty.gif"
+        },
+        "302": {
+            "standard": "sableye.gif"
+        },
+        "303": {
+            "standard": "mawile.gif"
+        },
+        "304": {
+            "standard": "aron.gif"
+        },
+        "305": {
+            "standard": "lairon.gif"
+        },
+        "306": {
+            "standard": "aggron.gif"
+        },
+        "307": {
+            "standard": "meditite.gif"
+        },
+        "308": {
+            "standard": "medicham.gif"
+        },
+        "309": {
+            "standard": "electrike.gif"
+        },
+        "310": {
+            "standard": "manectric.gif"
+        },
+        "311": {
+            "standard": "plusle.gif"
+        },
+        "312": {
+            "standard": "minun.gif"
+        },
+        "313": {
+            "standard": "volbeat.gif"
+        },
+        "314": {
+            "standard": "illumise.gif"
+        },
+        "315": {
+            "standard": "roselia.gif"
+        },
+        "316": {
+            "standard": "gulpin.gif"
+        },
+        "317": {
+            "standard": "swalot.gif"
+        },
+        "318": {
+            "standard": "carvanha.gif"
+        },
+        "319": {
+            "standard": "sharpedo.gif"
+        },
+        "320": {
+            "standard": "wailmer.gif"
+        },
+        "321": {
+            "standard": "wailord.gif"
+        },
+        "322": {
+            "standard": "numel.gif"
+        },
+        "323": {
+            "standard": "camerupt.gif"
+        },
+        "324": {
+            "standard": "torkoal.gif"
+        },
+        "325": {
+            "standard": "spoink.gif"
+        },
+        "326": {
+            "standard": "grumpig.gif"
+        },
+        "327": {
+            "standard": "spinda.gif"
+        },
+        "328": {
+            "standard": "trapinch.gif"
+        },
+        "329": {
+            "standard": "vibrava.gif"
+        },
+        "330": {
+            "standard": "flygon.gif"
+        },
+        "331": {
+            "standard": "cacnea.gif"
+        },
+        "332": {
+            "standard": "cacturne.gif"
+        },
+        "333": {
+            "standard": "swablu.gif"
+        },
+        "334": {
+            "standard": "altaria.gif"
+        },
+        "335": {
+            "standard": "zangoose.gif"
+        },
+        "336": {
+            "standard": "seviper.gif"
+        },
+        "337": {
+            "standard": "lunatone.gif"
+        },
+        "338": {
+            "standard": "solrock.gif"
+        },
+        "339": {
+            "standard": "barboach.gif"
+        },
+        "340": {
+            "standard": "whiscash.gif"
+        },
+        "341": {
+            "standard": "corphish.gif"
+        },
+        "342": {
+            "standard": "crawdaunt.gif"
+        },
+        "343": {
+            "standard": "baltoy.gif"
+        },
+        "344": {
+            "standard": "claydol.gif"
+        },
+        "345": {
+            "standard": "lileep.gif"
+        },
+        "346": {
+            "standard": "cradily.gif"
+        },
+        "347": {
+            "standard": "anorith.gif"
+        },
+        "348": {
+            "standard": "armaldo.gif"
+        },
+        "349": {
+            "standard": "feebas.gif"
+        },
+        "350": {
+            "standard": "milotic.gif"
+        },
+        "351": {
+            "standard": "castform.gif"
+        },
+        "352": {
+            "standard": "kecleon.gif"
+        },
+        "353": {
+            "standard": "shuppet.gif"
+        },
+        "354": {
+            "standard": "banette.gif"
+        },
+        "355": {
+            "standard": "duskull.gif"
+        },
+        "356": {
+            "standard": "dusclops.gif"
+        },
+        "357": {
+            "standard": "tropius.gif"
+        },
+        "358": {
+            "standard": "chimecho.gif"
+        },
+        "359": {
+            "standard": "absol.gif"
+        },
+        "360": {
+            "standard": "wynaut.gif"
+        },
+        "361": {
+            "standard": "snorunt.gif"
+        },
+        "362": {
+            "standard": "glalie.gif"
+        },
+        "363": {
+            "standard": "spheal.gif"
+        },
+        "364": {
+            "standard": "sealeo.gif"
+        },
+        "365": {
+            "standard": "walrein.gif"
+        },
+        "366": {
+            "standard": "clamperl.gif"
+        },
+        "367": {
+            "standard": "huntail.gif"
+        },
+        "368": {
+            "standard": "gorebyss.gif"
+        },
+        "369": {
+            "standard": "relicanth.gif"
+        },
+        "370": {
+            "standard": "luvdisc.gif"
+        },
+        "371": {
+            "standard": "bagon.gif"
+        },
+        "372": {
+            "standard": "shelgon.gif"
+        },
+        "373": {
+            "standard": "salamence.gif"
+        },
+        "374": {
+            "standard": "beldum.gif"
+        },
+        "375": {
+            "standard": "metang.gif"
+        },
+        "376": {
+            "standard": "metagross.gif"
+        },
+        "377": {
+            "standard": "regirock.gif"
+        },
+        "378": {
+            "standard": "regice.gif"
+        },
+        "379": {
+            "standard": "registeel.gif"
+        },
+        "380": {
+            "standard": "latias.gif"
+        },
+        "381": {
+            "standard": "latios.gif"
+        },
+        "382": {
+            "standard": "kyogre.gif"
+        },
+        "383": {
+            "standard": "groudon.gif"
+        },
+        "384": {
+            "standard": "rayquaza.gif"
+        },
+        "385": {
+            "standard": "jirachi.gif"
+        },
+        "386": {
+            "standard": "deoxys.gif"
+        },
+        "387": {
+            "standard": "turtwig.gif"
+        },
+        "388": {
+            "standard": "grotle.gif"
+        },
+        "389": {
+            "standard": "torterra.gif"
+        },
+        "390": {
+            "standard": "chimchar.gif"
+        },
+        "391": {
+            "standard": "monferno.gif"
+        },
+        "392": {
+            "standard": "infernape.gif"
+        },
+        "393": {
+            "standard": "piplup.gif"
+        },
+        "394": {
+            "standard": "prinplup.gif"
+        },
+        "395": {
+            "standard": "empoleon.gif"
+        },
+        "396": {
+            "standard": "starly.gif"
+        },
+        "397": {
+            "standard": "staravia.gif"
+        },
+        "398": {
+            "standard": "staraptor.gif"
+        },
+        "399": {
+            "standard": "bidoof.gif"
+        },
+        "400": {
+            "standard": "bibarel.gif"
+        },
+        "401": {
+            "standard": "kricketot.gif"
+        },
+        "402": {
+            "standard": "kricketune.gif"
+        },
+        "403": {
+            "standard": "shinx.gif"
+        },
+        "404": {
+            "standard": "luxio.gif"
+        },
+        "405": {
+            "standard": "luxray.gif"
+        },
+        "406": {
+            "standard": "budew.gif"
+        },
+        "407": {
+            "standard": "roserade.gif"
+        },
+        "408": {
+            "standard": "cranidos.gif"
+        },
+        "409": {
+            "standard": "rampardos.gif"
+        },
+        "410": {
+            "standard": "shieldon.gif"
+        },
+        "411": {
+            "standard": "bastiodon.gif"
+        },
+        "412": {
+            "standard": "burmy.gif"
+        },
+        "413": {
+            "standard": "wormadam.gif"
+        },
+        "414": {
+            "standard": "mothim.gif"
+        },
+        "415": {
+            "standard": "combee.gif"
+        },
+        "416": {
+            "standard": "vespiquen.gif"
+        },
+        "417": {
+            "standard": "pachirisu.gif"
+        },
+        "418": {
+            "standard": "buizel.gif"
+        },
+        "419": {
+            "standard": "floatzel.gif"
+        },
+        "420": {
+            "standard": "cherubi.gif"
+        },
+        "421": {
+            "standard": "cherrim.gif"
+        },
+        "422": {
+            "standard": "shellos.gif"
+        },
+        "423": {
+            "standard": "gastrodon.gif"
+        },
+        "424": {
+            "standard": "ambipom.gif"
+        },
+        "425": {
+            "standard": "drifloon.gif"
+        },
+        "426": {
+            "standard": "drifblim.gif"
+        },
+        "427": {
+            "standard": "buneary.gif"
+        },
+        "428": {
+            "standard": "lopunny.gif"
+        },
+        "429": {
+            "standard": "mismagius.gif"
+        },
+        "430": {
+            "standard": "honchkrow.gif"
+        },
+        "431": {
+            "standard": "glameow.gif"
+        },
+        "432": {
+            "standard": "purugly.gif"
+        },
+        "433": {
+            "standard": "chingling.gif"
+        },
+        "434": {
+            "standard": "stunky.gif"
+        },
+        "435": {
+            "standard": "skuntank.gif"
+        },
+        "436": {
+            "standard": "bronzor.gif"
+        },
+        "437": {
+            "standard": "bronzong.gif"
+        },
+        "438": {
+            "standard": "bonsly.gif"
+        },
+        "439": {
+            "standard": "mime.gif"
+        },
+        "440": {
+            "standard": "happiny.gif"
+        },
+        "441": {
+            "standard": "chatot.gif"
+        },
+        "442": {
+            "standard": "spiritomb.gif"
+        },
+        "443": {
+            "standard": "gible.gif"
+        },
+        "444": {
+            "standard": "gabite.gif"
+        },
+        "445": {
+            "standard": "garchomp.gif"
+        },
+        "446": {
+            "standard": "munchlax.gif"
+        },
+        "447": {
+            "standard": "riolu.gif"
+        },
+        "448": {
+            "standard": "lucario.gif"
+        },
+        "449": {
+            "standard": "hippopotas.gif"
+        },
+        "450": {
+            "standard": "hippowdon.gif",
+            "male": "hippowdon.gif",
+            "female": "hippowdon-f.gif"
+        },
+        "451": {
+            "standard": "skorupi.gif"
+        },
+        "452": {
+            "standard": "drapion.gif"
+        },
+        "453": {
+            "standard": "croagunk.gif"
+        },
+        "454": {
+            "standard": "toxicroak.gif"
+        },
+        "455": {
+            "standard": "carnivine.gif"
+        },
+        "456": {
+            "standard": "finneon.gif"
+        },
+        "457": {
+            "standard": "lumineon.gif"
+        },
+        "458": {
+            "standard": "mantyke.gif"
+        },
+        "459": {
+            "standard": "snover.gif"
+        },
+        "460": {
+            "standard": "abomasnow.gif"
+        },
+        "461": {
+            "standard": "weavile.gif"
+        },
+        "462": {
+            "standard": "magnezone.gif"
+        },
+        "463": {
+            "standard": "lickilicky.gif"
+        },
+        "464": {
+            "standard": "rhyperior.gif"
+        },
+        "465": {
+            "standard": "tangrowth.gif"
+        },
+        "466": {
+            "standard": "electivire.gif"
+        },
+        "467": {
+            "standard": "magmortar.gif"
+        },
+        "468": {
+            "standard": "togekiss.gif"
+        },
+        "469": {
+            "standard": "yanmega.gif"
+        },
+        "470": {
+            "standard": "leafeon.gif"
+        },
+        "471": {
+            "standard": "glaceon.gif"
+        },
+        "472": {
+            "standard": "gliscor.gif"
+        },
+        "473": {
+            "standard": "mamoswine.gif"
+        },
+        "474": {
+            "standard": "porygon.gif"
+        },
+        "475": {
+            "standard": "gallade.gif"
+        },
+        "476": {
+            "standard": "probopass.gif"
+        },
+        "477": {
+            "standard": "dusknoir.gif"
+        },
+        "478": {
+            "standard": "froslass.gif"
+        },
+        "479": {
+            "standard": "rotom.gif"
+        },
+        "480": {
+            "standard": "uxie.gif"
+        },
+        "481": {
+            "standard": "mesprit.gif"
+        },
+        "482": {
+            "standard": "azelf.gif"
+        },
+        "483": {
+            "standard": "dialga.gif"
+        },
+        "484": {
+            "standard": "palkia.gif"
+        },
+        "485": {
+            "standard": "heatran.gif"
+        },
+        "486": {
+            "standard": "regigigas.gif"
+        },
+        "487": {
+            "standard": "giratina.gif"
+        },
+        "488": {
+            "standard": "cresselia.gif"
+        },
+        "489": {
+            "standard": "phione.gif"
+        },
+        "490": {
+            "standard": "manaphy.gif"
+        },
+        "491": {
+            "standard": "darkrai.gif"
+        },
+        "492": {
+            "standard": "shaymin.gif"
+        },
+        "493": {
+            "standard": "arceus.gif"
+        },
+        "494": {
+            "standard": "victini.gif"
+        },
+        "495": {
+            "standard": "snivy.gif"
+        },
+        "496": {
+            "standard": "servine.gif"
+        },
+        "497": {
+            "standard": "serperior.gif"
+        },
+        "498": {
+            "standard": "tepig.gif"
+        },
+        "499": {
+            "standard": "pignite.gif"
+        },
+        "500": {
+            "standard": "emboar.gif"
+        },
+        "501": {
+            "standard": "oshawott.gif"
+        },
+        "502": {
+            "standard": "dewott.gif"
+        },
+        "503": {
+            "standard": "samurott.gif"
+        },
+        "504": {
+            "standard": "patrat.gif"
+        },
+        "505": {
+            "standard": "watchog.gif"
+        },
+        "506": {
+            "standard": "lillipup.gif"
+        },
+        "507": {
+            "standard": "herdier.gif"
+        },
+        "508": {
+            "standard": "stoutland.gif"
+        },
+        "509": {
+            "standard": "purrloin.gif"
+        },
+        "510": {
+            "standard": "liepard.gif"
+        },
+        "511": {
+            "standard": "pansage.gif"
+        },
+        "512": {
+            "standard": "simisage.gif"
+        },
+        "513": {
+            "standard": "pansear.gif"
+        },
+        "514": {
+            "standard": "simisear.gif"
+        },
+        "515": {
+            "standard": "panpour.gif"
+        },
+        "516": {
+            "standard": "simipour.gif"
+        },
+        "517": {
+            "standard": "munna.gif"
+        },
+        "518": {
+            "standard": "musharna.gif"
+        },
+        "519": {
+            "standard": "pidove.gif"
+        },
+        "520": {
+            "standard": "tranquill.gif"
+        },
+        "521": {
+            "standard": "unfezant.gif"
+        },
+        "522": {
+            "standard": "blitzle.gif"
+        },
+        "523": {
+            "standard": "zebstrika.gif"
+        },
+        "524": {
+            "standard": "roggenrola.gif"
+        },
+        "525": {
+            "standard": "boldore.gif"
+        },
+        "526": {
+            "standard": "gigalith.gif"
+        },
+        "527": {
+            "standard": "woobat.gif"
+        },
+        "528": {
+            "standard": "swoobat.gif"
+        },
+        "529": {
+            "standard": "drilbur.gif"
+        },
+        "530": {
+            "standard": "excadrill.gif"
+        },
+        "531": {
+            "standard": "audino.gif"
+        },
+        "532": {
+            "standard": "timburr.gif"
+        },
+        "533": {
+            "standard": "gurdurr.gif"
+        },
+        "534": {
+            "standard": "conkeldurr.gif"
+        },
+        "535": {
+            "standard": "tympole.gif"
+        },
+        "536": {
+            "standard": "palpitoad.gif"
+        },
+        "537": {
+            "standard": "seismitoad.gif"
+        },
+        "538": {
+            "standard": "throh.gif"
+        },
+        "539": {
+            "standard": "sawk.gif"
+        },
+        "540": {
+            "standard": "sewaddle.gif"
+        },
+        "541": {
+            "standard": "swadloon.gif"
+        },
+        "542": {
+            "standard": "leavanny.gif"
+        },
+        "543": {
+            "standard": "venipede.gif"
+        },
+        "544": {
+            "standard": "whirlipede.gif"
+        },
+        "545": {
+            "standard": "scolipede.gif"
+        },
+        "546": {
+            "standard": "cottonee.gif"
+        },
+        "547": {
+            "standard": "whimsicott.gif"
+        },
+        "548": {
+            "standard": "petilil.gif"
+        },
+        "549": {
+            "standard": "lilligant.gif"
+        },
+        "550": {
+            "standard": "basculin.gif"
+        },
+        "551": {
+            "standard": "sandile.gif"
+        },
+        "552": {
+            "standard": "krokorok.gif"
+        },
+        "553": {
+            "standard": "krookodile.gif"
+        },
+        "554": {
+            "standard": "darumaka.gif"
+        },
+        "555": {
+            "standard": "darmanitan.gif"
+        },
+        "556": {
+            "standard": "maractus.gif"
+        },
+        "557": {
+            "standard": "dwebble.gif"
+        },
+        "558": {
+            "standard": "crustle.gif"
+        },
+        "559": {
+            "standard": "scraggy.gif"
+        },
+        "560": {
+            "standard": "scrafty.gif"
+        },
+        "561": {
+            "standard": "sigilyph.gif"
+        },
+        "562": {
+            "standard": "yamask.gif"
+        },
+        "563": {
+            "standard": "cofagrigus.gif"
+        },
+        "564": {
+            "standard": "tirtouga.gif"
+        },
+        "565": {
+            "standard": "carracosta.gif"
+        },
+        "566": {
+            "standard": "archen.gif"
+        },
+        "567": {
+            "standard": "archeops.gif"
+        },
+        "568": {
+            "standard": "trubbish.gif"
+        },
+        "569": {
+            "standard": "garbodor.gif"
+        },
+        "570": {
+            "standard": "zorua.gif"
+        },
+        "571": {
+            "standard": "zoroark.gif"
+        },
+        "572": {
+            "standard": "minccino.gif"
+        },
+        "573": {
+            "standard": "cinccino.gif"
+        },
+        "574": {
+            "standard": "gothita.gif"
+        },
+        "575": {
+            "standard": "gothorita.gif"
+        },
+        "576": {
+            "standard": "gothitelle.gif"
+        },
+        "577": {
+            "standard": "solosis.gif"
+        },
+        "578": {
+            "standard": "duosion.gif"
+        },
+        "579": {
+            "standard": "reuniclus.gif"
+        },
+        "580": {
+            "standard": "ducklett.gif"
+        },
+        "581": {
+            "standard": "swanna.gif"
+        },
+        "582": {
+            "standard": "vanillite.gif"
+        },
+        "583": {
+            "standard": "vanillish.gif"
+        },
+        "584": {
+            "standard": "vanilluxe.gif"
+        },
+        "585": {
+            "standard": "deerling.gif"
+        },
+        "586": {
+            "standard": "sawsbuck.gif"
+        },
+        "587": {
+            "standard": "emolga.gif"
+        },
+        "588": {
+            "standard": "karrablast.gif"
+        },
+        "589": {
+            "standard": "escavalier.gif"
+        },
+        "590": {
+            "standard": "foongus.gif"
+        },
+        "591": {
+            "standard": "amoonguss.gif"
+        },
+        "592": {
+            "standard": "frillish.gif"
+        },
+        "593": {
+            "standard": "jellicent.gif"
+        },
+        "594": {
+            "standard": "alomomola.gif"
+        },
+        "595": {
+            "standard": "joltik.gif"
+        },
+        "596": {
+            "standard": "galvantula.gif"
+        },
+        "597": {
+            "standard": "ferroseed.gif"
+        },
+        "598": {
+            "standard": "ferrothorn.gif"
+        },
+        "599": {
+            "standard": "klink.gif"
+        },
+        "600": {
+            "standard": "klang.gif"
+        },
+        "601": {
+            "standard": "klinklang.gif"
+        },
+        "602": {
+            "standard": "tynamo.gif"
+        },
+        "603": {
+            "standard": "eelektrik.gif"
+        },
+        "604": {
+            "standard": "eelektross.gif"
+        },
+        "605": {
+            "standard": "elgyem.gif"
+        },
+        "606": {
+            "standard": "beheeyem.gif"
+        },
+        "607": {
+            "standard": "litwick.gif"
+        },
+        "608": {
+            "standard": "lampent.gif"
+        },
+        "609": {
+            "standard": "chandelure.gif"
+        },
+        "610": {
+            "standard": "axew.gif"
+        },
+        "611": {
+            "standard": "fraxure.gif"
+        },
+        "612": {
+            "standard": "haxorus.gif"
+        },
+        "613": {
+            "standard": "cubchoo.gif"
+        },
+        "614": {
+            "standard": "beartic.gif"
+        },
+        "615": {
+            "standard": "cryogonal.gif"
+        },
+        "616": {
+            "standard": "shelmet.gif"
+        },
+        "617": {
+            "standard": "accelgor.gif"
+        },
+        "618": {
+            "standard": "stunfisk.gif"
+        },
+        "619": {
+            "standard": "mienfoo.gif"
+        },
+        "620": {
+            "standard": "mienshao.gif"
+        },
+        "621": {
+            "standard": "druddigon.gif"
+        },
+        "622": {
+            "standard": "golett.gif"
+        },
+        "623": {
+            "standard": "golurk.gif"
+        },
+        "624": {
+            "standard": "pawniard.gif"
+        },
+        "625": {
+            "standard": "bisharp.gif"
+        },
+        "626": {
+            "standard": "bouffalant.gif"
+        },
+        "627": {
+            "standard": "rufflet.gif"
+        },
+        "628": {
+            "standard": "braviary.gif"
+        },
+        "629": {
+            "standard": "vullaby.gif"
+        },
+        "630": {
+            "standard": "mandibuzz.gif"
+        },
+        "631": {
+            "standard": "heatmor.gif"
+        },
+        "632": {
+            "standard": "durant.gif"
+        },
+        "633": {
+            "standard": "deino.gif"
+        },
+        "634": {
+            "standard": "zweilous.gif"
+        },
+        "635": {
+            "standard": "hydreigon.gif"
+        },
+        "636": {
+            "standard": "larvesta.gif"
+        },
+        "637": {
+            "standard": "volcarona.gif"
+        },
+        "638": {
+            "standard": "cobalion.gif"
+        },
+        "639": {
+            "standard": "terrakion.gif"
+        },
+        "640": {
+            "standard": "virizion.gif"
+        },
+        "641": {
+            "standard": "tornadus.gif"
+        },
+        "642": {
+            "standard": "thundurus.gif"
+        },
+        "643": {
+            "standard": "reshiram.gif"
+        },
+        "644": {
+            "standard": "zekrom.gif"
+        },
+        "645": {
+            "standard": "landorus.gif"
+        },
+        "646": {
+            "standard": "kyurem.gif"
+        },
+        "647": {
+            "standard": "keldeo.gif"
+        },
+        "648": {
+            "standard": "meloetta.gif"
+        },
+        "649": {
+            "standard": "genesect.gif"
+        },
+        "650": {
+            "standard": "chespin.gif"
+        },
+        "651": {
+            "standard": "quilladin.gif"
+        },
+        "652": {
+            "standard": "chesnaught.gif"
+        },
+        "653": {
+            "standard": "fennekin.gif"
+        },
+        "654": {
+            "standard": "braixen.gif"
+        },
+        "655": {
+            "standard": "delphox.gif"
+        },
+        "656": {
+            "standard": "froakie.gif"
+        },
+        "657": {
+            "standard": "frogadier.gif"
+        },
+        "658": {
+            "standard": "greninja.gif"
+        },
+        "659": {
+            "standard": "bunnelby.gif"
+        },
+        "660": {
+            "standard": "diggersby.gif"
+        },
+        "661": {
+            "standard": "fletchling.gif"
+        },
+        "662": {
+            "standard": "fletchinder.gif"
+        },
+        "663": {
+            "standard": "talonflame.gif"
+        },
+        "664": {
+            "standard": "scatterbug.gif"
+        },
+        "665": {
+            "standard": "spewpa.gif"
+        },
+        "666": {
+            "standard": "vivillon.gif"
+        },
+        "667": {
+            "standard": "litleo.gif"
+        },
+        "668": {
+            "standard": "pyroar.gif"
+        },
+        "669": {
+            "standard": "flabebe.gif"
+        },
+        "670": {
+            "standard": "floette.gif"
+        },
+        "671": {
+            "standard": "florges.gif"
+        },
+        "672": {
+            "standard": "skiddo.gif"
+        },
+        "673": {
+            "standard": "gogoat.gif"
+        },
+        "674": {
+            "standard": "pancham.gif"
+        },
+        "675": {
+            "standard": "pangoro.gif"
+        },
+        "676": {
+            "standard": "furfrou.gif"
+        },
+        "677": {
+            "standard": "espurr.gif"
+        },
+        "678": {
+            "standard": "meowstic.gif"
+        },
+        "679": {
+            "standard": "honedge.gif"
+        },
+        "680": {
+            "standard": "doublade.gif"
+        },
+        "681": {
+            "standard": "aegislash.gif"
+        },
+        "682": {
+            "standard": "spritzee.gif"
+        },
+        "683": {
+            "standard": "aromatisse.gif"
+        },
+        "684": {
+            "standard": "swirlix.gif"
+        },
+        "685": {
+            "standard": "slurpuff.gif"
+        },
+        "686": {
+            "standard": "inkay.gif"
+        },
+        "687": {
+            "standard": "malamar.gif"
+        },
+        "688": {
+            "standard": "binacle.gif"
+        },
+        "689": {
+            "standard": "barbaracle.gif"
+        },
+        "690": {
+            "standard": "skrelp.gif"
+        },
+        "691": {
+            "standard": "dragalge.gif"
+        },
+        "692": {
+            "standard": "clauncher.gif"
+        },
+        "693": {
+            "standard": "clawitzer.gif"
+        },
+        "694": {
+            "standard": "helioptile.gif"
+        },
+        "695": {
+            "standard": "heliolisk.gif"
+        },
+        "696": {
+            "standard": "tyrunt.gif"
+        },
+        "697": {
+            "standard": "tyrantrum.gif"
+        },
+        "698": {
+            "standard": "amaura.gif"
+        },
+        "699": {
+            "standard": "aurorus.gif"
+        },
+        "700": {
+            "standard": "sylveon.gif"
+        },
+        "701": {
+            "standard": "hawlucha.gif"
+        },
+        "702": {
+            "standard": "dedenne.gif"
+        },
+        "703": {
+            "standard": "carbink.gif"
+        },
+        "704": {
+            "standard": "goomy.gif"
+        },
+        "705": {
+            "standard": "sliggoo.gif"
+        },
+        "706": {
+            "standard": "goodra.gif"
+        },
+        "707": {
+            "standard": "klefki.gif"
+        },
+        "708": {
+            "standard": "phantump.gif"
+        },
+        "709": {
+            "standard": "trevenant.gif"
+        },
+        "710": {
+            "standard": "pumpkaboo.gif"
+        },
+        "711": {
+            "standard": "gourgeist.gif"
+        },
+        "712": {
+            "standard": "bergmite.gif"
+        },
+        "713": {
+            "standard": "avalugg.gif"
+        },
+        "714": {
+            "standard": "noibat.gif"
+        },
+        "715": {
+            "standard": "noivern.gif"
+        },
+        "716": {
+            "standard": "xerneas.gif"
+        },
+        "717": {
+            "standard": "yveltal.gif"
+        },
+        "718": {
+            "standard": "zygarde.gif"
+        },
+        "719": {
+            "standard": "diancie.gif"
+        },
+        "720": {
+            "standard": "hoopa.gif"
+        },
+        "721": {
+            "standard": "volcanion.gif"
+        }
+    }
+}
