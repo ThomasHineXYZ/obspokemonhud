@@ -24,6 +24,9 @@ All you should need is the `obs-studio` and `python` packages installed and setu
 ### Mac...
 I'm not sure, I don't have a Mac machine or VM to test this on. If someone would like to start an [issue](issues/) and give me instructions for how to install and set up OBS and Python, that would be appreciated.
 
+## Notes
+* If you're on Linux, you'll have to create any additional cache folders that aren't a part of the repository (custom maps, etc.)
+
 ## To Do:
 * Variants (Alolan, Galarian)
 * A lot...

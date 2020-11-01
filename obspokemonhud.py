@@ -6,6 +6,7 @@ This is the main script for the OBSPokemonHUD project
 import json
 import obspython as obs
 import os.path
+import requests
 
 # Interval in seconds for the script to check the team file
 check_interval = 5
@@ -327,10 +328,10 @@ def cache_image(link, shiny, location, image_type):
     # Get the file name from the image link
     filename = link.split("/")[-1]
 
-    # Check if the file exists or not
-    print(cache_folder + filename)
+    # Check if doesn't exist. If so, then download it and store it in the cache
     if not os.path.isfile(cache_folder + filename):
-        print("File not exist")
-        return ""
+        r = requests.get(link)
+        with open(cache_folder + filename, "wb") as f:
+            f.write(r.content)
 
     return cache_folder + filename
