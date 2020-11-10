@@ -1,0 +1,24 @@
+{
+    "build_systems":
+    [
+        {
+            "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+            "name": "Anaconda Python Builder",
+            "selector": "source.python",
+            "shell_cmd": "\"python\" -u \"$file\""
+        }
+    ],
+    "folders":
+    [
+        {
+            "file_exclude_patterns": [
+                "*.sublime*"
+            ],
+            "folder_exclude_patterns": [
+                "__pycache__"
+            ],
+            "name": "OBS Pokemon HUD",
+            "path": "."
+        }
+    ]
+}
