@@ -10,7 +10,7 @@ I have been wanting to redo this project from scratch for a couple years now, bu
 
 ## Install Instructions
 ### Windows
-You will need to have a version of Python 3.6 installed, as that's what OBS currently supports. Right now that is [Python 3.6.8](https://www.python.org/downloads/release/python-368/). Make sure you install the 64-bit version or it won't load up correctly and give this error in the log:
+You will need to have a version of Python 3.6 installed, as that's what OBS currently supports. Right now that is [Python 3.6.8](https://www.python.org/downloads/release/python-368/). Make sure you install the 64-bit version or it won't load up correctly and give an error similar to this in the log:
 
 ```
 13:54:17.152: LoadLibrary failed for 'C:/Users/Thomas/AppData/Local/Programs/Python/Python36-32/python36.dll': %1 is not a valid Win32 application.
@@ -29,4 +29,7 @@ I'm not sure, I don't have a Mac machine or VM to test this on. If someone would
 
 ## To Do:
 * Variants (Alolan, Galarian)
-* A lot...
+* Nickname
+* Ball
+* Level
+* A lot...?
