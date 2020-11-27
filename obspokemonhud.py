@@ -196,6 +196,9 @@ def script_update(settings):
     team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot5_sprite_image_source"))
     team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot6_sprite_image_source"))
 
+    for source in team_sprite_image_sources:
+        setup_source(source)
+
     # Set up the sprite style
     sprite_style = obs.obs_data_get_string(settings, "sprite_style")
 
@@ -275,12 +278,6 @@ def update_team():
     update_sprite_sources(team_sprite_image_sources[4], json_file_contents['slot5'])
     update_sprite_sources(team_sprite_image_sources[5], json_file_contents['slot6'])
 
-    dimensions = obs.vec2()
-    dimensions.x = 500
-    dimensions.y = 20
-
-    set_source_dimensions(team_sprite_image_sources[4], dimensions)
-
 
 def update_sprite_sources(source_name, team_slot):
     """Updates the settings values
@@ -289,8 +286,13 @@ def update_sprite_sources(source_name, team_slot):
 
     Given the source name list, it updates the path for the sprite sources
     """
-    sprite = get_sprite_location(sprite_map['sprites'], team_slot['shiny'], team_slot["dexnumber"], None)
-    location = cache_image(sprite, team_slot['shiny'], sprite_map['cache_location'], "sprites")
+    # If the dex number is zero or null, then give it the empty GIF file so
+    # they can set sizing
+    if (not team_slot["dexnumber"]) or (team_slot["dexnumber"] == 0):
+        location = f"{script_path()}empty.gif"
+    else:
+        sprite = get_sprite_location(sprite_map['sprites'], team_slot['shiny'], team_slot["dexnumber"], None)
+        location = cache_image(sprite, team_slot['shiny'], sprite_map['cache_location'], "sprites")
 
     source = obs.obs_get_source_by_name(source_name)
     if source is not None:
@@ -343,7 +345,7 @@ def cache_image(link, shiny, location, image_type):
     return cache_folder + filename
 
 
-def get_source_dimensions(source_name):
+def setup_source(source_name):
     # Get the current scene
     current_scene = obs.obs_frontend_get_current_scene()
     scene = obs.obs_scene_from_source(current_scene)
@@ -352,72 +354,14 @@ def get_source_dimensions(source_name):
     # Grab the source
     source = obs.obs_scene_find_source(scene, source_name)
 
-    # Dimensions
-    # The functions for width and height need an obs_source_t for some reason...
-    formatted_source = obs.obs_sceneitem_get_source(source)
-    width = obs.obs_source_get_width(formatted_source)
-    height = obs.obs_source_get_height(formatted_source)
+    # Create the new position
+    new_position = obs.vec2()
+    new_position.x = 500
+    new_position.y = 20
 
-    dimensions = {
-        "height": height,
-        "width": width,
-    }
-
-    return dimensions
-
-
-def get_source_position(source_name):
-    # Get the current scene
-    current_scene = obs.obs_frontend_get_current_scene()
-    scene = obs.obs_scene_from_source(current_scene)
-    obs.obs_source_release(current_scene)
-
-    # Grab the source
-    source = obs.obs_scene_find_source(scene, source_name)
-
-    # Position
-    position_current = obs.vec2()
-    obs.obs_sceneitem_get_pos(source, position_current)
-    print("Old Position:", position_current.x, position_current.y)  # Debug printout
-
-    return position_current
-
-
-def set_source_dimensions(source_name, dimensions):
-    # Get the current scene
-    current_scene = obs.obs_frontend_get_current_scene()
-    scene = obs.obs_scene_from_source(current_scene)
-    obs.obs_source_release(current_scene)
-
-    # Grab the source
-    source = obs.obs_scene_find_source(scene, source_name)
+    # Move it to the new position
+    obs.obs_sceneitem_set_pos(source, new_position)
 
     # This makes sure that the scaling is done right
-    obs.obs_sceneitem_set_bounds_type(source, obs.OBS_BOUNDS_MAX_ONLY)
-
-    # Set the dimensions!
-    obs.obs_sceneitem_set_bounds(source, dimensions)
-
-    return True
-
-
-def set_source_position(source_name, new_position):
-    try:
-        # Get the current scene
-        current_scene = obs.obs_frontend_get_current_scene()
-        scene = obs.obs_scene_from_source(current_scene)
-        obs.obs_source_release(current_scene)
-
-        # Grab the source
-        source = obs.obs_scene_find_source(scene, source_name)
-
-        # Set the position
-        obs.obs_sceneitem_set_pos(source, new_position)
-        return True
-
-    except Exception as e:
-        raise e
-        return False
-
-
+    obs.obs_sceneitem_set_bounds_type(source, obs.OBS_BOUNDS_SCALE_INNER)
 
