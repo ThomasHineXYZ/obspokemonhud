@@ -1235,24 +1235,32 @@
             "standard": "registeel.gif"
         },
         "380": {
+            "mega": "latias-mega.gif",
             "standard": "latias.gif"
         },
         "381": {
+            "mega": "latios-mega.gif",
             "standard": "latios.gif"
         },
         "382": {
+            "primal": "kyogre-primal.gif",
             "standard": "kyogre.gif"
         },
         "383": {
+            "primal": "groudon-primal.gif",
             "standard": "groudon.gif"
         },
         "384": {
+            "mega": "rayquaza-mega.gif",
             "standard": "rayquaza.gif"
         },
         "385": {
             "standard": "jirachi.gif"
         },
         "386": {
+            "attack": "deoxys-attack.gif",
+            "defense": "deoxys-defense.gif",
+            "speed": "deoxys-speed.gif",
             "standard": "deoxys.gif"
         },
         "387": {
@@ -1627,6 +1635,7 @@
             "standard": "darkrai.gif"
         },
         "492": {
+            "sky": "shaymin-sky.gif",
             "standard": "shaymin.gif"
         },
         "493": {
@@ -2318,9 +2327,11 @@
             "standard": "zygarde.gif"
         },
         "719": {
+            "mega": "diancie-mega.gif",
             "standard": "diancie.gif"
         },
         "720": {
+            "unbound": "hoopa-unbound.gif",
             "standard": "hoopa.gif"
         },
         "721": {
