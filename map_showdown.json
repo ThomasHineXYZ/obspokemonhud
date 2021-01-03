@@ -116,9 +116,13 @@
             "standard": "clefable.gif"
         },
         "37": {
+            "alola": "vulpix-alola.gif",
+            "kanto": "vulpix.gif",
             "standard": "vulpix.gif"
         },
         "38": {
+            "alola": "ninetales-alola.gif",
+            "kanto": "ninetales.gif",
             "standard": "ninetales.gif"
         },
         "39": {
@@ -159,15 +163,25 @@
             "standard": "venomoth.gif"
         },
         "50": {
+            "alola": "diglett-alola.gif",
+            "kanto": "diglett.gif",
             "standard": "diglett.gif"
         },
         "51": {
+            "alola": "dugtrio-alola.gif",
+            "kanto": "dugtrio.gif",
             "standard": "dugtrio.gif"
         },
         "52": {
+            "alola": "meowth-alola.gif",
+            "galar": "meowth-galar.gif",
+            "gmax": "meowth-gmax.gif",
+            "kanto": "meowth.gif",
             "standard": "meowth.gif"
         },
         "53": {
+            "alola": "persian-alola.gif",
+            "kanto": "persian.gif",
             "standard": "persian.gif"
         },
         "54": {
@@ -231,12 +245,18 @@
             "standard": "tentacruel.gif"
         },
         "74": {
+            "alola": "geodude-alola.gif",
+            "kanto": "geodude.gif",
             "standard": "geodude.gif"
         },
         "75": {
+            "alola": "graveler-alola.gif",
+            "kanto": "graveler.gif",
             "standard": "graveler.gif"
         },
         "76": {
+            "alola": "golem-alola.gif",
+            "kanto": "golem.gif",
             "standard": "golem.gif"
         },
         "77": {
@@ -273,9 +293,13 @@
             "standard": "dewgong.gif"
         },
         "88": {
+            "alola": "grimer-alola.gif",
+            "kanto": "grimer.gif",
             "standard": "grimer.gif"
         },
         "89": {
+            "alola": "muk-alola.gif",
+            "kanto": "muk.gif",
             "standard": "muk.gif"
         },
         "90": {
@@ -318,12 +342,16 @@
             "standard": "exeggcute.gif"
         },
         "103": {
+            "alola": "exeggutor-alola.gif",
+            "kanto": "exeggutor.gif",
             "standard": "exeggutor.gif"
         },
         "104": {
             "standard": "cubone.gif"
         },
         "105": {
+            "alola": "marowak-alola.gif",
+            "kanto": "marowak.gif",
             "standard": "marowak.gif"
         },
         "106": {
