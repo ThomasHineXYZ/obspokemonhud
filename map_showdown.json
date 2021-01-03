@@ -19,6 +19,9 @@
             "standard": "charmeleon.gif"
         },
         "6": {
+            "gmax": "charizard-gmax.gif",
+            "megax": "charizard-megax.gif",
+            "megay": "charizard-megay.gif",
             "standard": "charizard.gif"
         },
         "7": {
@@ -37,6 +40,7 @@
             "standard": "metapod.gif"
         },
         "12": {
+            "gmax": "butterfree-gmax.gif",
             "standard": "butterfree.gif"
         },
         "13": {
@@ -233,6 +237,7 @@
             "standard": "machoke.gif"
         },
         "68": {
+            "gmax": "machamp-gmax.gif",
             "standard": "machamp.gif"
         },
         "69": {
@@ -321,6 +326,8 @@
             "standard": "haunter.gif"
         },
         "94": {
+            "gmax": "gengar-gmax.gif",
+            "mega": "gengar-mega.gif",
             "standard": "gengar.gif"
         },
         "95": {
@@ -336,6 +343,7 @@
             "standard": "krabby.gif"
         },
         "99": {
+            "gmax": "kingler-gmax.gif",
             "standard": "kingler.gif"
         },
         "100": {
@@ -443,13 +451,16 @@
             "standard": "gyarados.gif"
         },
         "131": {
+            "gmax": "lapras-gmax.gif",
             "standard": "lapras.gif"
         },
         "132": {
             "standard": "ditto.gif"
         },
         "133": {
-            "standard": "eevee.gif"
+            "gmax": "eevee-gmax.gif",
+            "standard": "eevee.gif",
+            "starter": "eevee-starter.gif"
         },
         "134": {
             "standard": "vaporeon.gif"
@@ -479,6 +490,7 @@
             "standard": "aerodactyl.gif"
         },
         "143": {
+            "gmax": "snorlax-gmax.gif",
             "standard": "snorlax.gif"
         },
         "144": {
@@ -1903,6 +1915,7 @@
             "standard": "trubbish.gif"
         },
         "569": {
+            "gmax": "garbodor-gmax.gif",
             "standard": "garbodor.gif"
         },
         "570": {
@@ -2618,7 +2631,374 @@
             "standard": "meltan.gif"
         },
         "809": {
+            "gmax": "melmetal-gmax.gif",
             "standard": "melmetal.gif"
+        },
+        "810": {
+            "standard": "grookey.gif"
+        },
+        "811": {
+            "standard": "thwackey.gif"
+        },
+        "812": {
+            "gmax": "rillaboom-gmax.gif",
+            "standard": "rillaboom.gif"
+        },
+        "813": {
+            "standard": "scorbunny.gif"
+        },
+        "814": {
+            "standard": "raboot.gif"
+        },
+        "815": {
+            "gmax": "cinderace-gmax.gif",
+            "standard": "cinderace.gif"
+        },
+        "816": {
+            "standard": "sobble.gif"
+        },
+        "817": {
+            "standard": "drizzile.gif"
+        },
+        "818": {
+            "gmax": "inteleon-gmax.gif",
+            "standard": "inteleon.gif"
+        },
+        "819": {
+            "standard": "skwovet.gif"
+        },
+        "820": {
+            "standard": "greedent.gif"
+        },
+        "821": {
+            "standard": "rookidee.gif"
+        },
+        "822": {
+            "standard": "corvisquire.gif"
+        },
+        "823": {
+            "gmax": "corviknight-gmax.gif",
+            "standard": "corviknight.gif"
+        },
+        "824": {
+            "standard": "blipbug.gif"
+        },
+        "825": {
+            "standard": "dottler.gif"
+        },
+        "826": {
+            "gmax": "orbeetle-gmax.gif",
+            "standard": "orbeetle.gif"
+        },
+        "827": {
+            "standard": "nickit.gif"
+        },
+        "828": {
+            "standard": "thievul.gif"
+        },
+        "829": {
+            "standard": "gossifleur.gif"
+        },
+        "830": {
+            "standard": "eldegoss.gif"
+        },
+        "831": {
+            "standard": "wooloo.gif"
+        },
+        "832": {
+            "standard": "dubwool.gif"
+        },
+        "833": {
+            "standard": "chewtle.gif"
+        },
+        "834": {
+            "gmax": "drednaw-gmax.gif",
+            "standard": "drednaw.gif"
+        },
+        "835": {
+            "standard": "yamper.gif"
+        },
+        "836": {
+            "standard": "boltund.gif"
+        },
+        "837": {
+            "standard": "rolycoly.gif"
+        },
+        "838": {
+            "standard": "carkol.gif"
+        },
+        "839": {
+            "gmax": "coalossal-gmax.gif",
+            "standard": "coalossal.gif"
+        },
+        "840": {
+            "standard": "applin.gif"
+        },
+        "841": {
+            "gmax": "flapple-gmax.gif",
+            "standard": "flapple.gif"
+        },
+        "842": {
+            "gmax": "appletun-gmax.gif",
+            "standard": "appletun.gif"
+        },
+        "843": {
+            "standard": "silicobra.gif"
+        },
+        "844": {
+            "gmax": "sandaconda-gmax.gif",
+            "standard": "sandaconda.gif"
+        },
+        "845": {
+            "standard": "cramorant.gif"
+        },
+        "846": {
+            "standard": "arrokuda.gif"
+        },
+        "847": {
+            "standard": "barraskewda.gif"
+        },
+        "848": {
+            "standard": "toxel.gif"
+        },
+        "849": {
+            "amped": "toxtricity.gif",
+            "gmax": "toxtricity.gif",
+            "lowkey": "toxtricity.gif",
+            "standard": "toxtricity.gif"
+        },
+        "850": {
+            "standard": "sizzlipede.gif"
+        },
+        "851": {
+            "gmax": "centiskorch-gmax.gif",
+            "standard": "centiskorch.gif"
+        },
+        "852": {
+            "standard": "clobbopus.gif"
+        },
+        "853": {
+            "standard": "grapploct.gif"
+        },
+        "854": {
+            "authentic": "sinistea-antique.gif",
+            "phony": "sinistea.gif",
+            "standard": "sinistea.gif"
+        },
+        "855": {
+            "authentic": "polteageist-antique.gif",
+            "phony": "polteageist.gif",
+            "standard": "polteageist.gif"
+        },
+        "856": {
+            "standard": "hatenna.gif"
+        },
+        "857": {
+            "standard": "hattrem.gif"
+        },
+        "858": {
+            "gmax": "hatterene-gmax.gif",
+            "standard": "hatterene.gif"
+        },
+        "859": {
+            "standard": "impidimp.gif"
+        },
+        "860": {
+            "standard": "morgrem.gif"
+        },
+        "861": {
+            "gmax": "grimmsnarl-gmax.gif",
+            "standard": "grimmsnarl.gif"
+        },
+        "862": {
+            "standard": "obstagoon.gif"
+        },
+        "863": {
+            "standard": "perrserker.gif"
+        },
+        "864": {
+            "standard": "cursola.gif"
+        },
+        "865": {
+            "standard": "sirfetchd.gif"
+        },
+        "866": {
+            "standard": "mrrime.gif"
+        },
+        "867": {
+            "standard": "runerigus.gif"
+        },
+        "868": {
+            "standard": "milcery.gif"
+        },
+        "869": {
+            "caramel-swirl-berry": "alcremie-caramel-swirl-berry.gif",
+            "caramel-swirl-clover": "alcremie-caramel-swirl-clover.gif",
+            "caramel-swirl-flower": "alcremie-caramel-swirl-flower.gif",
+            "caramel-swirl-love": "alcremie-caramel-swirl-love.gif",
+            "caramel-swirl-ribbon": "alcremie-caramel-swirl-ribbon.gif",
+            "caramel-swirl-star": "alcremie-caramel-swirl-star.gif",
+            "caramel-swirl-strawberry": "alcremie-caramelswirl.gif",
+            "gmax": "alcremie-gmax.gif",
+            "lemon-cream-berry": "alcremie-lemon-cream-berry.gif",
+            "lemon-cream-clover": "alcremie-lemon-cream-clover.gif",
+            "lemon-cream-flower": "alcremie-lemon-cream-flower.gif",
+            "lemon-cream-love": "alcremie-lemon-cream-love.gif",
+            "lemon-cream-ribbon": "alcremie-lemon-cream-ribbon.gif",
+            "lemon-cream-star": "alcremie-lemon-cream-star.gif",
+            "lemon-cream-strawberry": "alcremie-lemoncream.gif",
+            "matcha-cream-berry": "alcremie-matcha-cream-berry.gif",
+            "matcha-cream-clover": "alcremie-matcha-cream-clover.gif",
+            "matcha-cream-flower": "alcremie-matcha-cream-flower.gif",
+            "matcha-cream-love": "alcremie-matcha-cream-love.gif",
+            "matcha-cream-ribbon": "alcremie-matcha-cream-ribbon.gif",
+            "matcha-cream-star": "alcremie-matcha-cream-star.gif",
+            "matcha-cream-strawberry": "alcremie-matchacream.gif",
+            "mint-cream-berry": "alcremie-mint-cream-berry.gif",
+            "mint-cream-clover": "alcremie-mint-cream-clover.gif",
+            "mint-cream-flower": "alcremie-mint-cream-flower.gif",
+            "mint-cream-love": "alcremie-mint-cream-love.gif",
+            "mint-cream-ribbon": "alcremie-mint-cream-ribbon.gif",
+            "mint-cream-star": "alcremie-mint-cream-star.gif",
+            "mint-cream-strawberry": "alcremie-mintcream.gif",
+            "rainbow-swirl-berry": "alcremie-rainbow-swirl-berry.gif",
+            "rainbow-swirl-clover": "alcremie-rainbow-swirl-clover.gif",
+            "rainbow-swirl-flower": "alcremie-rainbow-swirl-flower.gif",
+            "rainbow-swirl-love": "alcremie-rainbow-swirl-love.gif",
+            "rainbow-swirl-ribbon": "alcremie-rainbow-swirl-ribbon.gif",
+            "rainbow-swirl-star": "alcremie-rainbow-swirl-star.gif",
+            "rainbow-swirl-strawberry": "alcremie-rainbowswirl.gif",
+            "ruby-cream-berry": "alcremie-ruby-cream-berry.gif",
+            "ruby-cream-clover": "alcremie-ruby-cream-clover.gif",
+            "ruby-cream-flower": "alcremie-ruby-cream-flower.gif",
+            "ruby-cream-love": "alcremie-ruby-cream-love.gif",
+            "ruby-cream-ribbon": "alcremie-ruby-cream-ribbon.gif",
+            "ruby-cream-star": "alcremie-ruby-cream-star.gif",
+            "ruby-cream-strawberry": "alcremie-rubycream.gif",
+            "ruby-swirl-berry": "alcremie-ruby-swirl-berry.gif",
+            "ruby-swirl-clover": "alcremie-ruby-swirl-clover.gif",
+            "ruby-swirl-flower": "alcremie-ruby-swirl-flower.gif",
+            "ruby-swirl-love": "alcremie-ruby-swirl-love.gif",
+            "ruby-swirl-ribbon": "alcremie-ruby-swirl-ribbon.gif",
+            "ruby-swirl-star": "alcremie-ruby-swirl-star.gif",
+            "ruby-swirl-strawberry": "alcremie-rubyswirl.gif",
+            "salted-cream-berry": "alcremie-salted-cream-berry.gif",
+            "salted-cream-clover": "alcremie-salted-cream-clover.gif",
+            "salted-cream-flower": "alcremie-salted-cream-flower.gif",
+            "salted-cream-love": "alcremie-salted-cream-love.gif",
+            "salted-cream-ribbon": "alcremie-salted-cream-ribbon.gif",
+            "salted-cream-star": "alcremie-salted-cream-star.gif",
+            "salted-cream-strawberry": "alcremie-saltedcream.gif",
+            "standard": "alcremie.gif",
+            "vanilla-cream-berry": "alcremie-vanilla-cream-berry.gif",
+            "vanilla-cream-clover": "alcremie-vanilla-cream-clover.gif",
+            "vanilla-cream-flower": "alcremie-vanilla-cream-flower.gif",
+            "vanilla-cream-love": "alcremie-vanilla-cream-love.gif",
+            "vanilla-cream-ribbon": "alcremie-vanilla-cream-ribbon.gif",
+            "vanilla-cream-star": "alcremie-vanilla-cream-star.gif",
+            "vanilla-cream-strawberry": "alcremie.gif"
+        },
+        "870": {
+            "standard": "falinks.gif"
+        },
+        "871": {
+            "standard": "pincurchin.gif"
+        },
+        "872": {
+            "standard": "snom.gif"
+        },
+        "873": {
+            "standard": "frosmoth.gif"
+        },
+        "874": {
+            "standard": "stonjourner.gif"
+        },
+        "875": {
+            "ice": "eiscue.gif",
+            "noice": "eiscue-noice.gif",
+            "standard": "eiscue.gif"
+        },
+        "876": {
+            "female": "indeedee-f.gif",
+            "male": "indeedee.gif",
+            "standard": "indeedee.gif"
+        },
+        "877": {
+            "standard": "morpeko.gif"
+        },
+        "878": {
+            "standard": "cufant.gif"
+        },
+        "879": {
+            "gmax": "copperajah-gmax.gif",
+            "standard": "copperajah.gif"
+        },
+        "880": {
+            "standard": "dracozolt.gif"
+        },
+        "881": {
+            "standard": "arctozolt.gif"
+        },
+        "882": {
+            "standard": "dracovish.gif"
+        },
+        "883": {
+            "standard": "arctovish.gif"
+        },
+        "884": {
+            "gmax": "duraludon-gmax.gif",
+            "standard": "duraludon.gif"
+        },
+        "885": {
+            "standard": "dreepy.gif"
+        },
+        "886": {
+            "standard": "drakloak.gif"
+        },
+        "887": {
+            "standard": "dragapult.gif"
+        },
+        "888": {
+            "crowned": "zacian-crowned.gif",
+            "heroofmanybattles": "zacian.gif",
+            "standard": "zacian.gif"
+        },
+        "889": {
+            "crowned": "zamazenta-crowned.gif",
+            "heroofmanybattles": "zamazenta.gif",
+            "standard": "zamazenta.gif"
+        },
+        "890": {
+            "eternamax": "eternatus-eternamax.gif",
+            "standard": "eternatus.gif"
+        },
+        "891": {
+            "standard": "kubfu.gif"
+        },
+        "892": {
+            "rapidstrike": "urshifu-rapidstrike.gif",
+            "singlestrike": "urshifu.gif",
+            "standard": "urshifu.gif"
+        },
+        "893": {
+            "standard": "zarude.gif"
+        },
+        "894": {
+            "standard": "regieleki.gif"
+        },
+        "895": {
+            "standard": "regidrago.gif"
+        },
+        "896": {
+            "standard": "glastrier.gif"
+        },
+        "897": {
+            "standard": "spectrier.gif"
+        },
+        "898": {
+            "ice": "calyrex-ice.gif",
+            "shadow": "calyrex-shadow.gif",
+            "standard": "calyrex.gif"
         }
     }
 }
