@@ -2325,6 +2325,255 @@
         },
         "721": {
             "standard": "volcanion.gif"
+        },
+        "722": {
+            "standard": "rowlet.gif"
+        },
+        "723": {
+            "standard": "dartrix.gif"
+        },
+        "724": {
+            "standard": "decidueye.gif"
+        },
+        "725": {
+            "standard": "litten.gif"
+        },
+        "726": {
+            "standard": "torracat.gif"
+        },
+        "727": {
+            "standard": "incineroar.gif"
+        },
+        "728": {
+            "standard": "popplio.gif"
+        },
+        "729": {
+            "standard": "brionne.gif"
+        },
+        "730": {
+            "standard": "primarina.gif"
+        },
+        "736": {
+            "standard": "grubbin.gif"
+        },
+        "737": {
+            "standard": "charjabug.gif"
+        },
+        "738": {
+            "standard": "vikavolt.gif"
+        },
+        "742": {
+            "standard": "cutiefly.gif"
+        },
+        "743": {
+            "standard": "ribombee.gif"
+        },
+        "744": {
+            "standard": "rockruff.gif"
+        },
+        "745": {
+            "standard": "lycanroc.gif"
+        },
+        "746": {
+            "standard": "wishiwashi.gif"
+        },
+        "747": {
+            "standard": "mareanie.gif"
+        },
+        "748": {
+            "standard": "toxapex.gif"
+        },
+        "749": {
+            "standard": "mudbray.gif"
+        },
+        "750": {
+            "standard": "mudsdale.gif"
+        },
+        "751": {
+            "standard": "dewpider.gif"
+        },
+        "752": {
+            "standard": "araquanid.gif"
+        },
+        "753": {
+            "standard": "fomantis.gif"
+        },
+        "754": {
+            "standard": "lurantis.gif"
+        },
+        "755": {
+            "standard": "morelull.gif"
+        },
+        "756": {
+            "standard": "shiinotic.gif"
+        },
+        "757": {
+            "standard": "salandit.gif"
+        },
+        "758": {
+            "standard": "salazzle.gif"
+        },
+        "759": {
+            "standard": "stufful.gif"
+        },
+        "760": {
+            "standard": "bewear.gif"
+        },
+        "761": {
+            "standard": "bounsweet.gif"
+        },
+        "762": {
+            "standard": "steenee.gif"
+        },
+        "763": {
+            "standard": "tsareena.gif"
+        },
+        "764": {
+            "standard": "comfey.gif"
+        },
+        "765": {
+            "standard": "oranguru.gif"
+        },
+        "766": {
+            "standard": "passimian.gif"
+        },
+        "767": {
+            "standard": "wimpod.gif"
+        },
+        "768": {
+            "standard": "golisopod.gif"
+        },
+        "769": {
+            "standard": "sandygast.gif"
+        },
+        "770": {
+            "standard": "palossand.gif"
+        },
+        "771": {
+            "standard": "pyukumuku.gif"
+        },
+        "772": {
+            "standard": "typenull.gif"
+        },
+        "773": {
+            "bug": "silvally-bug.gif",
+            "dark": "silvally-dark.gif",
+            "dragon": "silvally-dragon.gif",
+            "electric": "silvally-electric.gif",
+            "fairy": "silvally-fairy.gif",
+            "fighting": "silvally-fighting.gif",
+            "fire": "silvally-fire.gif",
+            "flying": "silvally-flying.gif",
+            "ghost": "silvally-ghost.gif",
+            "grass": "silvally-grass.gif",
+            "ground": "silvally-ground.gif",
+            "ice": "silvally-ice.gif",
+            "normal": "silvally.gif",
+            "poison": "silvally-poison.gif",
+            "psychic": "silvally-psychic.gif",
+            "rock": "silvally-rock.gif",
+            "standard": "silvally.gif",
+            "steel": "silvally-steel.gif",
+            "water": "silvally-water.gif"
+        },
+        "776": {
+            "standard": "turtonator.gif"
+        },
+        "777": {
+            "standard": "togedemaru.gif"
+        },
+        "778": {
+            "standard": "mimikyu.gif"
+        },
+        "780": {
+            "standard": "drampa.gif"
+        },
+        "781": {
+            "standard": "dhelmise.gif"
+        },
+        "782": {
+            "standard": "jangmoo.gif"
+        },
+        "783": {
+            "standard": "hakamoo.gif"
+        },
+        "784": {
+            "standard": "kommoo.gif"
+        },
+        "785": {
+            "standard": "tapukoko.gif"
+        },
+        "786": {
+            "standard": "tapulele.gif"
+        },
+        "787": {
+            "standard": "tapubulu.gif"
+        },
+        "788": {
+            "standard": "tapufini.gif"
+        },
+        "789": {
+            "standard": "cosmog.gif"
+        },
+        "790": {
+            "standard": "cosmoem.gif"
+        },
+        "791": {
+            "standard": "solgaleo.gif"
+        },
+        "792": {
+            "standard": "lunala.gif"
+        },
+        "793": {
+            "standard": "nihilego.gif"
+        },
+        "794": {
+            "standard": "buzzwole.gif"
+        },
+        "795": {
+            "standard": "pheromosa.gif"
+        },
+        "796": {
+            "standard": "xurkitree.gif"
+        },
+        "797": {
+            "standard": "celesteela.gif"
+        },
+        "798": {
+            "standard": "kartana.gif"
+        },
+        "799": {
+            "standard": "guzzlord.gif"
+        },
+        "800": {
+            "standard": "necrozma.gif"
+        },
+        "801": {
+            "standard": "magearna.gif"
+        },
+        "802": {
+            "standard": "marshadow.gif"
+        },
+        "803": {
+            "standard": "poipole.gif"
+        },
+        "804": {
+            "standard": "naganadel.gif"
+        },
+        "805": {
+            "standard": "stakataka.gif"
+        },
+        "806": {
+            "standard": "blacephalon.gif"
+        },
+        "807": {
+            "standard": "zeraora.gif"
+        },
+        "808": {
+            "standard": "meltan.gif"
+        },
+        "809": {
+            "standard": "melmetal.gif"
         }
     }
 }
