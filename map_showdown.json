@@ -83,12 +83,18 @@
             "standard": "pikachu.gif"
         },
         "26": {
+            "alola": "raichu-alola.gif",
+            "kanto": "raichu.gif",
             "standard": "raichu.gif"
         },
         "27": {
+            "alola": "sandshrew-alola.gif",
+            "kanto": "sandshrew.gif",
             "standard": "sandshrew.gif"
         },
         "28": {
+            "alola": "sandslash-alola.gif",
+            "kanto": "sandslash.gif",
             "standard": "sandslash.gif"
         },
         "29": {
