@@ -271,15 +271,24 @@
             "standard": "golem.gif"
         },
         "77": {
+            "galar": "ponyta-galar.gif",
+            "kanto": "ponyta.gif",
             "standard": "ponyta.gif"
         },
         "78": {
+            "galar": "rapidash-galar.gif",
+            "kanto": "rapidash.gif",
             "standard": "rapidash.gif"
         },
         "79": {
+            "galar": "slowpoke-galar.gif",
+            "kanto": "slowpoke.gif",
             "standard": "slowpoke.gif"
         },
         "80": {
+            "galar": "slowbro-galar.gif",
+            "kanto": "slowbro.gif",
+            "mega": "slowbro-mega.gif",
             "standard": "slowbro.gif"
         },
         "81": {
@@ -289,6 +298,8 @@
             "standard": "magneton.gif"
         },
         "83": {
+            "galar": "farfetchd-galar.gif",
+            "kanto": "farfetchd.gif",
             "standard": "farfetchd.gif"
         },
         "84": {
@@ -381,6 +392,8 @@
             "standard": "koffing.gif"
         },
         "110": {
+            "galar": "weezing-galar.gif",
+            "kanto": "weezing.gif",
             "standard": "weezing.gif"
         },
         "111": {
@@ -419,6 +432,8 @@
             "standard": "starmie.gif"
         },
         "122": {
+            "galar": "mrmime-galar.gif",
+            "kanto": "mrmime.gif",
             "standard": "mrmime.gif"
         },
         "123": {
@@ -494,12 +509,18 @@
             "standard": "snorlax.gif"
         },
         "144": {
+            "galar": "articuno-galar.gif",
+            "kanto": "articuno.gif",
             "standard": "articuno.gif"
         },
         "145": {
+            "galar": "zapdos-galar.gif",
+            "kanto": "zapdos.gif",
             "standard": "zapdos.gif"
         },
         "146": {
+            "galar": "moltres-galar.gif",
+            "kanto": "moltres.gif",
             "standard": "moltres.gif"
         },
         "147": {
@@ -679,6 +700,8 @@
             "standard": "murkrow.gif"
         },
         "199": {
+            "galar": "slowking-galar.gif",
+            "johto": "slowking.gif",
             "standard": "slowking.gif"
         },
         "200": {
@@ -764,6 +787,8 @@
             "standard": "piloswine.gif"
         },
         "222": {
+            "galar": "corsola-galar.gif",
+            "johto": "corsola.gif",
             "standard": "corsola.gif"
         },
         "223": {
@@ -900,9 +925,13 @@
             "standard": "mightyena.gif"
         },
         "263": {
+            "galar": "zigzagoon-galar.gif",
+            "hoenn": "zigzagoon.gif",
             "standard": "zigzagoon.gif"
         },
         "264": {
+            "galar": "linoone-galar.gif",
+            "hoenn": "linoone.gif",
             "standard": "linoone.gif"
         },
         "265": {
@@ -1403,10 +1432,16 @@
             "standard": "bastiodon.gif"
         },
         "412": {
-            "standard": "burmy.gif"
+            "plant": "burmy.gif",
+            "sandy": "burmy-sandy.gif",
+            "standard": "burmy.gif",
+            "trash": "burmy-trash.gif"
         },
         "413": {
-            "standard": "wormadam.gif"
+            "plant": "wormadam.gif",
+            "sandy": "wormadam-sandy.gif",
+            "standard": "wormadam.gif",
+            "trash": "wormadam-trash.gif"
         },
         "414": {
             "standard": "mothim.gif"
@@ -1494,7 +1529,7 @@
             "standard": "bonsly.gif"
         },
         "439": {
-            "standard": "mime.gif"
+            "standard": "mimejr.gif"
         },
         "440": {
             "standard": "happiny.gif"
@@ -1870,9 +1905,15 @@
             "standard": "krookodile.gif"
         },
         "554": {
+            "galar": "darumaka-galar.gif",
+            "sinnoh": "darumaka.gif",
             "standard": "darumaka.gif"
         },
         "555": {
+            "galar": "darmanitan-galar.gif",
+            "galarzen": "darmanitan-galarzen.gif",
+            "sinnoh": "darmanitan.gif",
+            "sinnohzen": "darmanitan-zen.gif",
             "standard": "darmanitan.gif"
         },
         "556": {
@@ -1894,7 +1935,9 @@
             "standard": "sigilyph.gif"
         },
         "562": {
-            "standard": "yamask.gif"
+            "galar": "yamask-galar.gif",
+            "standard": "yamask.gif",
+            "unova": "yamask.gif"
         },
         "563": {
             "standard": "cofagrigus.gif"
@@ -2067,7 +2110,9 @@
             "standard": "accelgor.gif"
         },
         "618": {
-            "standard": "stunfisk.gif"
+            "galar": "stunfisk-galar.gif",
+            "standard": "stunfisk.gif",
+            "unova": "stunfisk.gif"
         },
         "619": {
             "standard": "mienfoo.gif"
@@ -2365,12 +2410,16 @@
             "standard": "noivern.gif"
         },
         "716": {
+            "neutral": "xerneas.gif",
             "standard": "xerneas.gif"
         },
         "717": {
             "standard": "yveltal.gif"
         },
         "718": {
+            "10": "zygarde-10.gif",
+            "50": "zygarde.gif",
+            "complete": "zygarde-complete.gif",
             "standard": "zygarde.gif"
         },
         "719": {
@@ -2433,6 +2482,7 @@
             "standard": "lycanroc.gif"
         },
         "746": {
+            "school": "wishiwashi-school.gif",
             "standard": "wishiwashi.gif"
         },
         "747": {
@@ -2981,6 +3031,7 @@
             "standard": "urshifu.gif"
         },
         "893": {
+            "dada": "zarude-dada.gif",
             "standard": "zarude.gif"
         },
         "894": {
