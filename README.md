@@ -21,8 +21,37 @@ You will need to have a version of Python 3.6 installed, as that's what OBS curr
 ### Linux
 All you should need is the `obs-studio` and `python` packages installed and setup on your distribution. If that isn't working, start up an [issue](issues/) and let me know what you had to do and I'll add notes for it here.
 
+**_(Right now there is an issue with Python 3.9 and OBS's support for Python in some distributions)_**
+
 ### Mac...
-I'm not sure, I don't have a Mac machine or VM to test this on. If someone would like to start an [issue](issues/) and give me instructions for how to install and set up OBS and Python, that would be appreciated.
+I'm not sure, I don't have a Mac system or VM to test this on. If someone would like to start an [issue](issues/) and give me instructions for how to install and set up OBS and Python, that would be appreciated.
+
+## Libraries
+You may need to install the `requests` library if it isn't already installed. You'll know you're missing it if the OBS script log shows an error about missing a library. It'll look like similar to this:
+
+```
+[obspokemonhud.py] Traceback (most recent call last):
+[obspokemonhud.py]   File "F:/Downloads/obspokemonhud\obspokemonhud.py", line 9, in <module>
+[obspokemonhud.py]     import requests
+[obspokemonhud.py] ModuleNotFoundError: No module named 'requests'
+```
+
+This can be achieved by opening up a terminal or command prompt and running:
+```
+pip install requests
+```
+
+**If you have multiple versions of Python installed** you'll need to run that command under the specific version of Python that you are using with OBS.
+
+Assuming that Python is installed in the default location, this can be achieved (in Windows) by going:
+```
+cd C:\Users\<username>\AppData\Local\Programs\Python\Python36
+python.exe -m pip install requests
+```
+
+If Python is not installed in the default folder, you need to figure out where it is and change the `cd` command above to that folder.
+
+Once this is done, restart OBS and the issue should be resolved.
 
 ## Notes
 * If you're on Linux, you'll have to create any additional cache folders that aren't a part of the repository (custom maps, etc.)
