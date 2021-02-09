@@ -18,10 +18,6 @@ json_file_contents = {}
 # Boolean to toggle if to run this or not
 run_boolean = False
 
-# Sizes for the sprites
-sprite_height = 300
-sprite_width = 300
-
 # The style for the sprites to use
 sprite_map = {}
 
