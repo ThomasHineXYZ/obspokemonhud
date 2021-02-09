@@ -27,9 +27,3 @@ I'm not sure, I don't have a Mac machine or VM to test this on. If someone would
 ## Notes
 * If you're on Linux, you'll have to create any additional cache folders that aren't a part of the repository (custom maps, etc.)
 
-## To Do:
-* Variants (Alolan, Galarian)
-* Nickname
-* Ball
-* Level
-* A lot...?
