@@ -273,15 +273,6 @@ def update_team():
     else:
         json_file_contents = array
 
-    # NOTE Debug output for now
-    print("slot0: ", json_file_contents['slot1'])
-    print("slot1: ", json_file_contents['slot2'])
-    print("slot2: ", json_file_contents['slot3'])
-    print("slot3: ", json_file_contents['slot4'])
-    print("slot4: ", json_file_contents['slot5'])
-    print("slot5: ", json_file_contents['slot6'])
-    print("team_sprite_image_sources: ", team_sprite_image_sources)
-
     # Update all of the team sprites
     update_sprite_sources(team_sprite_image_sources[0], json_file_contents['slot1'])
     update_sprite_sources(team_sprite_image_sources[1], json_file_contents['slot2'])
