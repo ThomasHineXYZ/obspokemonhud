@@ -188,13 +188,14 @@ def script_update(settings):
     json_file = obs.obs_data_get_string(settings, "json_file")
 
     # Set up the team sprites
-    team_sprite_image_sources = []
-    team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot1_sprite_image_source"))
-    team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot2_sprite_image_source"))
-    team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot3_sprite_image_source"))
-    team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot4_sprite_image_source"))
-    team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot5_sprite_image_source"))
-    team_sprite_image_sources.append(obs.obs_data_get_string(settings, "slot6_sprite_image_source"))
+    team_sprite_image_sources = [
+        obs.obs_data_get_string(settings, "slot1_sprite_image_source"),
+        obs.obs_data_get_string(settings, "slot2_sprite_image_source"),
+        obs.obs_data_get_string(settings, "slot3_sprite_image_source"),
+        obs.obs_data_get_string(settings, "slot4_sprite_image_source"),
+        obs.obs_data_get_string(settings, "slot5_sprite_image_source"),
+        obs.obs_data_get_string(settings, "slot6_sprite_image_source")
+    ]
 
     for source in team_sprite_image_sources:
         setup_source(source)
