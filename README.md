@@ -27,3 +27,9 @@ I'm not sure, I don't have a Mac machine or VM to test this on. If someone would
 ## Notes
 * If you're on Linux, you'll have to create any additional cache folders that aren't a part of the repository (custom maps, etc.)
 
+## Donating
+Someone mentioned that I should put this here in case people feel like donating a little bit to me and my projects
+
+
+[![shield.io](https://img.shields.io/badge/buymeacoffee-thomashine-yellow)](https://www.buymeacoffee.com/thomashine)
+[![shield.io](https://img.shields.io/badge/ko--fi-thomashine-blue)](https://ko-fi.com/thomashine)
