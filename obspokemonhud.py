@@ -18,6 +18,10 @@ json_file_contents = {}
 # Boolean to toggle if to run this or not
 run_boolean = False
 
+# Sizes for the sprites
+sprite_height = 300
+sprite_width = 300
+
 # The style for the sprites to use
 sprite_map = {}
 
@@ -55,9 +59,14 @@ def script_properties():
     # Integer for how often (in seconds) this checks for changes
     obs.obs_properties_add_int(properties, "check_interval_int", "Update Interval (seconds)", 1, 120, 1)
 
+    # Width and height
+    obs.obs_properties_add_int(properties, "sprite_height", "Height (pixels)", 1, 1000, 1)
+    obs.obs_properties_add_int(properties, "sprite_width", "Width (pixels)", 1, 1000, 1)
+
     # Add in a file path property for the team.json file
     obs.obs_properties_add_path(properties, "json_file", "Team JSON File", obs.OBS_PATH_FILE, "*.json", None)
 
+    # Set up the sprite style dropdown
     sprite_style = obs.obs_properties_add_list(
         properties,
         "sprite_style",
@@ -162,6 +171,9 @@ def script_defaults(settings):
     # Set the default update interval at 1 second
     obs.obs_data_set_default_int(settings, "check_interval_int", 1)
 
+    obs.obs_data_set_default_int(settings, "sprite_height", 50)
+    obs.obs_data_set_default_int(settings, "sprite_width", 50)
+
     # Set the default sprite style as using the Showdown type
     obs.obs_data_set_default_string(settings, "sprite_style", "showdown")
 
@@ -184,6 +196,9 @@ def script_update(settings):
     # Set up the check interval
     check_interval = obs.obs_data_get_int(settings, "check_interval_int")
 
+    sprite_height = obs.obs_data_get_int(settings, "sprite_height")
+    sprite_width = obs.obs_data_get_int(settings, "sprite_width")
+
     # Set up the json file location
     json_file = obs.obs_data_get_string(settings, "json_file")
 
@@ -198,7 +213,7 @@ def script_update(settings):
     ]
 
     for source in team_sprite_image_sources:
-        setup_source(source)
+        setup_source(source, sprite_height, sprite_width)
 
     # Set up the sprite style
     sprite_style = obs.obs_data_get_string(settings, "sprite_style")
@@ -346,7 +361,7 @@ def cache_image(link, shiny, location, image_type):
     return cache_folder + filename
 
 
-def setup_source(source_name):
+def setup_source(source_name, height, width):
     # Get the current scene
     current_scene = obs.obs_frontend_get_current_scene()
     scene = obs.obs_scene_from_source(current_scene)
@@ -355,14 +370,11 @@ def setup_source(source_name):
     # Grab the source
     source = obs.obs_scene_find_source(scene, source_name)
 
-    # Create the new position
-    new_position = obs.vec2()
-    new_position.x = 500
-    new_position.y = 20
-
-    # Move it to the new position
-    obs.obs_sceneitem_set_pos(source, new_position)
-
     # This makes sure that the scaling is done right
     obs.obs_sceneitem_set_bounds_type(source, obs.OBS_BOUNDS_SCALE_INNER)
 
+    # Set the bounding box size
+    new_scale = obs.vec2()
+    new_scale.x = height
+    new_scale.y = width
+    obs.obs_sceneitem_set_bounds(source, new_scale)
