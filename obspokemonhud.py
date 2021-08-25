@@ -11,6 +11,10 @@ import requests
 # Interval in seconds for the script to check the team file
 check_interval = 5
 
+# Enabled for some extra debug output to the script log
+# True or False (they need to be capitals for Python)
+debug = True
+
 # The location for the JSON file
 json_file = ""
 json_file_contents = {}
@@ -148,6 +152,10 @@ def script_properties():
     # them
     obs.source_list_release(sources)
 
+    # If debug is enabled, print out this bit of text
+    if debug:
+        print("Function: Properties")
+
     # Finally, return the properties so they show up
     return properties
 
@@ -160,6 +168,10 @@ def script_defaults(settings):
     It sets all of the default values when the user presses the "Defaults"
     button on the "Scripts" screen.
     """
+
+    # If debug is enabled, print out this bit of text
+    if debug:
+        print("Function: Defaults")
 
     # Set the run boolean as false by default, just in case
     obs.obs_data_set_default_bool(settings, "run_boolean", False)
@@ -182,6 +194,11 @@ def script_update(settings):
     This runs whenever a setting is changed or updated for the script. It also
     sets up and removes the timer.
     """
+
+    # If debug is enabled, print out this bit of text
+    if debug:
+        print("Function: Script Update")
+
     # Get all of the global variables assigned in here
     global check_interval
     global json_file
@@ -257,6 +274,10 @@ def update_team():
     This function gets run on a timer, loading up a JSON file and running the
     different update functions
     """
+    # If debug is enabled, print out this bit of text
+    if debug:
+        print("Function: Update team")
+
     # Set up the required global variables
     global json_file
     global json_file_contents
@@ -289,6 +310,11 @@ def update_sprite_sources(source_name, team_slot):
 
     Given the source name list, it updates the path for the sprite sources
     """
+
+    # If debug is enabled, print out this bit of text
+    if debug:
+        print("Function: Update sprite sources")
+
     # If the dex number is zero or null, then give it the empty GIF file so
     # they can set sizing
     if (not team_slot["dexnumber"]) or (team_slot["dexnumber"] == 0):
@@ -310,6 +336,10 @@ def update_sprite_sources(source_name, team_slot):
 
 
 def get_sprite_location(sprites, shiny, dex_number, variant):
+    # If debug is enabled, print out this bit of text
+    if debug:
+        print("Function: Get Sprite sources")
+
     link = ""
     if shiny:
         link = sprites['shiny_url']
@@ -329,6 +359,10 @@ def get_sprite_location(sprites, shiny, dex_number, variant):
 
 
 def cache_image(link, shiny, location, image_type):
+    # If debug is enabled, print out this bit of text
+    if debug:
+        print("Function: Cache image")
+
     # Set the cache folder
     cache_folder = f"{script_path()}cache/{location}/"
 
@@ -349,6 +383,10 @@ def cache_image(link, shiny, location, image_type):
 
 
 def setup_source(source_name, height, width):
+    # If debug is enabled, print out this bit of text
+    if debug:
+        print("Function: Setup source")
+
     # Get the current scene
     current_scene = obs.obs_frontend_get_current_scene()
     scene = obs.obs_scene_from_source(current_scene)
