@@ -13,7 +13,7 @@ check_interval = 5
 
 # Enabled for some extra debug output to the script log
 # True or False (they need to be capitals for Python)
-debug = True
+debug = False
 
 # The location for the JSON file
 json_file = ""
