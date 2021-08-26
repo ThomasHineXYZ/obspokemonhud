@@ -1,26 +1,26 @@
 {
     "slot1": {
-        "dexnumber": 68,
+        "dexnumber": 0,
         "shiny": false
     },
     "slot2": {
-        "dexnumber": 102,
+        "dexnumber": 0,
         "shiny": false
     },
     "slot3": {
-        "dexnumber": 25,
+        "dexnumber": 0,
         "shiny": false
     },
     "slot4": {
-        "dexnumber": 73,
+        "dexnumber": 0,
         "shiny": false
     },
     "slot5": {
-        "dexnumber": 382,
+        "dexnumber": 0,
         "shiny": true
     },
     "slot6": {
-        "dexnumber": 384,
+        "dexnumber": 0,
         "shiny": false
     }
 }
