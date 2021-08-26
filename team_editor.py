@@ -5,11 +5,10 @@ This is the team editor script for OBS, so you can do it all self-contained
 
 import json
 import obspython as obs
-import os.path
 
 # Enabled for some extra debug output to the script log
 # True or False (they need to be capitals for Python)
-debug = True
+debug = False
 
 # The location for the JSON file
 json_file = ""
@@ -229,10 +228,12 @@ def script_update(settings):
     global json_file
     global team
 
-    print(f"JSON FILE: {json_file}")
+
 
     # If the team json file isn't given, return out so nothing happens
     if not obs.obs_data_get_string(settings, "json_file"):
+        if debug:
+            print("Conditional: Returning because no JSON file is given")
         return
 
     if json_file != obs.obs_data_get_string(settings, "json_file"):
@@ -241,7 +242,7 @@ def script_update(settings):
             print("Conditional: New JSON File")
 
         json_file = obs.obs_data_get_string(settings, "json_file")
-        print(f"JSON FILE: {json_file}")
+
         with open(obs.obs_data_get_string(settings, "json_file"), 'r') as file:
             new_team_data = json.load(file)
 
@@ -258,11 +259,6 @@ def script_update(settings):
         obs.obs_data_set_bool(settings, "team_member_shiny_4", new_team_data['slot4']['shiny'])
         obs.obs_data_set_bool(settings, "team_member_shiny_5", new_team_data['slot5']['shiny'])
         obs.obs_data_set_bool(settings, "team_member_shiny_6", new_team_data['slot6']['shiny'])
-
-        script_properties()
-        print(f"JSON FILE: {json_file}")
-        print("done json")
-
 
     # Update the dex numbers
     team['slot1']['dexnumber'] = obs.obs_data_get_int(settings, "team_member_dex_1")
@@ -302,4 +298,10 @@ def save_team():
 
     global team
 
-    print(json.dumps(team))
+    with open(json_file, 'w') as file:
+        json.dump(team, file)
+
+    if debug:
+        print("Function: save_team")
+        print(f"JSON file: {json_file}")
+        print(f"Team data: {json.dumps(team)}")
