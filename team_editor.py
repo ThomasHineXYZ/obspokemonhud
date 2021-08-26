@@ -300,8 +300,9 @@ def save_team():
 
     if not json_file:
         return
+
     with open(json_file, 'w') as file:
-        json.dump(team, file)
+        json.dump(team, file, indent=4)
 
     if debug:
         print("Function: save_team")
