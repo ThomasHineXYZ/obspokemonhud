@@ -1,6 +1,8 @@
 OBSPokemonHUD
 ------------
 
+![Screenshot of the OBS scripts window showing OBS Pokemon HUD's properties](readme_files/screenshot_obspokemonhud.png?raw=true)
+
 OBSPokemonHUD is a way to have your current Pokemon team showing up in OBS and allow them to be updated by a JSON file. The JSON file will let you manually edit it or (eventually) use an accomponying scripts to write them for you.
 
 This project is based on an idea that [ShockSlayer](https://www.youtube.com/c/shockslayer "SS's YouTube Channel") [(his Twitch)](https://twitch.tv/shockslayer "SS's Twitch") came up with. Originally the project was named [SSPokemonHUD](https://github.com/guitaristtom/sspokemonhud), but that was janky mess between HTML, Python, and Javascript all being used in tandem. The idea was that it was a just a web site that you could use as a browser source and add to your scene, that way it didn't matter what broadcasting or recording software you were using.
@@ -68,7 +70,7 @@ Once this is done, restart OBS and the issue should be resolved.
 ## Team Editor
 Within this repository there is a second Python file named `team_editor.py`. Add that in to your OBS's Scripts window. From there you can browse to your team.json file and edit it that way. Having it all self-contained within OBS.
 
-![Screenshot of the OBS scripts window](readme_files/screenshot_team_editor.png?raw=true)
+![Screenshot of the OBS scripts window showing the team editor properties](readme_files/screenshot_team_editor.png?raw=true)
 
 ## Notes
 * If you're on Linux, you'll have to create any additional cache folders that aren't a part of the repository (custom maps, etc.)
