@@ -3,7 +3,7 @@ OBSPokemonHUD
 
 ![Screenshot of the OBS scripts window showing OBS Pokemon HUD's properties](readme_files/screenshot_obspokemonhud.png?raw=true)
 
-OBSPokemonHUD is a way to have your current Pokemon team showing up in OBS and allow them to be updated by a JSON file. The JSON file will let you manually edit it or (eventually) use an accomponying scripts to write them for you.
+OBSPokemonHUD is a way to have your current Pokemon team showing up in OBS and allow them to be updated by a JSON file. The JSON file can be manually edited or you use accompanying scripts to write them for you.
 
 This project is based on an idea that [ShockSlayer](https://www.youtube.com/c/shockslayer "SS's YouTube Channel") [(his Twitch)](https://twitch.tv/shockslayer "SS's Twitch") came up with. Originally the project was named [SSPokemonHUD](https://github.com/guitaristtom/sspokemonhud), but that was janky mess between HTML, Python, and Javascript all being used in tandem. The idea was that it was a just a web site that you could use as a browser source and add to your scene, that way it didn't matter what broadcasting or recording software you were using.
 
@@ -14,12 +14,21 @@ I have been wanting to redo this project from scratch for a couple years now, bu
 
 ## Install Instructions
 
-### All
 Follow the instructions below if you don't have Python installed already and working with OBS.
 
-If you do, then all you should need to do is install the required [libraries](#libraries).
+If you do, then you may need to install the required [libraries](#libraries).
 
-From there all you need to do is open up the Script dialog within OBS by going to `Tools` -> `Scripts`, and press the `+` button and add in `obspokemonhud.py` and (if you want) `team_editor.py`.
+From there all you need to do is open up the Script dialog within OBS by going to `Tools` -> `Scripts`, and press the `+` button and add in `obspokemonhud.py`.
+
+After you've done that, create six image sources on your scene of choice, just leave them blank for now. In the scripts dialog press `Reload Scripts` (the little spinny arrow icon).
+
+Then in the `Slot X Image Source` dropdowns select the image sources for the six slots for your team. Set the height and width that you wish to have them all be. Set your `Sprite Style` to the one you'd like.
+
+Copy `team.example.json` to a new file (it's a template). Usually you can call it `team.json`, but you can do whatever your heart desires. However in this README file it'll be referenced as `team.json`. Browse to the location of this new file for `Team JSON File`.
+
+From there _you can_ change the `Update Interval` if you want, but there's usually no need.
+
+Once you're done setting that up, check the `Run?` box to start the script. _This is here for if you aren't streaming using this script, as OBS is always running scripts in the background... You might need to save those extra CPU cycles_.
 
 ### Windows
 You will need to have a version of Python 3.6 installed, as that's what OBS currently supports. Right now that is [Python 3.6.8](https://www.python.org/downloads/release/python-368/). 
@@ -68,12 +77,20 @@ If Python is not installed in the default folder, you need to figure out where i
 Once this is done, restart OBS and the issue should be resolved.
 
 ## Team Editor
-Within this repository there is a second Python file named `team_editor.py`. Add that in to your OBS's Scripts window. From there you can browse to your team.json file and edit it that way. Having it all self-contained within OBS.
+Within this repository there is a second Python file named `team_editor.py`. This allows for having it all self-contained within OBS, and not needing to open your `team.json` file in a text editor at all. You are still welcome to do it that way and not use this, this is just for people who prefer an "all-in-one" solution.
 
 ![Screenshot of the OBS scripts window showing the team editor properties](readme_files/screenshot_team_editor.png?raw=true)
 
+To set it up all you have to do is add it to OBS. You do this by going to `Tools` -> `Scripts`, and press the `+` button and add in `team_editor.py`.
+
+From there you browse for your `Team JSON File` (preferably the same location as the one you're using for `obspokemonhud.py`).
+
+For updating your team just change it and press save. It'll save it to your chosen JSON file. The Team Editor in combination with the OBSPokemonHUD script will update the sources automagically on OBS.
+
+If you are loading up a JSON file that you've used previously, you **have to reload the script** for the information to show properly in the Scripts dialog window. _It technically loads all of the information, but it just doesn't display it unless you either reload the script, close and reopen the window, or choose a different script and then back to this one._
+
 ## Notes
-* If you're on Linux, you'll have to create any additional cache folders that aren't a part of the repository (custom maps, etc.)
+* If you're on Linux, you _might_ have to create any additional cache folders that aren't a part of the repository (custom maps, etc.)
 
 ## Donating
 Someone mentioned that I should put this here in case people feel like donating a little bit to me and my projects

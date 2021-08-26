@@ -37,7 +37,7 @@ def script_description():
     It outputs the value for the description part of the "Scripts" window for
     this script.
     """
-    return "Pokemon team HUD for OBS.\n\nBy GT"
+    return "OBSPokemonHUD script for OBS.\nBy Tom."
 
 
 def script_properties():
