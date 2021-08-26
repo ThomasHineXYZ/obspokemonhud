@@ -201,15 +201,13 @@ def script_defaults(settings):
     obs.obs_data_set_default_int(settings, "team_member_dex_5", 0)
     obs.obs_data_set_default_int(settings, "team_member_dex_6", 0)
 
+    # Team member shiny state
     obs.obs_data_set_default_bool(settings, "team_member_shiny_1", False)
     obs.obs_data_set_default_bool(settings, "team_member_shiny_2", False)
     obs.obs_data_set_default_bool(settings, "team_member_shiny_3", False)
     obs.obs_data_set_default_bool(settings, "team_member_shiny_4", False)
     obs.obs_data_set_default_bool(settings, "team_member_shiny_5", False)
     obs.obs_data_set_default_bool(settings, "team_member_shiny_6", False)
-
-    global json_file
-    json_file = None
 
     # If debug is enabled, print out this bit of text
     if debug:
@@ -227,8 +225,6 @@ def script_update(settings):
 
     global json_file
     global team
-
-
 
     # If the team json file isn't given, return out so nothing happens
     if not obs.obs_data_get_string(settings, "json_file"):
@@ -294,10 +290,16 @@ def save_button_clicked(properties, p):
 
 def save_team():
     """Saves the team information in to the team.json file that has been given
+
+    Returns:
+        None: Returns / exits the function if no JSON file is set
     """
 
+    global json_file
     global team
 
+    if not json_file:
+        return
     with open(json_file, 'w') as file:
         json.dump(team, file)
 
