@@ -75,7 +75,7 @@ def script_properties():
         properties,  # The properties variable
         "display_type",  # Setting identifier string
         "Display Type",  # Localized name shown to user
-        obs.OBS_COMBO_TYPE_LIST,  # Whether it's editable or not
+        obs.OBS_COMBO_TYPE_EDITABLE,  # Whether it's editable or not
         obs.OBS_COMBO_FORMAT_STRING,  # The type of format to display
     )
     obs.obs_property_list_add_string(

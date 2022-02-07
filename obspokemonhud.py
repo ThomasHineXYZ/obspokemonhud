@@ -71,7 +71,7 @@ def script_properties():
         properties,
         "sprite_style",
         "Sprite Style",
-        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_TYPE_EDITABLE,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(sprite_style, "", "")
@@ -83,7 +83,7 @@ def script_properties():
         properties,
         "slot1_sprite_image_source",
         "Slot 1 Image Source",
-        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_TYPE_EDITABLE,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot1_sprite_image_source, "", "")
@@ -92,7 +92,7 @@ def script_properties():
         properties,
         "slot2_sprite_image_source",
         "Slot 2 Image Source",
-        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_TYPE_EDITABLE,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot2_sprite_image_source, "", "")
@@ -101,7 +101,7 @@ def script_properties():
         properties,
         "slot3_sprite_image_source",
         "Slot 3 Image Source",
-        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_TYPE_EDITABLE,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot3_sprite_image_source, "", "")
@@ -110,7 +110,7 @@ def script_properties():
         properties,
         "slot4_sprite_image_source",
         "Slot 4 Image Source",
-        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_TYPE_EDITABLE,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot4_sprite_image_source, "", "")
@@ -119,7 +119,7 @@ def script_properties():
         properties,
         "slot5_sprite_image_source",
         "Slot 5 Image Source",
-        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_TYPE_EDITABLE,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot5_sprite_image_source, "", "")
@@ -128,7 +128,7 @@ def script_properties():
         properties,
         "slot6_sprite_image_source",
         "Slot 6 Image Source",
-        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_TYPE_EDITABLE,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot6_sprite_image_source, "", "")
