@@ -75,6 +75,7 @@ def script_properties():
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(sprite_style, "", "")
+    obs.obs_property_list_add_string(sprite_style, "home", "home")
     obs.obs_property_list_add_string(sprite_style, "showdown", "showdown")
 
     # Team image locations.

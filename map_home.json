@@ -482,8 +482,8 @@
             "male": "eevee.png",
             "standard": "eevee.png",
             "starter": "eevee.png",
-            "starterfemale": "eevee.gif",
-            "startermale": "eevee.gif"
+            "starterfemale": "eevee.png",
+            "startermale": "eevee.png"
         },
         "134": {
             "standard": "vaporeon.png"
