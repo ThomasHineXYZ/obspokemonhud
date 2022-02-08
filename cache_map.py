@@ -4,7 +4,10 @@
 This pre-caches and tests the given map file by going through every entry and
 downloading it locally. If an error shows up in the console, then either the
 file in the map is wrong or it's missing from the server. (Like shiny starter
-Eevee)
+Eevee).
+
+This is not for every user to run, it's mostly for testing purposes for when
+you are creating new map files.
 """
 
 import json
