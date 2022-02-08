@@ -75,6 +75,7 @@ def script_properties():
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(sprite_style, "", "")
+    obs.obs_property_list_add_string(sprite_style, "home", "home")
     obs.obs_property_list_add_string(sprite_style, "showdown", "showdown")
 
     # Team image locations.
@@ -320,8 +321,19 @@ def update_sprite_sources(source_name, team_slot):
     if (not team_slot["dexnumber"]) or (team_slot["dexnumber"] == 0):
         location = f"{script_path()}empty.gif"
     else:
-        sprite = get_sprite_location(sprite_map['sprites'], team_slot['shiny'], team_slot["dexnumber"], None)
-        location = cache_image(sprite, team_slot['shiny'], sprite_map['cache_location'], "sprites")
+        sprite = get_sprite_location(
+            sprite_map['urls'],
+            sprite_map['sprites'],
+            team_slot['shiny'],
+            team_slot["dexnumber"],
+            None
+        )
+        location = cache_image(
+            sprite,
+            team_slot['shiny'],
+            sprite_map['cache_location'],
+            "sprites"
+        )
 
     source = obs.obs_get_source_by_name(source_name)
     if source is not None:
@@ -335,16 +347,16 @@ def update_sprite_sources(source_name, team_slot):
         obs.obs_source_release(source)
 
 
-def get_sprite_location(sprites, shiny, dex_number, variant):
+def get_sprite_location(urls, sprites, shiny, dex_number, variant):
     # If debug is enabled, print out this bit of text
     if debug:
         print("Function: Get Sprite sources")
 
     link = ""
     if shiny:
-        link = sprites['shiny_url']
+        link = urls['shiny']
     else:
-        link = sprites['base_url']
+        link = urls['normal']
 
     if str(dex_number) not in sprites.keys():
         print("I don't belong")
