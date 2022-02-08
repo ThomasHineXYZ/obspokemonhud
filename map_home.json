@@ -1,8 +1,10 @@
 {
     "cache_location": "home",
+    "urls": {
+        "normal": "https://img.pokemondb.net/sprites/home/normal/",
+        "shiny": "https://img.pokemondb.net/sprites/home/shiny/"
+    },
     "sprites": {
-        "base_url": "https://img.pokemondb.net/sprites/home/normal/",
-        "shiny_url": "https://img.pokemondb.net/sprites/home/shiny/",
         "1": {
             "standard": "bulbasaur.png"
         },
@@ -20,8 +22,8 @@
         },
         "6": {
             "gmax": "charizard-gigantamax.png",
-            "megax": "charizard-megax.png",
-            "megay": "charizard-megay.png",
+            "megax": "charizard-mega-x.png",
+            "megay": "charizard-mega-y.png",
             "standard": "charizard.png"
         },
         "7": {

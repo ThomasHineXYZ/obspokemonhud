@@ -8,9 +8,11 @@
         "line": "This notes section is not a requirement and can be removed."
     },
     "cache_location": "example",
+    "urls": {
+        "normal": "https://example.com/pokemonsprites/animated",
+        "shiny": "https://example.com/pokemonsprites/shiny-animated"
+    },
     "sprites": {
-        "base_url": "https://example.com/pokemonsprites/animated",
-        "shiny_url": "https://example.com/pokemonsprites/shiny-animated",
         "1": {
             "standard": "bulbasaur.gif"
         },

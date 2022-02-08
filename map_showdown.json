@@ -1,10 +1,12 @@
 {
     "cache_location": "showdown",
+    "urls": {
+        "normal": "https://play.pokemonshowdown.com/sprites/ani/",
+        "shiny": "https://play.pokemonshowdown.com/sprites/ani-shiny/"
+    },
     "sprites": {
-        "base_url": "https://play.pokemonshowdown.com/sprites/ani/",
-        "shiny_url": "https://play.pokemonshowdown.com/sprites/ani-shiny/",
         "1": {
-            "standard": "bulbasaur.gif"
+            "standard": "bulbasadur.gif"
         },
         "2": {
             "standard": "ivysaur.gif"
