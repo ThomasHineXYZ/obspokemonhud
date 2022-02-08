@@ -1,4 +1,17 @@
 {
+    "_notes": {
+        "line": "The following Pokemon won't work, due to them not existing",
+        "line": "(as of the time of writing this) on Showdown's server:",
+        "line": "rillaboom-gmax",
+        "line": "shiny/rillaboom-gmax",
+        "line": "cinderace-gmax",
+        "line": "shiny/cinderace-gmax",
+        "line": "",
+        "line": "The following Pokemon won't work, due to them not existing in",
+        "line": "the games:",
+        "line": "shiny/eevee-starter",
+        "line": "This notes section is not a requirement and can be removed."
+    },
     "cache_location": "showdown",
     "urls": {
         "normal": "https://play.pokemonshowdown.com/sprites/ani/",
@@ -6,7 +19,7 @@
     },
     "sprites": {
         "1": {
-            "standard": "bulbasadur.gif"
+            "standard": "bulbasaur.gif"
         },
         "2": {
             "standard": "ivysaur.gif"
@@ -64,11 +77,13 @@
             "standard": "pidgeot.gif"
         },
         "19": {
+            "alola": "rattata-alola.gif",
             "female": "rattata-f.gif",
             "male": "rattata.gif",
             "standard": "rattata.gif"
         },
         "20": {
+            "alola": "raticate-alola.gif",
             "female": "raticate-f.gif",
             "male": "raticate.gif",
             "standard": "raticate.gif"
@@ -3028,6 +3043,9 @@
             "standard": "kubfu.gif"
         },
         "892": {
+            "gmax": "urshifu-rapid-strike.gif",
+            "gmaxrapidstrike": "urshifu-rapid-strike.gif",
+            "gmaxsinglestrike": "urshifu-single-strike.gif",
             "rapidstrike": "urshifu-rapidstrike.gif",
             "singlestrike": "urshifu.gif",
             "standard": "urshifu.gif"
