@@ -295,11 +295,10 @@ def update_team():
     # Load up the JSON file in to a dictionary
     with open(json_file, 'r') as file:
         array = json.load(file)
-
-    if sprite_style is not json_file_contents['map']:
-        json_file_contents['map'] = sprite_style
-        json.dump(json_file_contents, indent=4)
-        print(json_file_contents['map'])
+    if sprite_style is not array['map']:
+        array['map'] = sprite_style
+        with open(json_file, 'w') as file:
+            json.dump(array, file, indent=4)
 
     # If the JSON file hasn't changed since the last check, just return out
     if json_file_contents == array:
