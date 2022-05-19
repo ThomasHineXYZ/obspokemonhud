@@ -3,10 +3,12 @@
 This is the main script for the OBSPokemonHUD project
 """
 
+from genericpath import isfile
 import json
 import obspython as obs
 import os.path
 import requests
+import pathlib
 
 # Interval in seconds for the script to check the team file
 check_interval = 5
@@ -24,6 +26,9 @@ run_boolean = False
 
 # The style for the sprites to use
 sprite_map = {}
+
+# Possible styles for sprites to use
+sprite_types = []
 
 # Dictionary for the team sprite image sources
 team_sprite_image_sources = []
@@ -74,9 +79,14 @@ def script_properties():
         obs.OBS_COMBO_TYPE_EDITABLE,
         obs.OBS_COMBO_FORMAT_STRING
     )
-    obs.obs_property_list_add_string(sprite_style, "", "")
-    obs.obs_property_list_add_string(sprite_style, "home", "home")
-    obs.obs_property_list_add_string(sprite_style, "showdown", "showdown")
+    # Automatically build sprite maps
+    sprite_types = [s for s in os.listdir(pathlib.Path(__file__).parent.resolve()) if '.json' in s]
+    for x in sprite_types:
+        if 'map' in x and 'example' not in x:
+            map = x.replace('map_','').replace('.json','')
+            obs.obs_property_list_add_string(sprite_style, map, map)
+            print(map)
+    
 
     # Team image locations.
     # Set up the settings and add in a blank value as the first value
