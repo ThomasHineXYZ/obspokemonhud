@@ -75,7 +75,7 @@ def script_properties():
         properties,  # The properties variable
         "display_type",  # Setting identifier string
         "Display Type",  # Localized name shown to user
-        obs.OBS_COMBO_TYPE_EDITABLE,  # Whether it's editable or not
+        obs.OBS_COMBO_TYPE_LIST,  # Whether it's editable or not
         obs.OBS_COMBO_FORMAT_STRING,  # The type of format to display
     )
     obs.obs_property_list_add_string(
@@ -94,6 +94,13 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
+    variant_1 = obs.obs_properties_add_list(
+        properties,
+        "variant_1",
+        "Variant",
+        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_FORMAT_STRING,
+    )
     obs.obs_properties_add_bool(
         properties,  # The properties variable
         "team_member_shiny_1",  # Setting identifier string
@@ -107,6 +114,13 @@ def script_properties():
         0,  # Starting number
         898,  # Ending number
         1,  # Increment by
+    )
+    variant_2 = obs.obs_properties_add_list(
+        properties,
+        "variant_2",
+        "Variant",
+        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_FORMAT_STRING,
     )
     obs.obs_properties_add_bool(
         properties,  # The properties variable
@@ -122,6 +136,13 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
+    variant_3 = obs.obs_properties_add_list(
+        properties,
+        "variant_3",
+        "Variant",
+        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_FORMAT_STRING,
+    )
     obs.obs_properties_add_bool(
         properties,  # The properties variable
         "team_member_shiny_3",  # Setting identifier string
@@ -135,6 +156,13 @@ def script_properties():
         0,  # Starting number
         898,  # Ending number
         1,  # Increment by
+    )
+    variant_4 = obs.obs_properties_add_list(
+        properties,
+        "variant_4",
+        "Variant",
+        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_FORMAT_STRING,
     )
     obs.obs_properties_add_bool(
         properties,  # The properties variable
@@ -150,6 +178,13 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
+    variant_5 = obs.obs_properties_add_list(
+        properties,
+        "variant_5",
+        "Variant",
+        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_FORMAT_STRING,
+    )
     obs.obs_properties_add_bool(
         properties,  # The properties variable
         "team_member_shiny_5",  # Setting identifier string
@@ -163,6 +198,13 @@ def script_properties():
         0,  # Starting number
         898,  # Ending number
         1,  # Increment by
+    )
+    variant_6 = obs.obs_properties_add_list(
+        properties,
+        "variant_6",
+        "Variant",
+        obs.OBS_COMBO_TYPE_LIST,
+        obs.OBS_COMBO_FORMAT_STRING,
     )
     obs.obs_properties_add_bool(
         properties,  # The properties variable
