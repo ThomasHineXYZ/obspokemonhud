@@ -75,7 +75,7 @@ def script_properties():
         properties,
         "sprite_style",
         "Sprite Style",
-        obs.OBS_COMBO_TYPE_EDITABLE,
+        obs.OBS_COMBO_TYPE_LIST,
         obs.OBS_COMBO_FORMAT_STRING
     )
     # Automatically build sprite maps
@@ -91,7 +91,7 @@ def script_properties():
         properties,
         "slot1_sprite_image_source",
         "Slot 1 Image Source",
-        obs.OBS_COMBO_TYPE_EDITABLE,
+        obs.OBS_COMBO_TYPE_LIST,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot1_sprite_image_source, "", "")
@@ -100,7 +100,7 @@ def script_properties():
         properties,
         "slot2_sprite_image_source",
         "Slot 2 Image Source",
-        obs.OBS_COMBO_TYPE_EDITABLE,
+        obs.OBS_COMBO_TYPE_LIST,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot2_sprite_image_source, "", "")
@@ -109,7 +109,7 @@ def script_properties():
         properties,
         "slot3_sprite_image_source",
         "Slot 3 Image Source",
-        obs.OBS_COMBO_TYPE_EDITABLE,
+        obs.OBS_COMBO_TYPE_LIST,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot3_sprite_image_source, "", "")
@@ -118,7 +118,7 @@ def script_properties():
         properties,
         "slot4_sprite_image_source",
         "Slot 4 Image Source",
-        obs.OBS_COMBO_TYPE_EDITABLE,
+        obs.OBS_COMBO_TYPE_LIST,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot4_sprite_image_source, "", "")
@@ -127,7 +127,7 @@ def script_properties():
         properties,
         "slot5_sprite_image_source",
         "Slot 5 Image Source",
-        obs.OBS_COMBO_TYPE_EDITABLE,
+        obs.OBS_COMBO_TYPE_LIST,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot5_sprite_image_source, "", "")
@@ -136,7 +136,7 @@ def script_properties():
         properties,
         "slot6_sprite_image_source",
         "Slot 6 Image Source",
-        obs.OBS_COMBO_TYPE_EDITABLE,
+        obs.OBS_COMBO_TYPE_LIST,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot6_sprite_image_source, "", "")
@@ -212,6 +212,7 @@ def script_update(settings):
     global json_file
     global run_boolean
     global sprite_map
+    global sprite_style
     global team_sprite_image_sources
 
     # Set up the check interval
@@ -289,12 +290,16 @@ def update_team():
     # Set up the required global variables
     global json_file
     global json_file_contents
-    global sprite_style
     global team_sprite_image_sources
 
     # Load up the JSON file in to a dictionary
     with open(json_file, 'r') as file:
         array = json.load(file)
+
+    if sprite_style is not json_file_contents['map']:
+        json_file_contents['map'] = sprite_style
+        json.dump(json_file_contents, indent=4)
+        print(json_file_contents['map'])
 
     # If the JSON file hasn't changed since the last check, just return out
     if json_file_contents == array:
@@ -333,7 +338,7 @@ def update_sprite_sources(source_name, team_slot):
             sprite_map['sprites'],
             team_slot['shiny'],
             team_slot["dexnumber"],
-            None
+            team_slot["variant"]
         )
         location = cache_image(
             sprite,
