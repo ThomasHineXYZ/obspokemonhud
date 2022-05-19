@@ -15,28 +15,35 @@ json_file = ""
 
 # Team information
 team = {
+    "map" : "Showdown",
     "slot1": {
         "dexnumber": 0,
+        "variant" : "Standard",
         "shiny": False,
     },
     "slot2": {
         "dexnumber": 0,
+        "variant" : "Standard",
         "shiny": False,
     },
     "slot3": {
         "dexnumber": 0,
+        "variant" : "Standard",
         "shiny": False,
     },
     "slot4": {
         "dexnumber": 0,
+        "variant" : "Standard",
         "shiny": False,
     },
     "slot5": {
         "dexnumber": 0,
+        "variant" : "Standard",
         "shiny": False,
     },
     "slot6": {
         "dexnumber": 0,
+        "variant" : "Standard",
         "shiny": False,
     },
 }
@@ -63,7 +70,6 @@ def script_properties():
     Returns:
         properties
     """
-
     # Declare the properties object for us to mess with
     properties = obs.obs_properties_create()
 
@@ -82,6 +88,11 @@ def script_properties():
         display_type,
         "Dex",
         "dex"
+    )
+    obs.obs_property_list_add_string(
+        display_type,
+        "Name",
+        "name"
     )
 
     # ------------------------------------------------------
@@ -298,6 +309,15 @@ def script_update(settings):
         obs.obs_data_set_bool(settings, "team_member_shiny_5", new_team_data['slot5']['shiny'])
         obs.obs_data_set_bool(settings, "team_member_shiny_6", new_team_data['slot6']['shiny'])
 
+
+
+        obs.obs_data_set_string(settings, "variant_1", new_team_data['slot1']['variant'])
+        obs.obs_data_set_string(settings, "variant_2", new_team_data['slot2']['variant'])
+        obs.obs_data_set_string(settings, "variant_3", new_team_data['slot3']['variant'])
+        obs.obs_data_set_string(settings, "variant_4", new_team_data['slot4']['variant'])
+        obs.obs_data_set_string(settings, "variant_5", new_team_data['slot5']['variant'])
+        obs.obs_data_set_string(settings, "variant_6", new_team_data['slot6']['variant'])
+
     # Update the dex numbers
     team['slot1']['dexnumber'] = obs.obs_data_get_int(settings, "team_member_dex_1")
     team['slot2']['dexnumber'] = obs.obs_data_get_int(settings, "team_member_dex_2")
@@ -305,6 +325,14 @@ def script_update(settings):
     team['slot4']['dexnumber'] = obs.obs_data_get_int(settings, "team_member_dex_4")
     team['slot5']['dexnumber'] = obs.obs_data_get_int(settings, "team_member_dex_5")
     team['slot6']['dexnumber'] = obs.obs_data_get_int(settings, "team_member_dex_6")
+
+    # Update the variant
+    team["slot1"]['variant'] = obs.obs_data_get_string(settings, "variant_1")
+    team["slot2"]['variant'] = obs.obs_data_get_string(settings, "variant_2")
+    team["slot3"]['variant'] = obs.obs_data_get_string(settings, "variant_3")
+    team["slot4"]['variant'] = obs.obs_data_get_string(settings, "variant_4")
+    team["slot5"]['variant'] = obs.obs_data_get_string(settings, "variant_5")
+    team["slot6"]['variant'] = obs.obs_data_get_string(settings, "variant_6")
 
     # Update their shiny-ness
     team['slot1']['shiny'] = obs.obs_data_get_bool(settings, "team_member_shiny_1")
