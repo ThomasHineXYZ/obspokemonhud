@@ -3,8 +3,11 @@
 This is the team editor script for OBS, so you can do it all self-contained
 """
 
+from glob import glob
 import json
 import obspython as obs
+
+
 
 # Enabled for some extra debug output to the script log
 # True or False (they need to be capitals for Python)
@@ -70,9 +73,16 @@ def script_properties():
     Returns:
         properties
     """
+
+    global display_type
+    global v1
+    global button
+    global properties
+
     # Declare the properties object for us to mess with
     properties = obs.obs_properties_create()
 
+    
     # Add in a file path property for the team.json file
     obs.obs_properties_add_path(properties, "json_file", "Team JSON File", obs.OBS_PATH_FILE, "*.json", None)
 
@@ -105,7 +115,7 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
-    variant_1 = obs.obs_properties_add_list(
+    v1 = obs.obs_properties_add_list(
         properties,
         "variant_1",
         "Variant",
@@ -126,7 +136,7 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
-    variant_2 = obs.obs_properties_add_list(
+    v2 = obs.obs_properties_add_list(
         properties,
         "variant_2",
         "Variant",
@@ -147,7 +157,7 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
-    variant_3 = obs.obs_properties_add_list(
+    v3 = obs.obs_properties_add_list(
         properties,
         "variant_3",
         "Variant",
@@ -168,7 +178,7 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
-    variant_4 = obs.obs_properties_add_list(
+    v4 = obs.obs_properties_add_list(
         properties,
         "variant_4",
         "Variant",
@@ -189,7 +199,7 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
-    variant_5 = obs.obs_properties_add_list(
+    v5 = obs.obs_properties_add_list(
         properties,
         "variant_5",
         "Variant",
@@ -210,7 +220,7 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
-    variant_6 = obs.obs_properties_add_list(
+    v6 = obs.obs_properties_add_list(
         properties,
         "variant_6",
         "Variant",
@@ -223,18 +233,24 @@ def script_properties():
         "Member 6 Shiny?",  # display name
     )
 
-    obs.obs_properties_add_button(
+    button = obs.obs_properties_add_button(
         properties,  # The properties variable
         "save_button",  # Setting identifier string
         "Save",
         save_button_clicked
     )
 
+    
+
+    obs.obs_property_button_clicked(v1, save_button_clicked(properties, v1))               
+
+
     if debug:
         print("Function: Properties")
 
     # Finally, return the properties so they show up
     return properties
+
 
 
 def script_defaults(settings):
@@ -275,9 +291,10 @@ def script_update(settings):
     This runs whenever a setting is changed or updated for the script. It also
     sets up and removes the timer.
     """
-
     global json_file
     global team
+    
+    variantUpdate(v1)
 
     # If the team json file isn't given, return out so nothing happens
     if not obs.obs_data_get_string(settings, "json_file"):
@@ -309,15 +326,6 @@ def script_update(settings):
         obs.obs_data_set_bool(settings, "team_member_shiny_5", new_team_data['slot5']['shiny'])
         obs.obs_data_set_bool(settings, "team_member_shiny_6", new_team_data['slot6']['shiny'])
 
-
-
-        obs.obs_data_set_string(settings, "variant_1", new_team_data['slot1']['variant'])
-        obs.obs_data_set_string(settings, "variant_2", new_team_data['slot2']['variant'])
-        obs.obs_data_set_string(settings, "variant_3", new_team_data['slot3']['variant'])
-        obs.obs_data_set_string(settings, "variant_4", new_team_data['slot4']['variant'])
-        obs.obs_data_set_string(settings, "variant_5", new_team_data['slot5']['variant'])
-        obs.obs_data_set_string(settings, "variant_6", new_team_data['slot6']['variant'])
-
     # Update the dex numbers
     team['slot1']['dexnumber'] = obs.obs_data_get_int(settings, "team_member_dex_1")
     team['slot2']['dexnumber'] = obs.obs_data_get_int(settings, "team_member_dex_2")
@@ -342,12 +350,24 @@ def script_update(settings):
     team['slot5']['shiny'] = obs.obs_data_get_bool(settings, "team_member_shiny_5")
     team['slot6']['shiny'] = obs.obs_data_get_bool(settings, "team_member_shiny_6")
 
+
     # If debug is enabled, print out this bit of text
     if debug:
         print("Function: Script Update")
 
+def variantUpdate(p):
+    with open(f"{script_path()}map_{team['map']}.json", 'r') as file:
+        sprite_map = json.load(file)
+    obs.obs_property_enabled(p)
+    obs.obs_property_list_clear(p)
+    for x in range(1,7):
+            if team['slot'+str(x)]['dexnumber'] > 0:
+                for sprite_variant in sprite_map['sprites'][str(team['slot'+str(x)]['dexnumber'])]:
+                    if x == 1:
+                        obs.obs_property_list_insert_string(p, x-1, sprite_variant, sprite_variant)
+                        print(sprite_variant)
 
-def save_button_clicked(properties, p):
+def save_button_clicked(prop, p):
     """Activates when the save button is pressed
 
     Args:
@@ -356,6 +376,7 @@ def save_button_clicked(properties, p):
     """
 
     save_team()
+
 
 
 def save_team():
@@ -367,6 +388,8 @@ def save_team():
 
     global json_file
     global team
+
+    
 
     if not json_file:
         return
