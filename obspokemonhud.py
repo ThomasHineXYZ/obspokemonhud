@@ -3,7 +3,6 @@
 This is the main script for the OBSPokemonHUD project
 """
 
-from genericpath import isfile
 import json
 import obspython as obs
 import os.path
@@ -80,13 +79,11 @@ def script_properties():
         obs.OBS_COMBO_FORMAT_STRING
     )
     # Automatically build sprite maps
-    sprite_types = [s for s in os.listdir(pathlib.Path(__file__).parent.resolve()) if '.json' in s]
+    sprite_types = [s for s in os.listdir(script_path()) if '.json' in s]
     for x in sprite_types:
         if 'map' in x and 'example' not in x:
             map = x.replace('map_','').replace('.json','')
             obs.obs_property_list_add_string(sprite_style, map, map)
-            print(map)
-    
 
     # Team image locations.
     # Set up the settings and add in a blank value as the first value
@@ -194,7 +191,7 @@ def script_defaults(settings):
     obs.obs_data_set_default_int(settings, "sprite_width", 50)
 
     # Set the default sprite style as using the Showdown type
-    obs.obs_data_set_default_string(settings, "sprite_style", "showdown")
+    obs.obs_data_set_default_string(settings, "sprite_style", "Showdown")
 
 
 def script_update(settings):
