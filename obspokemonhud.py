@@ -70,20 +70,6 @@ def script_properties():
     # Add in a file path property for the team.json file
     obs.obs_properties_add_path(properties, "json_file", "Team JSON File", obs.OBS_PATH_FILE, "*.json", None)
 
-    # Set up the sprite style dropdown
-    sprite_style = obs.obs_properties_add_list(
-        properties,
-        "sprite_style",
-        "Sprite Style",
-        obs.OBS_COMBO_TYPE_LIST,
-        obs.OBS_COMBO_FORMAT_STRING
-    )
-    # Automatically build sprite maps
-    sprite_types = [s for s in os.listdir(script_path()) if '.json' in s]
-    for x in sprite_types:
-        if 'map' in x and 'example' not in x:
-            map = x.replace('map_','').replace('.json','')
-            obs.obs_property_list_add_string(sprite_style, map, map)
 
     # Team image locations.
     # Set up the settings and add in a blank value as the first value
@@ -190,8 +176,6 @@ def script_defaults(settings):
     obs.obs_data_set_default_int(settings, "sprite_height", 50)
     obs.obs_data_set_default_int(settings, "sprite_width", 50)
 
-    # Set the default sprite style as using the Showdown type
-    obs.obs_data_set_default_string(settings, "sprite_style", "Showdown")
 
 
 def script_update(settings):
@@ -237,8 +221,7 @@ def script_update(settings):
     for source in team_sprite_image_sources:
         setup_source(source, sprite_height, sprite_width)
 
-    # Set up the sprite style
-    sprite_style = obs.obs_data_get_string(settings, "sprite_style")
+    
 
     # Set up the run bool
     run_boolean = obs.obs_data_get_bool(settings, "run_boolean")
@@ -254,10 +237,6 @@ def script_update(settings):
     if not json_file:
         return
 
-    # If the sprite style isn't chosen
-    if not sprite_style:
-        return
-
     # If not all of the team slots are set, return out
     if not (
         team_sprite_image_sources[0] and
@@ -269,9 +248,6 @@ def script_update(settings):
     ):
         return
 
-    # Load up the sprite map
-    with open(f"{script_path()}map_{sprite_style}.json", 'r') as file:
-        sprite_map = json.load(file)
 
     # So now, if everything is set up then set the timer
     obs.timer_add(update_team, check_interval * 1000)
@@ -296,12 +272,6 @@ def update_team():
     with open(json_file, 'r') as file:
         array = json.load(file)
 
-    # Set the sprite map style in the JSON
-    if sprite_style is not array['map']:
-        array['map'] = sprite_style
-        with open(json_file, 'w') as file:
-            json.dump(array, file, indent=4)
-
     # If the JSON file hasn't changed since the last check, just return out
     if json_file_contents == array:
         return
@@ -324,6 +294,13 @@ def update_sprite_sources(source_name, team_slot):
 
     Given the source name list, it updates the path for the sprite sources
     """
+    # Set up the sprite style
+    with open(json_file, 'r') as file:
+        array = json.load(file)
+
+    # Load up the sprite map
+    with open(f"{script_path()}map_{array['map']}.json", 'r') as file:
+        sprite_map = json.load(file)
 
     # If debug is enabled, print out this bit of text
     if debug:
@@ -374,13 +351,9 @@ def get_sprite_location(urls, sprites, shiny, dex_number, variant):
     if str(dex_number) not in sprites.keys():
         print("I don't belong")
         return
-
-    #if variant in sprites[str(dex_number)].keys():
+    print(link + sprites[str(dex_number)][variant])
     return link + sprites[str(dex_number)][variant]
 
-    # If the given forms, genders, etc aren't available, just give the standard
-    # sprite
-    #return link + sprites[str(dex_number)]['standard']
 
 
 def cache_image(link, shiny, location, image_type):
