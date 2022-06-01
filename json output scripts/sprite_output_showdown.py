@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # do this because showdown is dumb and makes the pokemon alphabetical
-pkmnFile = open("pkmn_list.csv", 'r')
+pkmnFile = open("D:\Downloads\git\obspokemonhud\json output scripts\pkmn_list.csv", 'r')
 csvList = pkmnFile.read()
 pkmnList = csvList.split(',')
 pkmnFile.close()
@@ -55,15 +55,22 @@ for pkmn in pkmnList:
         if '-' not in pkmnName and 'female' not in pkmnDict['sprites'][str(dex)]:
             pkmnDict["sprites"][str(dex)]["standard"] = pkmnName
         else:
-            variant = pkmnName.replace(pkmn + '-', '').replace('.gif', '')
+            variant = pkmnName.replace(pkmn, '').replace('.gif', '')
             if '-' not in pkmnName:
                 variant = 'male'
             elif '-f' in variant:
-                variant = 'female'
+                variant = variant.replace('-f','-female')
             elif 'megax' in variant:
                 variant = 'mega x'
             elif 'megay' in variant:
                 variant = 'mega y'
+            elif 'gmax' in variant:
+                variant = 'gigantamax'
+            try:   
+                if variant[0] == '-':
+                    variant = variant[1:]
+            except:
+                print(variant)
             pkmnDict["sprites"][str(dex)][variant.replace(
                 '-', ' ')] = pkmnName
 
