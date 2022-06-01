@@ -339,6 +339,7 @@ def update_sprite_sources(source_name, team_slot):
             team_slot["dexnumber"],
             team_slot["variant"]
         )
+        print(team_slot['variant'])
         location = cache_image(
             sprite,
             team_slot['shiny'],
@@ -373,12 +374,12 @@ def get_sprite_location(urls, sprites, shiny, dex_number, variant):
         print("I don't belong")
         return
 
-    if variant in sprites[str(dex_number)].keys():
-        return link + sprites[str(dex_number)][variant]
+    #if variant in sprites[str(dex_number)].keys():
+    return link + sprites[str(dex_number)][variant]
 
     # If the given forms, genders, etc aren't available, just give the standard
     # sprite
-    return link + sprites[str(dex_number)]['standard']
+    #return link + sprites[str(dex_number)]['standard']
 
 
 def cache_image(link, shiny, location, image_type):

@@ -78,7 +78,6 @@ def script_update(settings):
     """
     global json_file
     global team
-    global v1
     global my_settings
 
     my_settings = settings
@@ -115,6 +114,8 @@ def script_update(settings):
         obs.obs_data_set_bool(settings, "team_member_shiny_4", new_team_data['slot4']['shiny'])
         obs.obs_data_set_bool(settings, "team_member_shiny_5", new_team_data['slot5']['shiny'])
         obs.obs_data_set_bool(settings, "team_member_shiny_6", new_team_data['slot6']['shiny'])
+
+        team['map'] = new_team_data['map']
 
     # Update the dex numbers
     team['slot1']['dexnumber'] = obs.obs_data_get_int(settings, "team_member_dex_1")
@@ -212,7 +213,7 @@ def script_properties():
         "Member 1 Shiny?",  # display name
     )
 
-    obs.obs_properties_add_int(
+    dex2 = obs.obs_properties_add_int(
         properties,  # The properties variable
         "team_member_dex_2",  # Setting identifier string
         "Member 2 (Dex No.)",  # display name
@@ -220,7 +221,7 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
-    v2 = obs.obs_properties_add_list(
+    obs.obs_properties_add_list(
         properties,
         "variant_2",
         "Variant",
@@ -233,7 +234,7 @@ def script_properties():
         "Member 2 Shiny?",  # display name
     )
 
-    obs.obs_properties_add_int(
+    dex3 = obs.obs_properties_add_int(
         properties,  # The properties variable
         "team_member_dex_3",  # Setting identifier string
         "Member 3 (Dex No.)",  # display name
@@ -241,7 +242,7 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
-    v3 = obs.obs_properties_add_list(
+    obs.obs_properties_add_list(
         properties,
         "variant_3",
         "Variant",
@@ -254,7 +255,7 @@ def script_properties():
         "Member 3 Shiny?",  # display name
     )
 
-    obs.obs_properties_add_int(
+    dex4 = obs.obs_properties_add_int(
         properties,  # The properties variable
         "team_member_dex_4",  # Setting identifier string
         "Member 4 (Dex No.)",  # display name
@@ -262,7 +263,7 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
-    v4 = obs.obs_properties_add_list(
+    obs.obs_properties_add_list(
         properties,
         "variant_4",
         "Variant",
@@ -275,7 +276,7 @@ def script_properties():
         "Member 4 Shiny?",  # display name
     )
 
-    obs.obs_properties_add_int(
+    dex5 = obs.obs_properties_add_int(
         properties,  # The properties variable
         "team_member_dex_5",  # Setting identifier string
         "Member 5 (Dex No.)",  # display name
@@ -283,7 +284,7 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
-    v5 = obs.obs_properties_add_list(
+    obs.obs_properties_add_list(
         properties,
         "variant_5",
         "Variant",
@@ -296,7 +297,7 @@ def script_properties():
         "Member 5 Shiny?",  # display name
     )
 
-    obs.obs_properties_add_int(
+    dex6 = obs.obs_properties_add_int(
         properties,  # The properties variable
         "team_member_dex_6",  # Setting identifier string
         "Member 6 (Dex No.)",  # display name
@@ -304,7 +305,7 @@ def script_properties():
         898,  # Ending number
         1,  # Increment by
     )
-    v6 = obs.obs_properties_add_list(
+    obs.obs_properties_add_list(
         properties,
         "variant_6",
         "Variant",
@@ -325,6 +326,11 @@ def script_properties():
     )
               
     obs.obs_property_set_modified_callback(dex1, variantUpdate)
+    obs.obs_property_set_modified_callback(dex2, variantUpdate)
+    obs.obs_property_set_modified_callback(dex3, variantUpdate)
+    obs.obs_property_set_modified_callback(dex4, variantUpdate)
+    obs.obs_property_set_modified_callback(dex5, variantUpdate)
+    obs.obs_property_set_modified_callback(dex6, variantUpdate)
     obs.obs_properties_apply_settings(properties, my_settings)
 
     if debug:
@@ -364,18 +370,17 @@ def script_defaults(settings):
         print("Function: Defaults")
 
 
-def variantUpdate(props, property,settings):
-    print('here')
+def variantUpdate(props, property, settings):
+    print(team['map'])
 
     with open(f"{script_path()}map_{team['map']}.json", 'r') as file:
         sprite_map = json.load(file)
-    obs.obs_property_list_clear(obs.obs_properties_get(props, "variant_1"))
     for x in range(1,7):
             if team['slot'+str(x)]['dexnumber'] > 0:
+                obs.obs_property_list_clear(obs.obs_properties_get(props, "variant_" + str(x)))
                 for sprite_variant in sprite_map['sprites'][str(team['slot'+str(x)]['dexnumber'])]:
-                    if x == 1:
-                        print(sprite_variant)
-                        obs.obs_property_list_add_string(obs.obs_properties_get(props, "variant_1"), sprite_variant, sprite_variant)
+                    print(sprite_variant)
+                    obs.obs_property_list_add_string(obs.obs_properties_get(props, "variant_" + str(x)), sprite_variant, sprite_variant)
 
     return True
                         
