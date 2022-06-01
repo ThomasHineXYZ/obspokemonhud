@@ -14,9 +14,10 @@ pkmnFile.close()
 dex = 0
 
 # set the json header
-pkmnDict = {"cache_location": "Showdown", "sprites": {
-    "base_url": "https://play.pokemonshowdown.com/sprites/ani/",
-    "shiny_url": "https://play.pokemonshowdown.com/sprites/ani-shiny/", }}
+pkmnDict = {"cache_location": "Showdown", "urls": {
+        "normal": "https://play.pokemonshowdown.com/sprites/ani/",
+        "shiny": "https://play.pokemonshowdown.com/sprites/ani-shiny/"
+    }, "sprites": {}}
 
 # initialize the dictionary
 pkmnDict["sprites"]["0"] = {"i": 1}

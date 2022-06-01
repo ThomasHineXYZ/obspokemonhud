@@ -9,9 +9,9 @@ dex = 0
 pkmnList = []
 
 # set the json header
-pkmnDict = {"cache_location": "HOME", "sprites": {
-    "base_url": "https://img.pokemondb.net/sprites/home/normal/",
-    "shiny_url": "https://img.pokemondb.net/sprites/home/shiny/", }}
+pkmnDict = {"cache_location": "HOME", "urls": {
+        "normal": "https://img.pokemondb.net/sprites/home/normal/",
+        "shiny": "https://img.pokemondb.net/sprites/home/shiny/"}, "sprites": {}}
 
 # initialize the dictionary
 pkmnDict["sprites"]["0"] = {"i": 1}
