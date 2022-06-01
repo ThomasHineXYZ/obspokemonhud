@@ -170,8 +170,8 @@ def script_properties():
     # Add in a file path property for the team.json file
     obs.obs_properties_add_path(properties, "json_file", "Team JSON File", obs.OBS_PATH_FILE, "*.json", None)
 
-    # Set up the sprite style dropdown
-    display_type = obs.obs_properties_add_list(
+    # Dropdown for entering a number or choosing pokemon name. Maybe another time.
+    """display_type = obs.obs_properties_add_list(
         properties,  # The properties variable
         "display_type",  # Setting identifier string
         "Display Type",  # Localized name shown to user
@@ -187,7 +187,7 @@ def script_properties():
         display_type,
         "Name",
         "name"
-    )
+    )"""
 
     # ------------------------------------------------------
 
@@ -325,12 +325,14 @@ def script_properties():
         script_save
     )
               
+    # Anytime a pokemon number changes, update the variant lists
     obs.obs_property_set_modified_callback(dex1, variantUpdate)
     obs.obs_property_set_modified_callback(dex2, variantUpdate)
     obs.obs_property_set_modified_callback(dex3, variantUpdate)
     obs.obs_property_set_modified_callback(dex4, variantUpdate)
     obs.obs_property_set_modified_callback(dex5, variantUpdate)
     obs.obs_property_set_modified_callback(dex6, variantUpdate)
+
     obs.obs_properties_apply_settings(properties, my_settings)
 
     if debug:
@@ -371,8 +373,7 @@ def script_defaults(settings):
 
 
 def variantUpdate(props, property, settings):
-    print(team['map'])
-
+    # Clears the variant list and then adds variants to it
     with open(f"{script_path()}map_{team['map']}.json", 'r') as file:
         sprite_map = json.load(file)
     for x in range(1,7):
@@ -383,18 +384,6 @@ def variantUpdate(props, property, settings):
                     obs.obs_property_list_add_string(obs.obs_properties_get(props, "variant_" + str(x)), sprite_variant, sprite_variant)
 
     return True
-                        
-
-def save_button_clicked(prop, p):
-    """Activates when the save button is pressed
-
-    Args:
-        properties (SwigPyObject): ¯\\_(ツ)_/¯
-        p (SwigPyObject): ¯\\_(ツ)_/¯
-    """
-
-    save_team()
-
 
 
 def script_save(properties, p):
@@ -420,4 +409,3 @@ def script_save(properties, p):
         print(f"JSON file: {json_file}")
         print(f"Team data: {json.dumps(team)}")
 
-    script_properties()

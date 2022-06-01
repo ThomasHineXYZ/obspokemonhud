@@ -295,6 +295,8 @@ def update_team():
     # Load up the JSON file in to a dictionary
     with open(json_file, 'r') as file:
         array = json.load(file)
+
+    # Set the sprite map style in the JSON
     if sprite_style is not array['map']:
         array['map'] = sprite_style
         with open(json_file, 'w') as file:
@@ -339,7 +341,6 @@ def update_sprite_sources(source_name, team_slot):
             team_slot["dexnumber"],
             team_slot["variant"]
         )
-        print(team_slot['variant'])
         location = cache_image(
             sprite,
             team_slot['shiny'],
