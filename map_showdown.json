@@ -22,7 +22,7 @@
             "standard": "charmeleon.gif"
         },
         "6": {
-            "gmax": "charizard-gmax.gif",
+            "gigantamax": "charizard-gmax.gif",
             "mega x": "charizard-megax.gif",
             "mega y": "charizard-megay.gif",
             "standard": "charizard.gif"
@@ -44,7 +44,7 @@
             "standard": "metapod.gif"
         },
         "12": {
-            "gmax": "butterfree-gmax.gif",
+            "gigantamax": "butterfree-gmax.gif",
             "standard": "butterfree.gif"
         },
         "13": {
@@ -69,15 +69,15 @@
         },
         "19": {
             "alola": "rattata-alola.gif",
-            "f": "rattata-f.gif",
-            "standard": "rattata.gif"
+            "female": "rattata-f.gif",
+            "male": "rattata.gif"
         },
         "20": {
             "alola totem": "raticate-alola-totem.gif",
             "alola": "raticate-alola.gif",
-            "f": "raticate-f.gif",
+            "female": "raticate-f.gif",
             "totem a": "raticate-totem-a.gif",
-            "standard": "raticate.gif"
+            "male": "raticate.gif"
         },
         "21": {
             "standard": "spearow.gif"
@@ -95,8 +95,8 @@
             "alola": "pikachu-alola.gif",
             "belle": "pikachu-belle.gif",
             "cosplay": "pikachu-cosplay.gif",
-            "f": "pikachu-f.gif",
-            "gmax": "pikachu-gmax.gif",
+            "female": "pikachu-f.gif",
+            "gigantamax": "pikachu-gmax.gif",
             "hoenn": "pikachu-hoenn.gif",
             "kalos": "pikachu-kalos.gif",
             "libre": "pikachu-libre.gif",
@@ -107,7 +107,7 @@
             "popstar": "pikachu-popstar.gif",
             "rockstar": "pikachu-rockstar.gif",
             "sinnoh": "pikachu-sinnoh.gif",
-            "female": "pikachu-starter-f.gif",
+            "starter female": "pikachu-starter-f.gif",
             "starter": "pikachu-starter.gif",
             "unova": "pikachu-unova.gif",
             "male": "pikachu.gif"
@@ -163,12 +163,12 @@
             "standard": "wigglytuff.gif"
         },
         "41": {
-            "f": "zubat-f.gif",
-            "standard": "zubat.gif"
+            "female": "zubat-f.gif",
+            "male": "zubat.gif"
         },
         "42": {
-            "f": "golbat-f.gif",
-            "standard": "golbat.gif"
+            "female": "golbat-f.gif",
+            "male": "golbat.gif"
         },
         "43": {
             "standard": "oddish.gif"
@@ -202,7 +202,7 @@
         "52": {
             "alola": "meowth-alola.gif",
             "galar": "meowth-galar.gif",
-            "gmax": "meowth-gmax.gif",
+            "gigantamax": "meowth-gmax.gif",
             "standard": "meowth.gif"
         },
         "53": {
@@ -253,7 +253,7 @@
             "standard": "machoke.gif"
         },
         "68": {
-            "gmax": "machamp-gmax.gif",
+            "gigantamax": "machamp-gmax.gif",
             "standard": "machamp.gif"
         },
         "69": {
@@ -343,7 +343,7 @@
             "standard": "haunter.gif"
         },
         "94": {
-            "gmax": "gengar-gmax.gif",
+            "gigantamax": "gengar-gmax.gif",
             "mega": "gengar-mega.gif",
             "standard": "gengar.gif"
         },
@@ -360,7 +360,7 @@
             "standard": "krabby.gif"
         },
         "99": {
-            "gmax": "kingler-gmax.gif",
+            "gigantamax": "kingler-gmax.gif",
             "standard": "kingler.gif"
         },
         "100": {
@@ -405,8 +405,8 @@
             "standard": "rhyhorn.gif"
         },
         "112": {
-            "f": "rhydon-f.gif",
-            "standard": "rhydon.gif"
+            "female": "rhydon-f.gif",
+            "male": "rhydon.gif"
         },
         "113": {
             "standard": "chansey.gif"
@@ -441,8 +441,8 @@
             "standard": "mrmime.gif"
         },
         "123": {
-            "f": "scyther-f.gif",
-            "standard": "scyther.gif"
+            "female": "scyther-f.gif",
+            "male": "scyther.gif"
         },
         "124": {
             "standard": "jynx.gif"
@@ -461,22 +461,22 @@
             "standard": "tauros.gif"
         },
         "129": {
-            "f": "magikarp-f.gif",
-            "standard": "magikarp.gif"
+            "female": "magikarp-f.gif",
+            "male": "magikarp.gif"
         },
         "130": {
             "mega": "gyarados-mega.gif",
             "standard": "gyarados.gif"
         },
         "131": {
-            "gmax": "lapras-gmax.gif",
+            "gigantamax": "lapras-gmax.gif",
             "standard": "lapras.gif"
         },
         "132": {
             "standard": "ditto.gif"
         },
         "133": {
-            "gmax": "eevee-gmax.gif",
+            "gigantamax": "eevee-gmax.gif",
             "starter": "eevee-starter.gif",
             "standard": "eevee.gif"
         },
@@ -490,8 +490,7 @@
             "standard": "flareon.gif"
         },
         "137": {
-            "z": "porygon-z.gif",
-            "standard": "porygonz.gif"
+            "standard": "porygon.gif"
         },
         "138": {
             "standard": "omanyte.gif"
@@ -510,7 +509,7 @@
             "standard": "aerodactyl.gif"
         },
         "143": {
-            "gmax": "snorlax-gmax.gif",
+            "gigantamax": "snorlax-gmax.gif",
             "standard": "snorlax.gif"
         },
         "144": {
@@ -551,8 +550,8 @@
             "standard": "bayleef.gif"
         },
         "154": {
-            "f": "meganium-f.gif",
-            "standard": "meganium.gif"
+            "female": "meganium-f.gif",
+            "male": "meganium.gif"
         },
         "155": {
             "standard": "cyndaquil.gif"
@@ -585,12 +584,12 @@
             "standard": "noctowl.gif"
         },
         "165": {
-            "f": "ledyba-f.gif",
-            "standard": "ledyba.gif"
+            "female": "ledyba-f.gif",
+            "male": "ledyba.gif"
         },
         "166": {
-            "f": "ledian-f.gif",
-            "standard": "ledian.gif"
+            "female": "ledian-f.gif",
+            "male": "ledian.gif"
         },
         "167": {
             "standard": "spinarak.gif"
@@ -623,12 +622,12 @@
             "standard": "togetic.gif"
         },
         "177": {
-            "eternatus eternamax": "eternatus-eternamax.gif",
+            "eters eternamax": "eternatus-eternamax.gif",
             "standard": "natu.gif"
         },
         "178": {
-            "f": "xatu-f.gif",
-            "standard": "xatu.gif"
+            "female": "xatu-f.gif",
+            "male": "xatu.gif"
         },
         "179": {
             "standard": "mareep.gif"
@@ -650,12 +649,12 @@
             "standard": "azumarill.gif"
         },
         "185": {
-            "f": "sudowoodo-f.gif",
-            "standard": "sudowoodo.gif"
+            "female": "sudowoodo-f.gif",
+            "male": "sudowoodo.gif"
         },
         "186": {
-            "f": "politoed-f.gif",
-            "standard": "politoed.gif"
+            "female": "politoed-f.gif",
+            "male": "politoed.gif"
         },
         "187": {
             "standard": "hoppip.gif"
@@ -667,8 +666,8 @@
             "standard": "jumpluff.gif"
         },
         "190": {
-            "f": "aipom-f.gif",
-            "standard": "aipom.gif"
+            "female": "aipom-f.gif",
+            "male": "aipom.gif"
         },
         "191": {
             "standard": "sunkern.gif"
@@ -680,12 +679,12 @@
             "standard": "yanma.gif"
         },
         "194": {
-            "f": "wooper-f.gif",
-            "standard": "wooper.gif"
+            "female": "wooper-f.gif",
+            "male": "wooper.gif"
         },
         "195": {
-            "f": "quagsire-f.gif",
-            "standard": "quagsire.gif"
+            "female": "quagsire-f.gif",
+            "male": "quagsire.gif"
         },
         "196": {
             "standard": "espeon.gif"
@@ -694,8 +693,8 @@
             "standard": "umbreon.gif"
         },
         "198": {
-            "f": "murkrow-f.gif",
-            "standard": "murkrow.gif"
+            "female": "murkrow-f.gif",
+            "male": "murkrow.gif"
         },
         "199": {
             "galar": "slowking-galar.gif",
@@ -705,11 +704,11 @@
             "standard": "misdreavus.gif"
         },
         "201": {
+            "a": "unown.gif",
             "b": "unown-b.gif",
             "c": "unown-c.gif",
             "d": "unown-d.gif",
             "e": "unown-e.gif",
-            "exclamation": "unown-exclamation.gif",
             "f": "unown-f.gif",
             "g": "unown-g.gif",
             "h": "unown-h.gif",
@@ -721,7 +720,6 @@
             "o": "unown-o.gif",
             "p": "unown-p.gif",
             "q": "unown-q.gif",
-            "question": "unown-question.gif",
             "r": "unown-r.gif",
             "s": "unown-s.gif",
             "t": "unown-t.gif",
@@ -731,15 +729,16 @@
             "x": "unown-x.gif",
             "y": "unown-y.gif",
             "z": "unown-z.gif",
-            "standard": "unown.gif"
+            "exclamation": "unown-exclamation.gif",
+            "question": "unown-question.gif"
         },
         "202": {
-            "f": "wobbuffet-f.gif",
-            "standard": "wobbuffet.gif"
+            "female": "wobbuffet-f.gif",
+            "male": "wobbuffet.gif"
         },
         "203": {
-            "f": "girafarig-f.gif",
-            "standard": "girafarig.gif"
+            "female": "girafarig-f.gif",
+            "male": "girafarig.gif"
         },
         "204": {
             "standard": "pineco.gif"
@@ -751,13 +750,13 @@
             "standard": "dunsparce.gif"
         },
         "207": {
-            "f": "gligar-f.gif",
-            "standard": "gligar.gif"
+            "female": "gligar-f.gif",
+            "male": "gligar.gif"
         },
         "208": {
-            "f": "steelix-f.gif",
+            "female": "steelix-f.gif",
             "mega": "steelix-mega.gif",
-            "standard": "steelix.gif"
+            "male": "steelix.gif"
         },
         "209": {
             "standard": "snubbull.gif"
@@ -769,28 +768,28 @@
             "standard": "qwilfish.gif"
         },
         "212": {
-            "f": "scizor-f.gif",
+            "female": "scizor-f.gif",
             "mega": "scizor-mega.gif",
-            "standard": "scizor.gif"
+            "male": "scizor.gif"
         },
         "213": {
             "standard": "shuckle.gif"
         },
         "214": {
-            "f": "heracross-f.gif",
+            "female": "heracross-f.gif",
             "mega": "heracross-mega.gif",
-            "standard": "heracross.gif"
+            "male": "heracross.gif"
         },
         "215": {
-            "f": "sneasel-f.gif",
-            "standard": "sneasel.gif"
+            "female": "sneasel-f.gif",
+            "male": "sneasel.gif"
         },
         "216": {
             "standard": "teddiursa.gif"
         },
         "217": {
-            "f": "ursaring-f.gif",
-            "standard": "ursaring.gif"
+            "female": "ursaring-f.gif",
+            "male": "ursaring.gif"
         },
         "218": {
             "standard": "slugma.gif"
@@ -802,8 +801,8 @@
             "standard": "swinub.gif"
         },
         "221": {
-            "f": "piloswine-f.gif",
-            "standard": "piloswine.gif"
+            "female": "piloswine-f.gif",
+            "male": "piloswine.gif"
         },
         "222": {
             "galar": "corsola-galar.gif",
@@ -813,8 +812,8 @@
             "standard": "remoraid.gif"
         },
         "224": {
-            "f": "octillery-f.gif",
-            "standard": "octillery.gif"
+            "female": "octillery-f.gif",
+            "male": "octillery.gif"
         },
         "225": {
             "standard": "delibird.gif"
@@ -829,9 +828,9 @@
             "standard": "houndour.gif"
         },
         "229": {
-            "f": "houndoom-f.gif",
+            "female": "houndoom-f.gif",
             "mega": "houndoom-mega.gif",
-            "standard": "houndoom.gif"
+            "male": "houndoom.gif"
         },
         "230": {
             "standard": "kingdra.gif"
@@ -840,8 +839,8 @@
             "standard": "phanpy.gif"
         },
         "232": {
-            "f": "donphan-f.gif",
-            "standard": "donphan.gif"
+            "female": "donphan-f.gif",
+            "male": "donphan.gif"
         },
         "233": {
             "standard": "porygon2.gif"
@@ -910,17 +909,17 @@
             "standard": "sceptile.gif"
         },
         "255": {
-            "f": "torchic-f.gif",
-            "standard": "torchic.gif"
+            "female": "torchic-f.gif",
+            "male": "torchic.gif"
         },
         "256": {
-            "f": "combusken-f.gif",
-            "standard": "combusken.gif"
+            "female": "combusken-f.gif",
+            "male": "combusken.gif"
         },
         "257": {
-            "f": "blaziken-f.gif",
+            "female": "blaziken-f.gif",
             "mega": "blaziken-mega.gif",
-            "standard": "blaziken.gif"
+            "male": "blaziken.gif"
         },
         "258": {
             "standard": "mudkip.gif"
@@ -953,15 +952,15 @@
             "standard": "silcoon.gif"
         },
         "267": {
-            "f": "beautifly-f.gif",
-            "standard": "beautifly.gif"
+            "female": "beautifly-f.gif",
+            "male": "beautifly.gif"
         },
         "268": {
             "standard": "cascoon.gif"
         },
         "269": {
-            "f": "dustox-f.gif",
-            "standard": "dustox.gif"
+            "female": "dustox-f.gif",
+            "male": "dustox.gif"
         },
         "270": {
             "standard": "lotad.gif"
@@ -970,19 +969,19 @@
             "standard": "lombre.gif"
         },
         "272": {
-            "f": "ludicolo-f.gif",
-            "standard": "ludicolo.gif"
+            "female": "ludicolo-f.gif",
+            "male": "ludicolo.gif"
         },
         "273": {
             "standard": "seedot.gif"
         },
         "274": {
-            "f": "nuzleaf-f.gif",
-            "standard": "nuzleaf.gif"
+            "female": "nuzleaf-f.gif",
+            "male": "nuzleaf.gif"
         },
         "275": {
-            "f": "shiftry-f.gif",
-            "standard": "shiftry.gif"
+            "female": "shiftry-f.gif",
+            "male": "shiftry.gif"
         },
         "276": {
             "standard": "taillow.gif"
@@ -1082,13 +1081,13 @@
             "standard": "aggron.gif"
         },
         "307": {
-            "f": "meditite-f.gif",
-            "standard": "meditite.gif"
+            "female": "meditite-f.gif",
+            "male": "meditite.gif"
         },
         "308": {
-            "f": "medicham-f.gif",
+            "female": "medicham-f.gif",
             "mega": "medicham-mega.gif",
-            "standard": "medicham.gif"
+            "male": "medicham.gif"
         },
         "309": {
             "standard": "electrike.gif"
@@ -1110,17 +1109,17 @@
             "standard": "illumise.gif"
         },
         "315": {
-            "f": "roselia-f.gif",
-            "standard": "roselia.gif"
+            "female": "roselia-f.gif",
+            "male": "roselia.gif"
         },
         "316": {
-            "cramorant gulping": "cramorant-gulping.gif",
-            "f": "gulpin-f.gif",
-            "standard": "gulpin.gif"
+            "cramorant g": "cramorant-gulping.gif",
+            "female": "gulpin-f.gif",
+            "male": "gulpin.gif"
         },
         "317": {
-            "f": "swalot-f.gif",
-            "standard": "swalot.gif"
+            "female": "swalot-f.gif",
+            "male": "swalot.gif"
         },
         "318": {
             "standard": "carvanha.gif"
@@ -1136,13 +1135,13 @@
             "standard": "wailord.gif"
         },
         "322": {
-            "f": "numel-f.gif",
-            "standard": "numel.gif"
+            "female": "numel-f.gif",
+            "male": "numel.gif"
         },
         "323": {
-            "f": "camerupt-f.gif",
+            "female": "camerupt-f.gif",
             "mega": "camerupt-mega.gif",
-            "standard": "camerupt.gif"
+            "male": "camerupt.gif"
         },
         "324": {
             "standard": "torkoal.gif"
@@ -1169,8 +1168,8 @@
             "standard": "cacnea.gif"
         },
         "332": {
-            "f": "cacturne-f.gif",
-            "standard": "cacturne.gif"
+            "female": "cacturne-f.gif",
+            "male": "cacturne.gif"
         },
         "333": {
             "standard": "swablu.gif"
@@ -1225,8 +1224,8 @@
             "standard": "feebas.gif"
         },
         "350": {
-            "f": "milotic-f.gif",
-            "standard": "milotic.gif"
+            "female": "milotic-f.gif",
+            "male": "milotic.gif"
         },
         "351": {
             "rainy": "castform-rainy.gif",
@@ -1289,8 +1288,8 @@
             "standard": "gorebyss.gif"
         },
         "369": {
-            "f": "relicanth-f.gif",
-            "standard": "relicanth.gif"
+            "female": "relicanth-f.gif",
+            "male": "relicanth.gif"
         },
         "370": {
             "standard": "luvdisc.gif"
@@ -1381,51 +1380,51 @@
             "standard": "empoleon.gif"
         },
         "396": {
-            "f": "starly-f.gif",
-            "standard": "starly.gif"
+            "female": "starly-f.gif",
+            "male": "starly.gif"
         },
         "397": {
-            "f": "staravia-f.gif",
-            "standard": "staravia.gif"
+            "female": "staravia-f.gif",
+            "male": "staravia.gif"
         },
         "398": {
-            "f": "staraptor-f.gif",
-            "standard": "staraptor.gif"
+            "female": "staraptor-f.gif",
+            "male": "staraptor.gif"
         },
         "399": {
-            "f": "bidoof-f.gif",
-            "standard": "bidoof.gif"
+            "female": "bidoof-f.gif",
+            "male": "bidoof.gif"
         },
         "400": {
-            "f": "bibarel-f.gif",
-            "standard": "bibarel.gif"
+            "female": "bibarel-f.gif",
+            "male": "bibarel.gif"
         },
         "401": {
-            "f": "kricketot-f.gif",
-            "standard": "kricketot.gif"
+            "female": "kricketot-f.gif",
+            "male": "kricketot.gif"
         },
         "402": {
-            "f": "kricketune-f.gif",
-            "standard": "kricketune.gif"
+            "female": "kricketune-f.gif",
+            "male": "kricketune.gif"
         },
         "403": {
-            "f": "shinx-f.gif",
-            "standard": "shinx.gif"
+            "female": "shinx-f.gif",
+            "male": "shinx.gif"
         },
         "404": {
-            "f": "luxio-f.gif",
-            "standard": "luxio.gif"
+            "female": "luxio-f.gif",
+            "male": "luxio.gif"
         },
         "405": {
-            "f": "luxray-f.gif",
-            "standard": "luxray.gif"
+            "female": "luxray-f.gif",
+            "male": "luxray.gif"
         },
         "406": {
             "standard": "budew.gif"
         },
         "407": {
-            "f": "roserade-f.gif",
-            "standard": "roserade.gif"
+            "female": "roserade-f.gif",
+            "male": "roserade.gif"
         },
         "408": {
             "standard": "cranidos.gif"
@@ -1453,23 +1452,23 @@
             "standard": "mothim.gif"
         },
         "415": {
-            "f": "combee-f.gif",
-            "standard": "combee.gif"
+            "female": "combee-f.gif",
+            "male": "combee.gif"
         },
         "416": {
             "standard": "vespiquen.gif"
         },
         "417": {
-            "f": "pachirisu-f.gif",
-            "standard": "pachirisu.gif"
+            "female": "pachirisu-f.gif",
+            "male": "pachirisu.gif"
         },
         "418": {
-            "f": "buizel-f.gif",
-            "standard": "buizel.gif"
+            "female": "buizel-f.gif",
+            "male": "buizel.gif"
         },
         "419": {
-            "f": "floatzel-f.gif",
-            "standard": "floatzel.gif"
+            "female": "floatzel-f.gif",
+            "male": "floatzel.gif"
         },
         "420": {
             "standard": "cherubi.gif"
@@ -1487,8 +1486,8 @@
             "standard": "gastrodon.gif"
         },
         "424": {
-            "f": "ambipom-f.gif",
-            "standard": "ambipom.gif"
+            "female": "ambipom-f.gif",
+            "male": "ambipom.gif"
         },
         "425": {
             "standard": "drifloon.gif"
@@ -1546,17 +1545,17 @@
             "standard": "spiritomb.gif"
         },
         "443": {
-            "f": "gible-f.gif",
-            "standard": "gible.gif"
+            "female": "gible-f.gif",
+            "male": "gible.gif"
         },
         "444": {
-            "f": "gabite-f.gif",
-            "standard": "gabite.gif"
+            "female": "gabite-f.gif",
+            "male": "gabite.gif"
         },
         "445": {
-            "f": "garchomp-f.gif",
+            "female": "garchomp-f.gif",
             "mega": "garchomp-mega.gif",
-            "standard": "garchomp.gif"
+            "male": "garchomp.gif"
         },
         "446": {
             "standard": "munchlax.gif"
@@ -1569,12 +1568,12 @@
             "standard": "lucario.gif"
         },
         "449": {
-            "f": "hippopotas-f.gif",
-            "standard": "hippopotas.gif"
+            "female": "hippopotas-f.gif",
+            "male": "hippopotas.gif"
         },
         "450": {
-            "f": "hippowdon-f.gif",
-            "standard": "hippowdon.gif"
+            "female": "hippowdon-f.gif",
+            "male": "hippowdon.gif"
         },
         "451": {
             "standard": "skorupi.gif"
@@ -1583,39 +1582,39 @@
             "standard": "drapion.gif"
         },
         "453": {
-            "f": "croagunk-f.gif",
-            "standard": "croagunk.gif"
+            "female": "croagunk-f.gif",
+            "male": "croagunk.gif"
         },
         "454": {
-            "f": "toxicroak-f.gif",
-            "standard": "toxicroak.gif"
+            "female": "toxicroak-f.gif",
+            "male": "toxicroak.gif"
         },
         "455": {
             "standard": "carnivine.gif"
         },
         "456": {
-            "f": "finneon-f.gif",
-            "standard": "finneon.gif"
+            "female": "finneon-f.gif",
+            "male": "finneon.gif"
         },
         "457": {
-            "f": "lumineon-f.gif",
-            "standard": "lumineon.gif"
+            "female": "lumineon-f.gif",
+            "male": "lumineon.gif"
         },
         "458": {
             "standard": "mantyke.gif"
         },
         "459": {
-            "f": "snover-f.gif",
-            "standard": "snover.gif"
+            "female": "snover-f.gif",
+            "male": "snover.gif"
         },
         "460": {
-            "f": "abomasnow-f.gif",
+            "female": "abomasnow-f.gif",
             "mega": "abomasnow-mega.gif",
-            "standard": "abomasnow.gif"
+            "male": "abomasnow.gif"
         },
         "461": {
-            "f": "weavile-f.gif",
-            "standard": "weavile.gif"
+            "female": "weavile-f.gif",
+            "male": "weavile.gif"
         },
         "462": {
             "standard": "magnezone.gif"
@@ -1624,12 +1623,12 @@
             "standard": "lickilicky.gif"
         },
         "464": {
-            "f": "rhyperior-f.gif",
-            "standard": "rhyperior.gif"
+            "female": "rhyperior-f.gif",
+            "male": "rhyperior.gif"
         },
         "465": {
-            "f": "tangrowth-f.gif",
-            "standard": "tangrowth.gif"
+            "female": "tangrowth-f.gif",
+            "male": "tangrowth.gif"
         },
         "466": {
             "standard": "electivire.gif"
@@ -1653,11 +1652,11 @@
             "standard": "gliscor.gif"
         },
         "473": {
-            "f": "mamoswine-f.gif",
-            "standard": "mamoswine.gif"
+            "female": "mamoswine-f.gif",
+            "male": "mamoswine.gif"
         },
         "474": {
-            "porygon z": "porygon-z.gif"
+            "standard": "porygonz.gif"
         },
         "475": {
             "mega": "gallade-mega.gif",
@@ -1673,9 +1672,9 @@
             "standard": "froslass.gif"
         },
         "479": {
-            "f": "rotom-f.gif",
-            "fan": "rotom-fan.gif",
-            "frost": "rotom-frost.gif",
+            "female": "rotom-f.gif",
+            "femalean": "rotom-fan.gif",
+            "femalerost": "rotom-frost.gif",
             "h": "rotom-h.gif",
             "heat": "rotom-heat.gif",
             "m": "rotom-m.gif",
@@ -1683,7 +1682,7 @@
             "s": "rotom-s.gif",
             "w": "rotom-w.gif",
             "wash": "rotom-wash.gif",
-            "standard": "rotom.gif"
+            "male": "rotom.gif"
         },
         "480": {
             "standard": "uxie.gif"
@@ -1731,10 +1730,10 @@
             "dark": "arceus-dark.gif",
             "dragon": "arceus-dragon.gif",
             "electric": "arceus-electric.gif",
-            "fairy": "arceus-fairy.gif",
-            "fighting": "arceus-fighting.gif",
-            "fire": "arceus-fire.gif",
-            "flying": "arceus-flying.gif",
+            "femaleairy": "arceus-fairy.gif",
+            "femaleighting": "arceus-fighting.gif",
+            "femaleire": "arceus-fire.gif",
+            "femalelying": "arceus-flying.gif",
             "ghost": "arceus-ghost.gif",
             "grass": "arceus-grass.gif",
             "ground": "arceus-ground.gif",
@@ -1828,8 +1827,8 @@
             "standard": "tranquill.gif"
         },
         "521": {
-            "f": "unfezant-f.gif",
-            "standard": "unfezant.gif"
+            "female": "unfezant-f.gif",
+            "male": "unfezant.gif"
         },
         "522": {
             "standard": "blitzle.gif"
@@ -1980,7 +1979,7 @@
             "standard": "trubbish.gif"
         },
         "569": {
-            "gmax": "garbodor-gmax.gif",
+            "gigantamax": "garbodor-gmax.gif",
             "standard": "garbodor.gif"
         },
         "570": {
@@ -2056,12 +2055,12 @@
             "standard": "amoonguss.gif"
         },
         "592": {
-            "f": "frillish-f.gif",
-            "standard": "frillish.gif"
+            "female": "frillish-f.gif",
+            "male": "frillish.gif"
         },
         "593": {
-            "f": "jellicent-f.gif",
-            "standard": "jellicent.gif"
+            "female": "jellicent-f.gif",
+            "male": "jellicent.gif"
         },
         "594": {
             "standard": "alomomola.gif"
@@ -2296,7 +2295,7 @@
             "archipelago": "vivillon-archipelago.gif",
             "continental": "vivillon-continental.gif",
             "elegant": "vivillon-elegant.gif",
-            "fancy": "vivillon-fancy.gif",
+            "femaleancy": "vivillon-fancy.gif",
             "garden": "vivillon-garden.gif",
             "highplains": "vivillon-highplains.gif",
             "icysnow": "vivillon-icysnow.gif",
@@ -2318,8 +2317,8 @@
             "standard": "litleo.gif"
         },
         "668": {
-            "f": "pyroar-f.gif",
-            "standard": "pyroar.gif"
+            "female": "pyroar-f.gif",
+            "male": "pyroar.gif"
         },
         "669": {
             "blue": "flabebe-blue.gif",
@@ -2371,8 +2370,8 @@
             "standard": "espurr.gif"
         },
         "678": {
-            "f": "meowstic-f.gif",
-            "standard": "meowstic.gif"
+            "female": "meowstic-f.gif",
+            "male": "meowstic.gif"
         },
         "679": {
             "standard": "honedge.gif"
@@ -2685,10 +2684,10 @@
             "dark": "silvally-dark.gif",
             "dragon": "silvally-dragon.gif",
             "electric": "silvally-electric.gif",
-            "fairy": "silvally-fairy.gif",
-            "fighting": "silvally-fighting.gif",
-            "fire": "silvally-fire.gif",
-            "flying": "silvally-flying.gif",
+            "femaleairy": "silvally-fairy.gif",
+            "femaleighting": "silvally-fighting.gif",
+            "femaleire": "silvally-fire.gif",
+            "femalelying": "silvally-flying.gif",
             "ghost": "silvally-ghost.gif",
             "grass": "silvally-grass.gif",
             "ground": "silvally-ground.gif",
@@ -2817,7 +2816,7 @@
             "standard": "meltan.gif"
         },
         "809": {
-            "gmax": "melmetal-gmax.gif",
+            "gigantamax": "melmetal-gmax.gif",
             "standard": "melmetal.gif"
         },
         "810": {
@@ -2845,7 +2844,7 @@
             "standard": "drizzile.gif"
         },
         "818": {
-            "gmax": "inteleon-gmax.gif",
+            "gigantamax": "inteleon-gmax.gif",
             "standard": "inteleon.gif"
         },
         "819": {
@@ -2861,7 +2860,7 @@
             "standard": "corvisquire.gif"
         },
         "823": {
-            "gmax": "corviknight-gmax.gif",
+            "gigantamax": "corviknight-gmax.gif",
             "standard": "corviknight.gif"
         },
         "824": {
@@ -2871,7 +2870,7 @@
             "standard": "dottler.gif"
         },
         "826": {
-            "gmax": "orbeetle-gmax.gif",
+            "gigantamax": "orbeetle-gmax.gif",
             "standard": "orbeetle.gif"
         },
         "827": {
@@ -2896,7 +2895,7 @@
             "standard": "chewtle.gif"
         },
         "834": {
-            "gmax": "drednaw-gmax.gif",
+            "gigantamax": "drednaw-gmax.gif",
             "standard": "drednaw.gif"
         },
         "835": {
@@ -2912,25 +2911,25 @@
             "standard": "carkol.gif"
         },
         "839": {
-            "gmax": "coalossal-gmax.gif",
+            "gigantamax": "coalossal-gmax.gif",
             "standard": "coalossal.gif"
         },
         "840": {
             "standard": "applin.gif"
         },
         "841": {
-            "gmax": "flapple-gmax.gif",
+            "gigantamax": "flapple-gmax.gif",
             "standard": "flapple.gif"
         },
         "842": {
-            "gmax": "appletun-gmax.gif",
+            "gigantamax": "appletun-gmax.gif",
             "standard": "appletun.gif"
         },
         "843": {
             "standard": "silicobra.gif"
         },
         "844": {
-            "gmax": "sandaconda-gmax.gif",
+            "gigantamax": "sandaconda-gmax.gif",
             "standard": "sandaconda.gif"
         },
         "845": {
@@ -2948,7 +2947,7 @@
             "standard": "toxel.gif"
         },
         "849": {
-            "gmax": "toxtricity-gmax.gif",
+            "gigantamax": "toxtricity-gmax.gif",
             "lowkey": "toxtricity-lowkey.gif",
             "standard": "toxtricity.gif"
         },
@@ -2956,7 +2955,7 @@
             "standard": "sizzlipede.gif"
         },
         "851": {
-            "gmax": "centiskorch-gmax.gif",
+            "gigantamax": "centiskorch-gmax.gif",
             "standard": "centiskorch.gif"
         },
         "852": {
@@ -2980,7 +2979,7 @@
             "standard": "hattrem.gif"
         },
         "858": {
-            "gmax": "hatterene-gmax.gif",
+            "gigantamax": "hatterene-gmax.gif",
             "standard": "hatterene.gif"
         },
         "859": {
@@ -2990,7 +2989,7 @@
             "standard": "morgrem.gif"
         },
         "861": {
-            "gmax": "grimmsnarl-gmax.gif",
+            "gigantamax": "grimmsnarl-gmax.gif",
             "standard": "grimmsnarl.gif"
         },
         "862": {
@@ -3015,107 +3014,70 @@
             "standard": "milcery.gif"
         },
         "869": {
-            "caramel swirl berry": "alcremie-caramel-swirl-berry.gif",
-            "caramel swirl clover": "alcremie-caramel-swirl-clover.gif",
-            "female": "alcremie-vanillacream-flower.gif",
-            "caramel swirl love": "alcremie-caramel-swirl-love.gif",
-            "caramel swirl ribbon": "alcremie-caramel-swirl-ribbon.gif",
-            "caramel swirl star": "alcremie-caramel-swirl-star.gif",
-            "caramelswirl berry": "alcremie-caramelswirl-berry.gif",
-            "caramelswirl clover": "alcremie-caramelswirl-clover.gif",
-            "caramelswirl love": "alcremie-caramelswirl-love.gif",
-            "caramelswirl ribbon": "alcremie-caramelswirl-ribbon.gif",
-            "caramelswirl star": "alcremie-caramelswirl-star.gif",
-            "caramelswirl": "alcremie-caramelswirl.gif",
-            "gmax": "alcremie-gmax.gif",
-            "lemon cream berry": "alcremie-lemon-cream-berry.gif",
-            "lemon cream clover": "alcremie-lemon-cream-clover.gif",
-            "lemon cream love": "alcremie-lemon-cream-love.gif",
-            "lemon cream ribbon": "alcremie-lemon-cream-ribbon.gif",
-            "lemon cream star": "alcremie-lemon-cream-star.gif",
-            "lemoncream berry": "alcremie-lemoncream-berry.gif",
-            "lemoncream clover": "alcremie-lemoncream-clover.gif",
-            "lemoncream love": "alcremie-lemoncream-love.gif",
-            "lemoncream ribbon": "alcremie-lemoncream-ribbon.gif",
-            "lemoncream star": "alcremie-lemoncream-star.gif",
-            "lemoncream": "alcremie-lemoncream.gif",
-            "matcha cream berry": "alcremie-matcha-cream-berry.gif",
-            "matcha cream clover": "alcremie-matcha-cream-clover.gif",
-            "matcha cream love": "alcremie-matcha-cream-love.gif",
-            "matcha cream ribbon": "alcremie-matcha-cream-ribbon.gif",
-            "matcha cream star": "alcremie-matcha-cream-star.gif",
-            "matchacream berry": "alcremie-matchacream-berry.gif",
-            "matchacream clover": "alcremie-matchacream-clover.gif",
-            "matchacream love": "alcremie-matchacream-love.gif",
-            "matchacream ribbon": "alcremie-matchacream-ribbon.gif",
-            "matchacream star": "alcremie-matchacream-star.gif",
-            "matchacream": "alcremie-matchacream.gif",
-            "mint cream berry": "alcremie-mint-cream-berry.gif",
-            "mint cream clover": "alcremie-mint-cream-clover.gif",
-            "mint cream love": "alcremie-mint-cream-love.gif",
-            "mint cream ribbon": "alcremie-mint-cream-ribbon.gif",
-            "mint cream star": "alcremie-mint-cream-star.gif",
-            "mintcream berry": "alcremie-mintcream-berry.gif",
-            "mintcream clover": "alcremie-mintcream-clover.gif",
-            "mintcream love": "alcremie-mintcream-love.gif",
-            "mintcream ribbon": "alcremie-mintcream-ribbon.gif",
-            "mintcream star": "alcremie-mintcream-star.gif",
-            "mintcream": "alcremie-mintcream.gif",
-            "rainbow swirl berry": "alcremie-rainbow-swirl-berry.gif",
-            "rainbow swirl clover": "alcremie-rainbow-swirl-clover.gif",
-            "rainbow swirl love": "alcremie-rainbow-swirl-love.gif",
-            "rainbow swirl ribbon": "alcremie-rainbow-swirl-ribbon.gif",
-            "rainbow swirl star": "alcremie-rainbow-swirl-star.gif",
-            "rainbowswirl berry": "alcremie-rainbowswirl-berry.gif",
-            "rainbowswirl clover": "alcremie-rainbowswirl-clover.gif",
-            "rainbowswirl love": "alcremie-rainbowswirl-love.gif",
-            "rainbowswirl ribbon": "alcremie-rainbowswirl-ribbon.gif",
-            "rainbowswirl star": "alcremie-rainbowswirl-star.gif",
-            "rainbowswirl": "alcremie-rainbowswirl.gif",
-            "ruby cream berry": "alcremie-ruby-cream-berry.gif",
-            "ruby cream clover": "alcremie-ruby-cream-clover.gif",
-            "ruby cream love": "alcremie-ruby-cream-love.gif",
-            "ruby cream ribbon": "alcremie-ruby-cream-ribbon.gif",
-            "ruby cream star": "alcremie-ruby-cream-star.gif",
-            "ruby swirl berry": "alcremie-ruby-swirl-berry.gif",
-            "ruby swirl clover": "alcremie-ruby-swirl-clover.gif",
-            "ruby swirl love": "alcremie-ruby-swirl-love.gif",
-            "ruby swirl ribbon": "alcremie-ruby-swirl-ribbon.gif",
-            "ruby swirl star": "alcremie-ruby-swirl-star.gif",
-            "rubycream berry": "alcremie-rubycream-berry.gif",
-            "rubycream clover": "alcremie-rubycream-clover.gif",
-            "rubycream love": "alcremie-rubycream-love.gif",
-            "rubycream ribbon": "alcremie-rubycream-ribbon.gif",
-            "rubycream star": "alcremie-rubycream-star.gif",
-            "rubycream": "alcremie-rubycream.gif",
-            "rubyswirl berry": "alcremie-rubyswirl-berry.gif",
-            "rubyswirl clover": "alcremie-rubyswirl-clover.gif",
-            "rubyswirl love": "alcremie-rubyswirl-love.gif",
-            "rubyswirl ribbon": "alcremie-rubyswirl-ribbon.gif",
-            "rubyswirl star": "alcremie-rubyswirl-star.gif",
-            "rubyswirl": "alcremie-rubyswirl.gif",
-            "salted cream berry": "alcremie-salted-cream-berry.gif",
-            "salted cream clover": "alcremie-salted-cream-clover.gif",
-            "salted cream love": "alcremie-salted-cream-love.gif",
-            "salted cream ribbon": "alcremie-salted-cream-ribbon.gif",
-            "salted cream star": "alcremie-salted-cream-star.gif",
-            "saltedcream berry": "alcremie-saltedcream-berry.gif",
-            "saltedcream clover": "alcremie-saltedcream-clover.gif",
-            "saltedcream love": "alcremie-saltedcream-love.gif",
-            "saltedcream ribbon": "alcremie-saltedcream-ribbon.gif",
-            "saltedcream star": "alcremie-saltedcream-star.gif",
-            "saltedcream": "alcremie-saltedcream.gif",
-            "vanilla cream berry": "alcremie-vanilla-cream-berry.gif",
-            "vanilla cream clover": "alcremie-vanilla-cream-clover.gif",
-            "vanilla cream love": "alcremie-vanilla-cream-love.gif",
-            "vanilla cream ribbon": "alcremie-vanilla-cream-ribbon.gif",
-            "vanilla cream star": "alcremie-vanilla-cream-star.gif",
-            "vanillacream berry": "alcremie-vanillacream-berry.gif",
-            "vanillacream clover": "alcremie-vanillacream-clover.gif",
-            "vanillacream love": "alcremie-vanillacream-love.gif",
-            "vanillacream ribbon": "alcremie-vanillacream-ribbon.gif",
-            "vanillacream star": "alcremie-vanillacream-star.gif",
-            "male": "alcremie.gif"
+            "caramel swirl berry": "alcremie-caramelswirl-berry.gif",
+            "caramel swirl clover": "alcremie-caramelswirl-clover.gif",
+            "caramel swirl femalelower": "alcremie-caramelswirl-flower.gif",
+            "caramel swirl love": "alcremie-caramelswirl-love.gif",
+            "caramel swirl ribbon": "alcremie-caramelswirl-ribbon.gif",
+            "caramel swirl star": "alcremie-caramelswirl-star.gif",
+            "caramel swirl": "alcremie-caramelswirl.gif",
+            "gigantamax": "alcremie-gmax.gif",
+            "lemon cream berry": "alcremie-lemoncream-berry.gif",
+            "lemon cream clover": "alcremie-lemoncream-clover.gif",
+            "lemon cream femalelower": "alcremie-lemoncream-flower.gif",
+            "lemon cream love": "alcremie-lemoncream-love.gif",
+            "lemon cream ribbon": "alcremie-lemoncream-ribbon.gif",
+            "lemon cream star": "alcremie-lemoncream-star.gif",
+            "lemon cream": "alcremie-lemoncream.gif",
+            "matcha cream berry": "alcremie-matchacream-berry.gif",
+            "matcha cream clover": "alcremie-matchacream-clover.gif",
+            "matcha cream femalelower": "alcremie-matchacream-flower.gif",
+            "matcha cream love": "alcremie-matchacream-love.gif",
+            "matcha cream ribbon": "alcremie-matchacream-ribbon.gif",
+            "matcha cream star": "alcremie-matchacream-star.gif",
+            "matcha cream": "alcremie-matchacream.gif",
+            "mint cream berry": "alcremie-mintcream-berry.gif",
+            "mint cream clover": "alcremie-mintcream-clover.gif",
+            "mint cream femalelower": "alcremie-mintcream-flower.gif",
+            "mint cream love": "alcremie-mintcream-love.gif",
+            "mint cream ribbon": "alcremie-mintcream-ribbon.gif",
+            "mint cream star": "alcremie-mintcream-star.gif",
+            "mint cream": "alcremie-mintcream.gif",
+            "rainbow swirl berry": "alcremie-rainbowswirl-berry.gif",
+            "rainbow swirl clover": "alcremie-rainbowswirl-clover.gif",
+            "rainbow swirl femalelower": "alcremie-rainbowswirl-flower.gif",
+            "rainbow swirl love": "alcremie-rainbowswirl-love.gif",
+            "rainbow swirl ribbon": "alcremie-rainbowswirl-ribbon.gif",
+            "rainbow swirl star": "alcremie-rainbowswirl-star.gif",
+            "rainbow swirl": "alcremie-rainbowswirl.gif",
+            "ruby cream berry": "alcremie-rubycream-berry.gif",
+            "ruby cream clover": "alcremie-rubycream-clover.gif",
+            "ruby cream femalelower": "alcremie-rubycream-flower.gif",
+            "ruby cream love": "alcremie-rubycream-love.gif",
+            "ruby cream ribbon": "alcremie-rubycream-ribbon.gif",
+            "ruby cream star": "alcremie-rubycream-star.gif",
+            "ruby cream": "alcremie-rubycream.gif",
+            "ruby swirl berry": "alcremie-rubyswirl-berry.gif",
+            "ruby swirl clover": "alcremie-rubyswirl-clover.gif",
+            "ruby swirl femalelower": "alcremie-rubyswirl-flower.gif",
+            "ruby swirl love": "alcremie-rubyswirl-love.gif",
+            "ruby swirl ribbon": "alcremie-rubyswirl-ribbon.gif",
+            "ruby swirl star": "alcremie-rubyswirl-star.gif",
+            "ruby swirl": "alcremie-rubyswirl.gif",
+            "salted cream berry": "alcremie-saltedcream-berry.gif",
+            "salted cream clover": "alcremie-saltedcream-clover.gif",
+            "salted cream femalelower": "alcremie-saltedcream-flower.gif",
+            "salted cream love": "alcremie-saltedcream-love.gif",
+            "salted cream ribbon": "alcremie-saltedcream-ribbon.gif",
+            "salted cream star": "alcremie-saltedcream-star.gif",
+            "salted cream": "alcremie-saltedcream.gif",
+            "vanilla cream berry": "alcremie-vanillacream-berry.gif",
+            "vanilla cream clover": "alcremie-vanillacream-clover.gif",
+            "vanilla cream femalelower": "alcremie-vanillacream-flower.gif",
+            "vanilla cream love": "alcremie-vanillacream-love.gif",
+            "vanilla cream ribbon": "alcremie-vanillacream-ribbon.gif",
+            "vanilla cream star": "alcremie-vanillacream-star.gif",
+            "standard": "alcremie.gif"
         },
         "870": {
             "standard": "falinks.gif"
@@ -3137,8 +3099,8 @@
             "standard": "eiscue.gif"
         },
         "876": {
-            "f": "indeedee-f.gif",
-            "standard": "indeedee.gif"
+            "female": "indeedee-f.gif",
+            "male": "indeedee.gif"
         },
         "877": {
             "hangry": "morpeko-hangry.gif",
@@ -3148,7 +3110,7 @@
             "standard": "cufant.gif"
         },
         "879": {
-            "gmax": "copperajah-gmax.gif",
+            "gigantamax": "copperajah-gmax.gif",
             "standard": "copperajah.gif"
         },
         "880": {
@@ -3164,7 +3126,7 @@
             "standard": "arctovish.gif"
         },
         "884": {
-            "gmax": "duraludon-gmax.gif",
+            "gigantamax": "duraludon-gmax.gif",
             "standard": "duraludon.gif"
         },
         "885": {
@@ -3215,499 +3177,6 @@
             "ice": "calyrex-ice.gif",
             "shadow": "calyrex-shadow.gif",
             "standard": "calyrex.gif"
-        },
-        "899": {
-            "abomasnowf": "abomasnow-f.gif",
-            "abomasnowmega": "abomasnow-mega.gif",
-            "standard": "zygarde.gif",
-            "absolmega": "absol-mega.gif",
-            "aegislashblade": "aegislash-blade.gif",
-            "aerodactylmega": "aerodactyl-mega.gif",
-            "aggronmega": "aggron-mega.gif",
-            "aipomf": "aipom-f.gif",
-            "alakazammega": "alakazam-mega.gif",
-            "alcremiecaramelswirlberry": "alcremie-caramelswirl-berry.gif",
-            "alcremiecaramelswirlclover": "alcremie-caramelswirl-clover.gif",
-            "alcremiecaramelswirlflower": "alcremie-caramelswirl-flower.gif",
-            "alcremiecaramelswirllove": "alcremie-caramelswirl-love.gif",
-            "alcremiecaramelswirlribbon": "alcremie-caramelswirl-ribbon.gif",
-            "alcremiecaramelswirlstar": "alcremie-caramelswirl-star.gif",
-            "alcremiecaramelswirl": "alcremie-caramelswirl.gif",
-            "alcremiegmax": "alcremie-gmax.gif",
-            "alcremielemoncreamberry": "alcremie-lemoncream-berry.gif",
-            "alcremielemoncreamclover": "alcremie-lemoncream-clover.gif",
-            "alcremielemoncreamflower": "alcremie-lemoncream-flower.gif",
-            "alcremielemoncreamlove": "alcremie-lemoncream-love.gif",
-            "alcremielemoncreamribbon": "alcremie-lemoncream-ribbon.gif",
-            "alcremielemoncreamstar": "alcremie-lemoncream-star.gif",
-            "alcremielemoncream": "alcremie-lemoncream.gif",
-            "alcremiematchacreamberry": "alcremie-matchacream-berry.gif",
-            "alcremiematchacreamclover": "alcremie-matchacream-clover.gif",
-            "alcremiematchacreamflower": "alcremie-matchacream-flower.gif",
-            "alcremiematchacreamlove": "alcremie-matchacream-love.gif",
-            "alcremiematchacreamribbon": "alcremie-matchacream-ribbon.gif",
-            "alcremiematchacreamstar": "alcremie-matchacream-star.gif",
-            "alcremiematchacream": "alcremie-matchacream.gif",
-            "alcremiemintcreamberry": "alcremie-mintcream-berry.gif",
-            "alcremiemintcreamclover": "alcremie-mintcream-clover.gif",
-            "alcremiemintcreamflower": "alcremie-mintcream-flower.gif",
-            "alcremiemintcreamlove": "alcremie-mintcream-love.gif",
-            "alcremiemintcreamribbon": "alcremie-mintcream-ribbon.gif",
-            "alcremiemintcreamstar": "alcremie-mintcream-star.gif",
-            "alcremiemintcream": "alcremie-mintcream.gif",
-            "alcremierainbowswirlberry": "alcremie-rainbowswirl-berry.gif",
-            "alcremierainbowswirlclover": "alcremie-rainbowswirl-clover.gif",
-            "alcremierainbowswirlflower": "alcremie-rainbowswirl-flower.gif",
-            "alcremierainbowswirllove": "alcremie-rainbowswirl-love.gif",
-            "alcremierainbowswirlribbon": "alcremie-rainbowswirl-ribbon.gif",
-            "alcremierainbowswirlstar": "alcremie-rainbowswirl-star.gif",
-            "alcremierainbowswirl": "alcremie-rainbowswirl.gif",
-            "alcremierubycreamberry": "alcremie-rubycream-berry.gif",
-            "alcremierubycreamclover": "alcremie-rubycream-clover.gif",
-            "alcremierubycreamflower": "alcremie-rubycream-flower.gif",
-            "alcremierubycreamlove": "alcremie-rubycream-love.gif",
-            "alcremierubycreamribbon": "alcremie-rubycream-ribbon.gif",
-            "alcremierubycreamstar": "alcremie-rubycream-star.gif",
-            "alcremierubyswirlberry": "alcremie-rubyswirl-berry.gif",
-            "alcremierubyswirlclover": "alcremie-rubyswirl-clover.gif",
-            "alcremierubyswirlflower": "alcremie-rubyswirl-flower.gif",
-            "alcremierubyswirllove": "alcremie-rubyswirl-love.gif",
-            "alcremierubyswirlribbon": "alcremie-rubyswirl-ribbon.gif",
-            "alcremierubyswirlstar": "alcremie-rubyswirl-star.gif",
-            "alcremierubycream": "alcremie-rubycream.gif",
-            "alcremierubyswirl": "alcremie-rubyswirl.gif",
-            "alcremiesaltedcreamberry": "alcremie-saltedcream-berry.gif",
-            "alcremiesaltedcreamclover": "alcremie-saltedcream-clover.gif",
-            "alcremiesaltedcreamflower": "alcremie-saltedcream-flower.gif",
-            "alcremiesaltedcreamlove": "alcremie-saltedcream-love.gif",
-            "alcremiesaltedcreamribbon": "alcremie-saltedcream-ribbon.gif",
-            "alcremiesaltedcreamstar": "alcremie-saltedcream-star.gif",
-            "alcremiesaltedcream": "alcremie-saltedcream.gif",
-            "alcremievanillacreamberry": "alcremie-vanillacream-berry.gif",
-            "alcremievanillacreamclover": "alcremie-vanillacream-clover.gif",
-            "alcremievanillacreamflower": "alcremie-vanillacream-flower.gif",
-            "alcremievanillacreamlove": "alcremie-vanillacream-love.gif",
-            "alcremievanillacreamribbon": "alcremie-vanillacream-ribbon.gif",
-            "alcremievanillacreamstar": "alcremie-vanillacream-star.gif",
-            "altariamega": "altaria-mega.gif",
-            "ambipomf": "ambipom-f.gif",
-            "ampharosmega": "ampharos-mega.gif",
-            "appletungmax": "appletun-gmax.gif",
-            "araquanidtotem": "araquanid-totem.gif",
-            "arceusbug": "arceus-bug.gif",
-            "arceusdark": "arceus-dark.gif",
-            "arceusdragon": "arceus-dragon.gif",
-            "arceuselectric": "arceus-electric.gif",
-            "arceusfairy": "arceus-fairy.gif",
-            "arceusfighting": "arceus-fighting.gif",
-            "arceusfire": "arceus-fire.gif",
-            "arceusflying": "arceus-flying.gif",
-            "arceusghost": "arceus-ghost.gif",
-            "arceusgrass": "arceus-grass.gif",
-            "arceusground": "arceus-ground.gif",
-            "arceusice": "arceus-ice.gif",
-            "arceuspoison": "arceus-poison.gif",
-            "arceuspsychic": "arceus-psychic.gif",
-            "arceusrock": "arceus-rock.gif",
-            "arceussteel": "arceus-steel.gif",
-            "arceuswater": "arceus-water.gif",
-            "articunogalar": "articuno-galar.gif",
-            "audinomega": "audino-mega.gif",
-            "banettemega": "banette-mega.gif",
-            "basculinbluestriped": "basculin-bluestriped.gif",
-            "beautiflyf": "beautifly-f.gif",
-            "beedrillmega": "beedrill-mega.gif",
-            "bibarelf": "bibarel-f.gif",
-            "bidooff": "bidoof-f.gif",
-            "blastoisemega": "blastoise-mega.gif",
-            "blazikenf": "blaziken-f.gif",
-            "blazikenmega": "blaziken-mega.gif",
-            "buizelf": "buizel-f.gif",
-            "burmysandy": "burmy-sandy.gif",
-            "burmytrash": "burmy-trash.gif",
-            "butterfreegmax": "butterfree-gmax.gif",
-            "cacturnef": "cacturne-f.gif",
-            "calyrexice": "calyrex-ice.gif",
-            "calyrexshadow": "calyrex-shadow.gif",
-            "cameruptf": "camerupt-f.gif",
-            "cameruptmega": "camerupt-mega.gif",
-            "camperuptmega": "camperupt-mega.gif",
-            "castformrainy": "castform-rainy.gif",
-            "castformsnowy": "castform-snowy.gif",
-            "castformsunny": "castform-sunny.gif",
-            "centiskorchgmax": "centiskorch-gmax.gif",
-            "charizardgmax": "charizard-gmax.gif",
-            "mega x": "mewtwo-megax.gif",
-            "mega y": "mewtwo-megay.gif",
-            "cherrimsunshine": "cherrim-sunshine.gif",
-            "coalossalgmax": "coalossal-gmax.gif",
-            "combeef": "combee-f.gif",
-            "combuskenf": "combusken-f.gif",
-            "copperajahgmax": "copperajah-gmax.gif",
-            "corsolagalar": "corsola-galar.gif",
-            "corviknightgmax": "corviknight-gmax.gif",
-            "cramorantgorging": "cramorant-gorging.gif",
-            "cramorantgulping": "cramorant-gulping.gif",
-            "croagunkf": "croagunk-f.gif",
-            "crucibellemega": "crucibelle-mega.gif",
-            "darmanitangalar": "darmanitan-galar.gif",
-            "darmanitangalarzen": "darmanitan-galarzen.gif",
-            "darmanitanzen": "darmanitan-zen.gif",
-            "darumakagalar": "darumaka-galar.gif",
-            "deerlingautumn": "deerling-autumn.gif",
-            "deerlingsummer": "deerling-summer.gif",
-            "deerlingwinter": "deerling-winter.gif",
-            "deoxysattack": "deoxys-attack.gif",
-            "deoxysdefense": "deoxys-defense.gif",
-            "deoxysspeed": "deoxys-speed.gif",
-            "dianciemega": "diancie-mega.gif",
-            "diglettalola": "diglett-alola.gif",
-            "donphanf": "donphan-f.gif",
-            "drednawgmax": "drednaw-gmax.gif",
-            "dugtrioalola": "dugtrio-alola.gif",
-            "duraludongmax": "duraludon-gmax.gif",
-            "dustoxf": "dustox-f.gif",
-            "eeveegmax": "eevee-gmax.gif",
-            "eeveestarter": "eevee-starter.gif",
-            "eiscuenoice": "eiscue-noice.gif",
-            "eternatuseternamax": "eternatus-eternamax.gif",
-            "exeggutoralola": "exeggutor-alola.gif",
-            "farfetchdgalar": "farfetchd-galar.gif",
-            "finneonf": "finneon-f.gif",
-            "flabebeblue": "flabebe-blue.gif",
-            "flabebeorange": "flabebe-orange.gif",
-            "flabebewhite": "flabebe-white.gif",
-            "flabebeyellow": "flabebe-yellow.gif",
-            "flapplegmax": "flapple-gmax.gif",
-            "floatzelf": "floatzel-f.gif",
-            "floetteblue": "floette-blue.gif",
-            "floetteeternal": "floette-eternal.gif",
-            "floetteorange": "floette-orange.gif",
-            "floettewhite": "floette-white.gif",
-            "floetteyellow": "floette-yellow.gif",
-            "florgesblue": "florges-blue.gif",
-            "florgesorange": "florges-orange.gif",
-            "florgeswhite": "florges-white.gif",
-            "florgesyellow": "florges-yellow.gif",
-            "frillishf": "frillish-f.gif",
-            "furfroudandy": "furfrou-dandy.gif",
-            "furfroudebutante": "furfrou-debutante.gif",
-            "furfroudiamond": "furfrou-diamond.gif",
-            "furfrouheart": "furfrou-heart.gif",
-            "furfroukabuki": "furfrou-kabuki.gif",
-            "furfroulareine": "furfrou-lareine.gif",
-            "furfroumatron": "furfrou-matron.gif",
-            "furfroupharaoh": "furfrou-pharaoh.gif",
-            "furfroustar": "furfrou-star.gif",
-            "gabitef": "gabite-f.gif",
-            "gallademega": "gallade-mega.gif",
-            "garbodorgmax": "garbodor-gmax.gif",
-            "garchompf": "garchomp-f.gif",
-            "garchompmega": "garchomp-mega.gif",
-            "gardevoirmega": "gardevoir-mega.gif",
-            "gastrodoneast": "gastrodon-east.gif",
-            "genesectburn": "genesect-burn.gif",
-            "genesectchill": "genesect-chill.gif",
-            "genesectdouse": "genesect-douse.gif",
-            "genesectshock": "genesect-shock.gif",
-            "gengargmax": "gengar-gmax.gif",
-            "gengarmega": "gengar-mega.gif",
-            "geodudealola": "geodude-alola.gif",
-            "giblef": "gible-f.gif",
-            "girafarigf": "girafarig-f.gif",
-            "giratinaorigin": "giratina-origin.gif",
-            "glaliemega": "glalie-mega.gif",
-            "gligarf": "gligar-f.gif",
-            "golbatf": "golbat-f.gif",
-            "golemalola": "golem-alola.gif",
-            "gourgeistlarge": "gourgeist-large.gif",
-            "gourgeistsmall": "gourgeist-small.gif",
-            "gourgeistsuper": "gourgeist-super.gif",
-            "graveleralola": "graveler-alola.gif",
-            "greninjaash": "greninja-ash.gif",
-            "grimeralola": "grimer-alola.gif",
-            "grimmsnarlgmax": "grimmsnarl-gmax.gif",
-            "groudonprimal": "groudon-primal.gif",
-            "gulpinf": "gulpin-f.gif",
-            "gumshoostotem": "gumshoos-totem.gif",
-            "gyaradosmega": "gyarados-mega.gif",
-            "hatterenegmax": "hatterene-gmax.gif",
-            "heracrossf": "heracross-f.gif",
-            "heracrossmega": "heracross-mega.gif",
-            "hippopotasf": "hippopotas-f.gif",
-            "hippowdonf": "hippowdon-f.gif",
-            "hoopamega": "hoopa-mega.gif",
-            "hoopaunbound": "hoopa-unbound.gif",
-            "houndoomf": "houndoom-f.gif",
-            "houndoommega": "houndoom-mega.gif",
-            "indeedeef": "indeedee-f.gif",
-            "inteleongmax": "inteleon-gmax.gif",
-            "jellicentf": "jellicent-f.gif",
-            "kangaskhanmega": "kangaskhan-mega.gif",
-            "keldeoresolute": "keldeo-resolute.gif",
-            "kerflufflef": "kerfluffle-f.gif",
-            "kinglergmax": "kingler-gmax.gif",
-            "kitsunohf": "kitsunoh-f.gif",
-            "kommoototem": "kommo-o-totem.gif",
-            "kricketotf": "kricketot-f.gif",
-            "kricketunef": "kricketune-f.gif",
-            "kyogreprimal": "kyogre-primal.gif",
-            "kyuremblack": "kyurem-black.gif",
-            "kyuremwhite": "kyurem-white.gif",
-            "landorustherian": "landorus-therian.gif",
-            "laprasgmax": "lapras-gmax.gif",
-            "latiasmega": "latias-mega.gif",
-            "latiosmega": "latios-mega.gif",
-            "ledianf": "ledian-f.gif",
-            "ledybaf": "ledyba-f.gif",
-            "linoonegalar": "linoone-galar.gif",
-            "lopunnymega": "lopunny-mega.gif",
-            "lucariomega": "lucario-mega.gif",
-            "ludicolof": "ludicolo-f.gif",
-            "lumineonf": "lumineon-f.gif",
-            "lurantistotem": "lurantis-totem.gif",
-            "luxiof": "luxio-f.gif",
-            "luxrayf": "luxray-f.gif",
-            "lycanrocdusk": "lycanroc-dusk.gif",
-            "lycanrocmidnight": "lycanroc-midnight.gif",
-            "machampgmax": "machamp-gmax.gif",
-            "magearnaoriginal": "magearna-original.gif",
-            "magikarpf": "magikarp-f.gif",
-            "mamoswinef": "mamoswine-f.gif",
-            "manectricmega": "manectric-mega.gif",
-            "marowakalolatotem": "marowak-alola-totem.gif",
-            "marowakalola": "marowak-alola.gif",
-            "marowaktotem": "marowak-totem.gif",
-            "mawilemega": "mawile-mega.gif",
-            "medichamf": "medicham-f.gif",
-            "medichammega": "medicham-mega.gif",
-            "medititef": "meditite-f.gif",
-            "meganiumf": "meganium-f.gif",
-            "melmetalgmax": "melmetal-gmax.gif",
-            "meloettapirouette": "meloetta-pirouette.gif",
-            "meowsticf": "meowstic-f.gif",
-            "meowthalola": "meowth-alola.gif",
-            "meowthgalar": "meowth-galar.gif",
-            "meowthgmax": "meowth-gmax.gif",
-            "metagrossmega": "metagross-mega.gif",
-            "miloticf": "milotic-f.gif",
-            "mimikyubustedtotem": "mimikyu-busted-totem.gif",
-            "mimikyubusted": "mimikyu-busted.gif",
-            "mimikyutotem": "mimikyu-totem.gif",
-            "miniorblue": "minior-blue.gif",
-            "miniorgreen": "minior-green.gif",
-            "miniorindigo": "minior-indigo.gif",
-            "miniormeteor": "minior-meteor.gif",
-            "miniororange": "minior-orange.gif",
-            "miniorviolet": "minior-violet.gif",
-            "minioryellow": "minior-yellow.gif",
-            "moltresgalar": "moltres-galar.gif",
-            "morpekohangry": "morpeko-hangry.gif",
-            "mrmimegalar": "mrmime-galar.gif",
-            "mukalola": "muk-alola.gif",
-            "murkrowf": "murkrow-f.gif",
-            "necrozmadawnwings": "necrozma-dawnwings.gif",
-            "necrozmaduskmane": "necrozma-duskmane.gif",
-            "necrozmaultra": "necrozma-ultra.gif",
-            "nidoranf": "nidoran-f.gif",
-            "ninetalesalola": "ninetales-alola.gif",
-            "numelf": "numel-f.gif",
-            "nuzleaff": "nuzleaf-f.gif",
-            "octilleryf": "octillery-f.gif",
-            "orbeetlegmax": "orbeetle-gmax.gif",
-            "oricoriopau": "oricorio-pau.gif",
-            "oricoriopompom": "oricorio-pompom.gif",
-            "oricoriosensu": "oricorio-sensu.gif",
-            "pachirisuf": "pachirisu-f.gif",
-            "persianalola": "persian-alola.gif",
-            "pidgeotmega": "pidgeot-mega.gif",
-            "pikachualola": "pikachu-alola.gif",
-            "pikachubelle": "pikachu-belle.gif",
-            "pikachucosplay": "pikachu-cosplay.gif",
-            "pikachuf": "pikachu-f.gif",
-            "pikachugmax": "pikachu-gmax.gif",
-            "pikachuhoenn": "pikachu-hoenn.gif",
-            "pikachukalos": "pikachu-kalos.gif",
-            "pikachulibre": "pikachu-libre.gif",
-            "pikachuoriginal": "pikachu-original.gif",
-            "pikachupartner": "pikachu-partner.gif",
-            "pikachuphd": "pikachu-phd.gif",
-            "pikachupopstar": "pikachu-popstar.gif",
-            "pikachurockstar": "pikachu-rockstar.gif",
-            "pikachusinnoh": "pikachu-sinnoh.gif",
-            "pikachustarterf": "pikachu-starter-f.gif",
-            "pikachustarter": "pikachu-starter.gif",
-            "pikachuunova": "pikachu-unova.gif",
-            "piloswinef": "piloswine-f.gif",
-            "pinsirmega": "pinsir-mega.gif",
-            "pokestarufo2": "pokestarufo-2.gif",
-            "politoedf": "politoed-f.gif",
-            "polteageistantique": "polteageist-antique.gif",
-            "ponytagalar": "ponyta-galar.gif",
-            "porygonz": "porygon-z.gif",
-            "protowattf": "protowatt-f.gif",
-            "pumpkaboolarge": "pumpkaboo-large.gif",
-            "pumpkaboosmall": "pumpkaboo-small.gif",
-            "pumpkaboosuper": "pumpkaboo-super.gif",
-            "pyroarf": "pyroar-f.gif",
-            "quagsiref": "quagsire-f.gif",
-            "raichualola": "raichu-alola.gif",
-            "rapidashgalar": "rapidash-galar.gif",
-            "raticatealolatotem": "raticate-alola-totem.gif",
-            "raticatealola": "raticate-alola.gif",
-            "raticatef": "raticate-f.gif",
-            "raticatetotema": "raticate-totem-a.gif",
-            "rattataalola": "rattata-alola.gif",
-            "rattataf": "rattata-f.gif",
-            "rayquazamega": "rayquaza-mega.gif",
-            "relicanthf": "relicanth-f.gif",
-            "rhydonf": "rhydon-f.gif",
-            "rhyperiorf": "rhyperior-f.gif",
-            "roseliaf": "roselia-f.gif",
-            "roseradef": "roserade-f.gif",
-            "rotomf": "rotom-f.gif",
-            "rotomfan": "rotom-fan.gif",
-            "rotomfrost": "rotom-frost.gif",
-            "rotomh": "rotom-h.gif",
-            "rotomheat": "rotom-heat.gif",
-            "rotomm": "rotom-m.gif",
-            "rotommow": "rotom-mow.gif",
-            "rotoms": "rotom-s.gif",
-            "rotomw": "rotom-w.gif",
-            "rotomwash": "rotom-wash.gif",
-            "sableyemega": "sableye-mega.gif",
-            "salamencemega": "salamence-mega.gif",
-            "salazzletotem": "salazzle-totem.gif",
-            "sandacondagmax": "sandaconda-gmax.gif",
-            "sandshrewalola": "sandshrew-alola.gif",
-            "sandslashalola": "sandslash-alola.gif",
-            "sawsbuckautumn": "sawsbuck-autumn.gif",
-            "sawsbucksummer": "sawsbuck-summer.gif",
-            "sawsbuckwinter": "sawsbuck-winter.gif",
-            "sceptilemega": "sceptile-mega.gif",
-            "scizorf": "scizor-f.gif",
-            "scizormega": "scizor-mega.gif",
-            "scytherf": "scyther-f.gif",
-            "shapedomega": "shapedo-mega.gif",
-            "sharpedomega": "sharpedo-mega.gif",
-            "shayminsky": "shaymin-sky.gif",
-            "shelloseast": "shellos-east.gif",
-            "shiftryf": "shiftry-f.gif",
-            "shinxf": "shinx-f.gif",
-            "silvallybug": "silvally-bug.gif",
-            "silvallydark": "silvally-dark.gif",
-            "silvallydragon": "silvally-dragon.gif",
-            "silvallyelectric": "silvally-electric.gif",
-            "silvallyfairy": "silvally-fairy.gif",
-            "silvallyfighting": "silvally-fighting.gif",
-            "silvallyfire": "silvally-fire.gif",
-            "silvallyflying": "silvally-flying.gif",
-            "silvallyghost": "silvally-ghost.gif",
-            "silvallygrass": "silvally-grass.gif",
-            "silvallyground": "silvally-ground.gif",
-            "silvallyice": "silvally-ice.gif",
-            "silvallypoison": "silvally-poison.gif",
-            "silvallypsychic": "silvally-psychic.gif",
-            "silvallyrock": "silvally-rock.gif",
-            "silvallysteel": "silvally-steel.gif",
-            "silvallywater": "silvally-water.gif",
-            "sinisteaantique": "sinistea-antique.gif",
-            "slowbrogalar": "slowbro-galar.gif",
-            "slowbromega": "slowbro-mega.gif",
-            "slowkinggalar": "slowking-galar.gif",
-            "slowpokegalar": "slowpoke-galar.gif",
-            "sneaself": "sneasel-f.gif",
-            "snorlaxgmax": "snorlax-gmax.gif",
-            "snoverf": "snover-f.gif",
-            "staraptorf": "staraptor-f.gif",
-            "staraviaf": "staravia-f.gif",
-            "starlyf": "starly-f.gif",
-            "steelixf": "steelix-f.gif",
-            "steelixmega": "steelix-mega.gif",
-            "stunfiskgalar": "stunfisk-galar.gif",
-            "sudowoodof": "sudowoodo-f.gif",
-            "swalotf": "swalot-f.gif",
-            "swampertmega": "swampert-mega.gif",
-            "tangrowthf": "tangrowth-f.gif",
-            "thundurustherian": "thundurus-therian.gif",
-            "togedemarutotem": "togedemaru-totem.gif",
-            "torchicf": "torchic-f.gif",
-            "tornadustherian": "tornadus-therian.gif",
-            "toxicroakf": "toxicroak-f.gif",
-            "toxtricitygmax": "toxtricity-gmax.gif",
-            "toxtricitylowkey": "toxtricity-lowkey.gif",
-            "tyranitarmega": "tyranitar-mega.gif",
-            "unfezantf": "unfezant-f.gif",
-            "unownb": "unown-b.gif",
-            "unownc": "unown-c.gif",
-            "unownd": "unown-d.gif",
-            "unowne": "unown-e.gif",
-            "unownexclamation": "unown-exclamation.gif",
-            "unownf": "unown-f.gif",
-            "unowng": "unown-g.gif",
-            "unownh": "unown-h.gif",
-            "unowni": "unown-i.gif",
-            "unownj": "unown-j.gif",
-            "unownk": "unown-k.gif",
-            "unownl": "unown-l.gif",
-            "unownm": "unown-m.gif",
-            "unownn": "unown-n.gif",
-            "unowno": "unown-o.gif",
-            "unownp": "unown-p.gif",
-            "unownq": "unown-q.gif",
-            "unownquestion": "unown-question.gif",
-            "unownr": "unown-r.gif",
-            "unowns": "unown-s.gif",
-            "unownt": "unown-t.gif",
-            "unownu": "unown-u.gif",
-            "unownv": "unown-v.gif",
-            "unownw": "unown-w.gif",
-            "unownx": "unown-x.gif",
-            "unowny": "unown-y.gif",
-            "unownz": "unown-z.gif",
-            "ursaringf": "ursaring-f.gif",
-            "urshifurapidstrike": "urshifu-rapidstrike.gif",
-            "venusaurmega": "venusaur-mega.gif",
-            "vikavolttotem": "vikavolt-totem.gif",
-            "vivillonarchipelago": "vivillon-archipelago.gif",
-            "vivilloncontinental": "vivillon-continental.gif",
-            "vivillonelegant": "vivillon-elegant.gif",
-            "vivillonfancy": "vivillon-fancy.gif",
-            "vivillongarden": "vivillon-garden.gif",
-            "vivillonhighplains": "vivillon-highplains.gif",
-            "vivillonicysnow": "vivillon-icysnow.gif",
-            "vivillonjungle": "vivillon-jungle.gif",
-            "vivillonmarine": "vivillon-marine.gif",
-            "vivillonmodern": "vivillon-modern.gif",
-            "vivillonmonsoon": "vivillon-monsoon.gif",
-            "vivillonocean": "vivillon-ocean.gif",
-            "vivillonpokeball": "vivillon-pokeball.gif",
-            "vivillonpolar": "vivillon-polar.gif",
-            "vivillonriver": "vivillon-river.gif",
-            "vivillonsandstorm": "vivillon-sandstorm.gif",
-            "vivillonsavanna": "vivillon-savanna.gif",
-            "vivillonsun": "vivillon-sun.gif",
-            "vivillontundra": "vivillon-tundra.gif",
-            "voodoomf": "voodoom-f.gif",
-            "vulpixalola": "vulpix-alola.gif",
-            "weavilef": "weavile-f.gif",
-            "weezinggalar": "weezing-galar.gif",
-            "wishiwashischool": "wishiwashi-school.gif",
-            "wobbuffetf": "wobbuffet-f.gif",
-            "wooperf": "wooper-f.gif",
-            "wormadamsandy": "wormadam-sandy.gif",
-            "wormadamtrash": "wormadam-trash.gif",
-            "xatuf": "xatu-f.gif",
-            "xerneasneutral": "xerneas-neutral.gif",
-            "yamaskgalar": "yamask-galar.gif",
-            "zaciancrowned": "zacian-crowned.gif",
-            "zamazentacrowned": "zamazenta-crowned.gif",
-            "zapdosgalar": "zapdos-galar.gif",
-            "zarudedada": "zarude-dada.gif",
-            "zigzagoongalar": "zigzagoon-galar.gif",
-            "zubatf": "zubat-f.gif",
-            "zygarde10": "zygarde-10.gif",
-            "zygardecomplete": "zygarde-complete.gif"
         }
     }
 }

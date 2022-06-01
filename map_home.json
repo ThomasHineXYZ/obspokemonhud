@@ -121,7 +121,7 @@
             "alolan": "sandslash-alolan.png"
         },
         "29": {
-            "female": "nidoran-f.png"
+            "standard": "nidoran-f.png"
         },
         "30": {
             "standard": "nidorina.png"
@@ -130,7 +130,7 @@
             "standard": "nidoqueen.png"
         },
         "32": {
-            "nidoran m": "nidoran-m.png"
+            "standard": "nidoran-m.png"
         },
         "33": {
             "standard": "nidorino.png"
@@ -711,7 +711,7 @@
             "c": "unown-c.png",
             "d": "unown-d.png",
             "e": "unown-e.png",
-            "female": "unown-f.png",
+            "f": "unown-f.png",
             "g": "unown-g.png",
             "h": "unown-h.png",
             "j": "unown-j.png",
@@ -731,8 +731,8 @@
             "x": "unown-x.png",
             "y": "unown-y.png",
             "z": "unown-z.png",
-            "em": "unown-em.png",
-            "qm": "unown-qm.png"
+            "exclamation": "unown-em.png",
+            "question": "unown-qm.png"
         },
         "202": {
             "female": "wobbuffet-f.png",
