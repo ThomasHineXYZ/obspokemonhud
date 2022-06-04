@@ -7,7 +7,6 @@ import json
 import obspython as obs
 import os.path
 import requests
-import pathlib
 
 # Interval in seconds for the script to check the team file
 check_interval = 5
