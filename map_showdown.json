@@ -894,7 +894,9 @@
         "249": {
             "standard": "lugia.gif"
         },
-        "250": {},
+        "250": {
+            "standard": "hooh.gif"
+        },
         "251": {
             "standard": "celebi.gif"
         },
@@ -2734,9 +2736,14 @@
         "781": {
             "standard": "dhelmise.gif"
         },
-        "782": {},
-        "783": {},
+        "782": {
+            "standard": "jangmoo.gif"
+        },
+        "783": {
+            "standard": "hakamoo.gif"
+        },
         "784": {
+            "standard": "kommoo.gif",
             "totem": "kommo-o-totem.gif"
         },
         "785": {
