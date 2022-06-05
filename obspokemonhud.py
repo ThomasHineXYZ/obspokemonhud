@@ -350,7 +350,6 @@ def get_sprite_location(urls, sprites, shiny, dex_number, variant):
     if str(dex_number) not in sprites.keys():
         print("I don't belong")
         return
-    print(link + sprites[str(dex_number)][variant])
     return link + sprites[str(dex_number)][variant]
 
 
