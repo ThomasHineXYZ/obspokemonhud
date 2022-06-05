@@ -333,15 +333,15 @@ def script_update(settings):
             print("Conditional: Returning because no JSON file is given")
         return
 
-    with open(obs.obs_data_get_string(settings, "json_file"), 'r') as file:
-            new_team_data = json.load(file)
-
     if json_file != obs.obs_data_get_string(settings, "json_file"):
         # If debug is enabled, print out this bit of text
         if debug:
             print("Conditional: New JSON File")
 
         json_file = obs.obs_data_get_string(settings, "json_file")
+
+        with open(obs.obs_data_get_string(settings, "json_file"), 'r') as file:
+            new_team_data = json.load(file)
 
 
         obs.obs_data_set_int(settings, "team_member_dex_1", new_team_data['slot1']['dexnumber'])
