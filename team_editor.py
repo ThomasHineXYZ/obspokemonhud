@@ -260,7 +260,7 @@ def script_properties():
         properties,  # The properties variable
         "save_button",  # Setting identifier string
         "Save",
-        save_button()
+        save_button
     )
               
     # Anytime a pokemon number changes, update the variant lists
@@ -405,7 +405,7 @@ def variantUpdate(props, property, settings):
         return True
 
 
-def save_button():
+def save_button(properties, p):
     """Saves the team information in to the team.json file that has been given
 
     Returns:
