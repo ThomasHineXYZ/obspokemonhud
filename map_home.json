@@ -1,10 +1,11 @@
 {
-    "cache_location": "home",
+    "cache_location": "HOME",
     "urls": {
         "normal": "https://img.pokemondb.net/sprites/home/normal/",
         "shiny": "https://img.pokemondb.net/sprites/home/shiny/"
     },
     "sprites": {
+
         "1": {
             "standard": "bulbasaur.png"
         },
@@ -12,7 +13,10 @@
             "standard": "ivysaur.png"
         },
         "3": {
-            "standard": "venusaur.png"
+            "female": "venusaur-f.png",
+            "male": "venusaur.png",
+            "gigantamax": "venusaur-gigantamax.png",
+            "mega": "venusaur-mega.png"
         },
         "4": {
             "standard": "charmander.png"
@@ -21,10 +25,10 @@
             "standard": "charmeleon.png"
         },
         "6": {
-            "gmax": "charizard-gigantamax.png",
-            "megax": "charizard-mega-x.png",
-            "megay": "charizard-mega-y.png",
-            "standard": "charizard.png"
+            "standard": "charizard.png",
+            "mega x": "charizard-mega-x.png",
+            "mega y": "charizard-mega-y.png",
+            "gigantamax": "charizard-gigantamax.png"
         },
         "7": {
             "standard": "squirtle.png"
@@ -33,7 +37,9 @@
             "standard": "wartortle.png"
         },
         "9": {
-            "standard": "blastoise.png"
+            "standard": "blastoise.png",
+            "gigantamax": "blastoise-gigantamax.png",
+            "mega": "blastoise-mega.png"
         },
         "10": {
             "standard": "caterpie.png"
@@ -42,8 +48,9 @@
             "standard": "metapod.png"
         },
         "12": {
-            "gmax": "butterfree-gigantamax.png",
-            "standard": "butterfree.png"
+            "female": "butterfree-f.png",
+            "male": "butterfree.png",
+            "gigantamax": "butterfree-gigantamax.png"
         },
         "13": {
             "standard": "weedle.png"
@@ -52,7 +59,8 @@
             "standard": "kakuna.png"
         },
         "15": {
-            "standard": "beedrill.png"
+            "standard": "beedrill.png",
+            "mega": "beedrill-mega.png"
         },
         "16": {
             "standard": "pidgey.png"
@@ -61,19 +69,18 @@
             "standard": "pidgeotto.png"
         },
         "18": {
-            "standard": "pidgeot.png"
+            "standard": "pidgeot.png",
+            "mega": "pidgeot-mega.png"
         },
         "19": {
-            "alola": "rattata-alolan.png",
             "female": "rattata-f.png",
             "male": "rattata.png",
-            "standard": "rattata.png"
+            "alolan": "rattata-alolan.png"
         },
         "20": {
-            "alola": "raticate-alolan.png",
             "female": "raticate-f.png",
             "male": "raticate.png",
-            "standard": "raticate.png"
+            "alolan": "raticate-alolan.png"
         },
         "21": {
             "standard": "spearow.png"
@@ -88,22 +95,30 @@
             "standard": "arbok.png"
         },
         "25": {
-            "standard": "pikachu.png"
+            "female": "pikachu-f.png",
+            "male": "pikachu.png",
+            "alola cap": "pikachu-alola-cap.png",
+            "hoenn cap": "pikachu-hoenn-cap.png",
+            "johto cap": "pikachu-johto-cap.png",
+            "kalos cap": "pikachu-kalos-cap.png",
+            "original cap": "pikachu-original-cap.png",
+            "sinnoh cap": "pikachu-sinnoh-cap.png",
+            "unova cap": "pikachu-unova-cap.png",
+            "world cap": "pikachu-world-cap.png",
+            "gigantamax": "pikachu-gigantamax.png"
         },
         "26": {
-            "alola": "raichu-alolan.png",
-            "kanto": "raichu.png",
-            "standard": "raichu.png"
+            "female": "raichu-f.png",
+            "male": "raichu.png",
+            "alolan": "raichu-alolan.png"
         },
         "27": {
-            "alola": "sandshrew-alolan.png",
-            "kanto": "sandshrew.png",
-            "standard": "sandshrew.png"
+            "standard": "sandshrew.png",
+            "alolan": "sandshrew-alolan.png"
         },
         "28": {
-            "alola": "sandslash-alolan.png",
-            "kanto": "sandslash.png",
-            "standard": "sandslash.png"
+            "standard": "sandslash.png",
+            "alolan": "sandslash-alolan.png"
         },
         "29": {
             "standard": "nidoran-f.png"
@@ -130,14 +145,12 @@
             "standard": "clefable.png"
         },
         "37": {
-            "alola": "vulpix-alolan.png",
-            "kanto": "vulpix.png",
-            "standard": "vulpix.png"
+            "standard": "vulpix.png",
+            "alolan": "vulpix-alolan.png"
         },
         "38": {
-            "alola": "ninetales-alolan.png",
-            "kanto": "ninetales.png",
-            "standard": "ninetales.png"
+            "standard": "ninetales.png",
+            "alolan": "ninetales-alolan.png"
         },
         "39": {
             "standard": "jigglypuff.png"
@@ -147,22 +160,22 @@
         },
         "41": {
             "female": "zubat-f.png",
-            "male": "zubat.png",
-            "standard": "zubat.png"
+            "male": "zubat.png"
         },
         "42": {
             "female": "golbat-f.png",
-            "male": "golbat.png",
-            "standard": "golbat.png"
+            "male": "golbat.png"
         },
         "43": {
             "standard": "oddish.png"
         },
         "44": {
-            "standard": "gloom.png"
+            "female": "gloom-f.png",
+            "male": "gloom.png"
         },
         "45": {
-            "standard": "vileplume.png"
+            "female": "vileplume-f.png",
+            "male": "vileplume.png"
         },
         "46": {
             "standard": "paras.png"
@@ -177,26 +190,22 @@
             "standard": "venomoth.png"
         },
         "50": {
-            "alola": "diglett-alolan.png",
-            "kanto": "diglett.png",
-            "standard": "diglett.png"
+            "standard": "diglett.png",
+            "alolan": "diglett-alolan.png"
         },
         "51": {
-            "alola": "dugtrio-alolan.png",
-            "kanto": "dugtrio.png",
-            "standard": "dugtrio.png"
+            "standard": "dugtrio.png",
+            "alolan": "dugtrio-alolan.png"
         },
         "52": {
-            "alola": "meowth-alolan.png",
-            "galar": "meowth-galarian.png",
-            "gmax": "meowth-gigantamax.png",
-            "kanto": "meowth.png",
-            "standard": "meowth.png"
+            "standard": "meowth.png",
+            "alolan": "meowth-alolan.png",
+            "galarian": "meowth-galarian.png",
+            "gigantamax": "meowth-gigantamax.png"
         },
         "53": {
-            "alola": "persian-alolan.png",
-            "kanto": "persian.png",
-            "standard": "persian.png"
+            "standard": "persian.png",
+            "alolan": "persian-alolan.png"
         },
         "54": {
             "standard": "psyduck.png"
@@ -229,10 +238,13 @@
             "standard": "abra.png"
         },
         "64": {
-            "standard": "kadabra.png"
+            "female": "kadabra-f.png",
+            "male": "kadabra.png"
         },
         "65": {
-            "standard": "alakazam.png"
+            "female": "alakazam-f.png",
+            "male": "alakazam.png",
+            "mega": "alakazam-mega.png"
         },
         "66": {
             "standard": "machop.png"
@@ -241,8 +253,8 @@
             "standard": "machoke.png"
         },
         "68": {
-            "gmax": "machamp-gigantamax.png",
-            "standard": "machamp.png"
+            "standard": "machamp.png",
+            "gigantamax": "machamp-gigantamax.png"
         },
         "69": {
             "standard": "bellsprout.png"
@@ -260,40 +272,33 @@
             "standard": "tentacruel.png"
         },
         "74": {
-            "alola": "geodude-alolan.png",
-            "kanto": "geodude.png",
-            "standard": "geodude.png"
+            "standard": "geodude.png",
+            "alolan": "geodude-alolan.png"
         },
         "75": {
-            "alola": "graveler-alolan.png",
-            "kanto": "graveler.png",
-            "standard": "graveler.png"
+            "standard": "graveler.png",
+            "alolan": "graveler-alolan.png"
         },
         "76": {
-            "alola": "golem-alolan.png",
-            "kanto": "golem.png",
-            "standard": "golem.png"
+            "standard": "golem.png",
+            "alolan": "golem-alolan.png"
         },
         "77": {
-            "galar": "ponyta-galarian.png",
-            "kanto": "ponyta.png",
-            "standard": "ponyta.png"
+            "standard": "ponyta.png",
+            "galarian": "ponyta-galarian.png"
         },
         "78": {
-            "galar": "rapidash-galarian.png",
-            "kanto": "rapidash.png",
-            "standard": "rapidash.png"
+            "standard": "rapidash.png",
+            "galarian": "rapidash-galarian.png"
         },
         "79": {
-            "galar": "slowpoke-galarian.png",
-            "kanto": "slowpoke.png",
-            "standard": "slowpoke.png"
+            "standard": "slowpoke.png",
+            "galarian": "slowpoke-galarian.png"
         },
         "80": {
-            "galar": "slowbro-galarian.png",
-            "kanto": "slowbro.png",
-            "mega": "slowbro-mega.png",
-            "standard": "slowbro.png"
+            "standard": "slowbro.png",
+            "galarian": "slowbro-galarian.png",
+            "mega": "slowbro-mega.png"
         },
         "81": {
             "standard": "magnemite.png"
@@ -302,15 +307,16 @@
             "standard": "magneton.png"
         },
         "83": {
-            "galar": "farfetchd-galarian.png",
-            "kanto": "farfetchd.png",
-            "standard": "farfetchd.png"
+            "standard": "farfetchd.png",
+            "galarian": "farfetchd-galarian.png"
         },
         "84": {
-            "standard": "doduo.png"
+            "female": "doduo-f.png",
+            "male": "doduo.png"
         },
         "85": {
-            "standard": "dodrio.png"
+            "female": "dodrio-f.png",
+            "male": "dodrio.png"
         },
         "86": {
             "standard": "seel.png"
@@ -319,14 +325,12 @@
             "standard": "dewgong.png"
         },
         "88": {
-            "alola": "grimer-alolan.png",
-            "kanto": "grimer.png",
-            "standard": "grimer.png"
+            "standard": "grimer.png",
+            "alolan": "grimer-alolan.png"
         },
         "89": {
-            "alola": "muk-alolan.png",
-            "kanto": "muk.png",
-            "standard": "muk.png"
+            "standard": "muk.png",
+            "alolan": "muk-alolan.png"
         },
         "90": {
             "standard": "shellder.png"
@@ -341,9 +345,9 @@
             "standard": "haunter.png"
         },
         "94": {
-            "gmax": "gengar-gigantamax.png",
+            "standard": "gengar.png",
             "mega": "gengar-mega.png",
-            "standard": "gengar.png"
+            "gigantamax": "gengar-gigantamax.png"
         },
         "95": {
             "standard": "onix.png"
@@ -352,14 +356,15 @@
             "standard": "drowzee.png"
         },
         "97": {
-            "standard": "hypno.png"
+            "female": "hypno-f.png",
+            "male": "hypno.png"
         },
         "98": {
             "standard": "krabby.png"
         },
         "99": {
-            "gmax": "kingler-gigantamax.png",
-            "standard": "kingler.png"
+            "standard": "kingler.png",
+            "gigantamax": "kingler-gigantamax.png"
         },
         "100": {
             "standard": "voltorb.png"
@@ -371,17 +376,15 @@
             "standard": "exeggcute.png"
         },
         "103": {
-            "alola": "exeggutor-alolan.png",
-            "kanto": "exeggutor.png",
-            "standard": "exeggutor.png"
+            "standard": "exeggutor.png",
+            "alolan": "exeggutor-alolan.png"
         },
         "104": {
             "standard": "cubone.png"
         },
         "105": {
-            "alola": "marowak-alolan.png",
-            "kanto": "marowak.png",
-            "standard": "marowak.png"
+            "standard": "marowak.png",
+            "alolan": "marowak-alolan.png"
         },
         "106": {
             "standard": "hitmonlee.png"
@@ -396,17 +399,16 @@
             "standard": "koffing.png"
         },
         "110": {
-            "galar": "weezing-galarian.png",
-            "kanto": "weezing.png",
-            "standard": "weezing.png"
+            "standard": "weezing.png",
+            "galarian": "weezing-galarian.png"
         },
         "111": {
-            "standard": "rhyhorn.png"
+            "female": "rhyhorn-f.png",
+            "male": "rhyhorn.png"
         },
         "112": {
             "female": "rhydon-f.png",
-            "male": "rhydon.png",
-            "standard": "rhydon.png"
+            "male": "rhydon.png"
         },
         "113": {
             "standard": "chansey.png"
@@ -415,7 +417,8 @@
             "standard": "tangela.png"
         },
         "115": {
-            "standard": "kangaskhan.png"
+            "standard": "kangaskhan.png",
+            "mega": "kangaskhan-mega.png"
         },
         "116": {
             "standard": "horsea.png"
@@ -424,10 +427,12 @@
             "standard": "seadra.png"
         },
         "118": {
-            "standard": "goldeen.png"
+            "female": "goldeen-f.png",
+            "male": "goldeen.png"
         },
         "119": {
-            "standard": "seaking.png"
+            "female": "seaking-f.png",
+            "male": "seaking.png"
         },
         "120": {
             "standard": "staryu.png"
@@ -436,14 +441,12 @@
             "standard": "starmie.png"
         },
         "122": {
-            "galar": "mr-mime-galarian.png",
-            "kanto": "mr-mime.png",
-            "standard": "mr-mime.png"
+            "mr mime": "mr-mime.png",
+            "galarian": "mr-mime-galarian.png"
         },
         "123": {
             "female": "scyther-f.png",
-            "male": "scyther.png",
-            "standard": "scyther.png"
+            "male": "scyther.png"
         },
         "124": {
             "standard": "jynx.png"
@@ -455,35 +458,32 @@
             "standard": "magmar.png"
         },
         "127": {
-            "standard": "pinsir.png"
+            "standard": "pinsir.png",
+            "mega": "pinsir-mega.png"
         },
         "128": {
             "standard": "tauros.png"
         },
         "129": {
             "female": "magikarp-f.png",
-            "male": "magikarp.png",
-            "standard": "magikarp.png"
+            "male": "magikarp.png"
         },
         "130": {
-            "mega": "gyarados-mega.png",
-            "standard": "gyarados.png"
+            "female": "gyarados-f.png",
+            "male": "gyarados.png",
+            "mega": "gyarados-mega.png"
         },
         "131": {
-            "gmax": "lapras-gigantamax.png",
-            "standard": "lapras.png"
+            "standard": "lapras.png",
+            "gigantamax": "lapras-gigantamax.png"
         },
         "132": {
             "standard": "ditto.png"
         },
         "133": {
             "female": "eevee-f.png",
-            "gmax": "eevee-gigantamax.png",
             "male": "eevee.png",
-            "standard": "eevee.png",
-            "starter": "eevee.png",
-            "starterfemale": "eevee.png",
-            "startermale": "eevee.png"
+            "gigantamax": "eevee-gigantamax.png"
         },
         "134": {
             "standard": "vaporeon.png"
@@ -510,26 +510,24 @@
             "standard": "kabutops.png"
         },
         "142": {
-            "standard": "aerodactyl.png"
+            "standard": "aerodactyl.png",
+            "mega": "aerodactyl-mega.png"
         },
         "143": {
-            "gmax": "snorlax-gigantamax.png",
-            "standard": "snorlax.png"
+            "standard": "snorlax.png",
+            "gigantamax": "snorlax-gigantamax.png"
         },
         "144": {
-            "galar": "articuno-galarian.png",
-            "kanto": "articuno.png",
-            "standard": "articuno.png"
+            "standard": "articuno.png",
+            "galarian": "articuno-galarian.png"
         },
         "145": {
-            "galar": "zapdos-galarian.png",
-            "kanto": "zapdos.png",
-            "standard": "zapdos.png"
+            "standard": "zapdos.png",
+            "galarian": "zapdos-galarian.png"
         },
         "146": {
-            "galar": "moltres-galarian.png",
-            "kanto": "moltres.png",
-            "standard": "moltres.png"
+            "standard": "moltres.png",
+            "galarian": "moltres-galarian.png"
         },
         "147": {
             "standard": "dratini.png"
@@ -541,7 +539,9 @@
             "standard": "dragonite.png"
         },
         "150": {
-            "standard": "mewtwo.png"
+            "standard": "mewtwo.png",
+            "mega x": "mewtwo-mega-x.png",
+            "mega y": "mewtwo-mega-y.png"
         },
         "151": {
             "standard": "mew.png"
@@ -554,8 +554,7 @@
         },
         "154": {
             "female": "meganium-f.png",
-            "male": "meganium.png",
-            "standard": "meganium.png"
+            "male": "meganium.png"
         },
         "155": {
             "standard": "cyndaquil.png"
@@ -589,13 +588,11 @@
         },
         "165": {
             "female": "ledyba-f.png",
-            "male": "ledyba.png",
-            "standard": "ledyba.png"
+            "male": "ledyba.png"
         },
         "166": {
             "female": "ledian-f.png",
-            "male": "ledian.png",
-            "standard": "ledian.png"
+            "male": "ledian.png"
         },
         "167": {
             "standard": "spinarak.png"
@@ -632,8 +629,7 @@
         },
         "178": {
             "female": "xatu-f.png",
-            "male": "xatu.png",
-            "standard": "xatu.png"
+            "male": "xatu.png"
         },
         "179": {
             "standard": "mareep.png"
@@ -642,7 +638,8 @@
             "standard": "flaaffy.png"
         },
         "181": {
-            "standard": "ampharos.png"
+            "standard": "ampharos.png",
+            "mega": "ampharos-mega.png"
         },
         "182": {
             "standard": "bellossom.png"
@@ -655,13 +652,11 @@
         },
         "185": {
             "female": "sudowoodo-f.png",
-            "male": "sudowoodo.png",
-            "standard": "sudowoodo.png"
+            "male": "sudowoodo.png"
         },
         "186": {
             "female": "politoed-f.png",
-            "male": "politoed.png",
-            "standard": "politoed.png"
+            "male": "politoed.png"
         },
         "187": {
             "standard": "hoppip.png"
@@ -674,8 +669,7 @@
         },
         "190": {
             "female": "aipom-f.png",
-            "male": "aipom.png",
-            "standard": "aipom.png"
+            "male": "aipom.png"
         },
         "191": {
             "standard": "sunkern.png"
@@ -688,13 +682,11 @@
         },
         "194": {
             "female": "wooper-f.png",
-            "male": "wooper.png",
-            "standard": "wooper.png"
+            "male": "wooper.png"
         },
         "195": {
             "female": "quagsire-f.png",
-            "male": "quagsire.png",
-            "standard": "quagsire.png"
+            "male": "quagsire.png"
         },
         "196": {
             "standard": "espeon.png"
@@ -704,29 +696,51 @@
         },
         "198": {
             "female": "murkrow-f.png",
-            "male": "murkrow.png",
-            "standard": "murkrow.png"
+            "male": "murkrow.png"
         },
         "199": {
-            "galar": "slowking-galarian.png",
-            "johto": "slowking.png",
-            "standard": "slowking.png"
+            "standard": "slowking.png",
+            "galarian": "slowking-galarian.png"
         },
         "200": {
             "standard": "misdreavus.png"
         },
         "201": {
-            "standard": "unown.png"
+            "a": "unown-a.png",
+            "b": "unown-b.png",
+            "c": "unown-c.png",
+            "d": "unown-d.png",
+            "e": "unown-e.png",
+            "f": "unown-f.png",
+            "g": "unown-g.png",
+            "h": "unown-h.png",
+            "j": "unown-j.png",
+            "k": "unown-k.png",
+            "l": "unown-l.png",
+            "m": "unown-m.png",
+            "n": "unown-n.png",
+            "o": "unown-o.png",
+            "p": "unown-p.png",
+            "q": "unown-q.png",
+            "r": "unown-r.png",
+            "s": "unown-s.png",
+            "t": "unown-t.png",
+            "u": "unown-u.png",
+            "v": "unown-v.png",
+            "w": "unown-w.png",
+            "x": "unown-x.png",
+            "y": "unown-y.png",
+            "z": "unown-z.png",
+            "exclamation": "unown-em.png",
+            "question": "unown-qm.png"
         },
         "202": {
             "female": "wobbuffet-f.png",
-            "male": "wobbuffet.png",
-            "standard": "wobbuffet.png"
+            "male": "wobbuffet.png"
         },
         "203": {
             "female": "girafarig-f.png",
-            "male": "girafarig.png",
-            "standard": "girafarig.png"
+            "male": "girafarig.png"
         },
         "204": {
             "standard": "pineco.png"
@@ -739,11 +753,12 @@
         },
         "207": {
             "female": "gligar-f.png",
-            "male": "gligar.png",
-            "standard": "gligar.png"
+            "male": "gligar.png"
         },
         "208": {
-            "standard": "steelix.png"
+            "female": "steelix-f.png",
+            "male": "steelix.png",
+            "mega": "steelix-mega.png"
         },
         "209": {
             "standard": "snubbull.png"
@@ -757,7 +772,7 @@
         "212": {
             "female": "scizor-f.png",
             "male": "scizor.png",
-            "standard": "scizor.png"
+            "mega": "scizor-mega.png"
         },
         "213": {
             "standard": "shuckle.png"
@@ -765,20 +780,18 @@
         "214": {
             "female": "heracross-f.png",
             "male": "heracross.png",
-            "standard": "heracross.png"
+            "mega": "heracross-mega.png"
         },
         "215": {
             "female": "sneasel-f.png",
-            "male": "sneasel.png",
-            "standard": "sneasel.png"
+            "male": "sneasel.png"
         },
         "216": {
             "standard": "teddiursa.png"
         },
         "217": {
             "female": "ursaring-f.png",
-            "male": "ursaring.png",
-            "standard": "ursaring.png"
+            "male": "ursaring.png"
         },
         "218": {
             "standard": "slugma.png"
@@ -791,21 +804,18 @@
         },
         "221": {
             "female": "piloswine-f.png",
-            "male": "piloswine.png",
-            "standard": "piloswine.png"
+            "male": "piloswine.png"
         },
         "222": {
-            "galar": "corsola-galarian.png",
-            "johto": "corsola.png",
-            "standard": "corsola.png"
+            "standard": "corsola.png",
+            "galarian": "corsola-galarian.png"
         },
         "223": {
             "standard": "remoraid.png"
         },
         "224": {
             "female": "octillery-f.png",
-            "male": "octillery.png",
-            "standard": "octillery.png"
+            "male": "octillery.png"
         },
         "225": {
             "standard": "delibird.png"
@@ -822,8 +832,7 @@
         "229": {
             "female": "houndoom-f.png",
             "male": "houndoom.png",
-            "mega": "houndoom-mega.png",
-            "standard": "houndoom.png"
+            "mega": "houndoom-mega.png"
         },
         "230": {
             "standard": "kingdra.png"
@@ -833,8 +842,7 @@
         },
         "232": {
             "female": "donphan-f.png",
-            "male": "donphan.png",
-            "standard": "donphan.png"
+            "male": "donphan.png"
         },
         "233": {
             "standard": "porygon2.png"
@@ -882,7 +890,8 @@
             "standard": "pupitar.png"
         },
         "248": {
-            "standard": "tyranitar.png"
+            "standard": "tyranitar.png",
+            "mega": "tyranitar-mega.png"
         },
         "249": {
             "standard": "lugia.png"
@@ -900,22 +909,21 @@
             "standard": "grovyle.png"
         },
         "254": {
-            "standard": "sceptile.png"
+            "standard": "sceptile.png",
+            "mega": "sceptile-mega.png"
         },
         "255": {
             "female": "torchic-f.png",
-            "male": "torchic.png",
-            "standard": "torchic.png"
+            "male": "torchic.png"
         },
         "256": {
             "female": "combusken-f.png",
-            "male": "combusken.png",
-            "standard": "combusken.png"
+            "male": "combusken.png"
         },
         "257": {
             "female": "blaziken-f.png",
             "male": "blaziken.png",
-            "standard": "blaziken.png"
+            "mega": "blaziken-mega.png"
         },
         "258": {
             "standard": "mudkip.png"
@@ -924,7 +932,8 @@
             "standard": "marshtomp.png"
         },
         "260": {
-            "standard": "swampert.png"
+            "standard": "swampert.png",
+            "mega": "swampert-mega.png"
         },
         "261": {
             "standard": "poochyena.png"
@@ -933,14 +942,12 @@
             "standard": "mightyena.png"
         },
         "263": {
-            "galar": "zigzagoon-galarian.png",
-            "hoenn": "zigzagoon.png",
-            "standard": "zigzagoon.png"
+            "standard": "zigzagoon.png",
+            "galarian": "zigzagoon-galarian.png"
         },
         "264": {
-            "galar": "linoone-galarian.png",
-            "hoenn": "linoone.png",
-            "standard": "linoone.png"
+            "standard": "linoone.png",
+            "galarian": "linoone-galarian.png"
         },
         "265": {
             "standard": "wurmple.png"
@@ -950,16 +957,14 @@
         },
         "267": {
             "female": "beautifly-f.png",
-            "male": "beautifly.png",
-            "standard": "beautifly.png"
+            "male": "beautifly.png"
         },
         "268": {
             "standard": "cascoon.png"
         },
         "269": {
             "female": "dustox-f.png",
-            "male": "dustox.png",
-            "standard": "dustox.png"
+            "male": "dustox.png"
         },
         "270": {
             "standard": "lotad.png"
@@ -969,21 +974,18 @@
         },
         "272": {
             "female": "ludicolo-f.png",
-            "male": "ludicolo.png",
-            "standard": "ludicolo.png"
+            "male": "ludicolo.png"
         },
         "273": {
             "standard": "seedot.png"
         },
         "274": {
             "female": "nuzleaf-f.png",
-            "male": "nuzleaf.png",
-            "standard": "nuzleaf.png"
+            "male": "nuzleaf.png"
         },
         "275": {
             "female": "shiftry-f.png",
-            "male": "shiftry.png",
-            "standard": "shiftry.png"
+            "male": "shiftry.png"
         },
         "276": {
             "standard": "taillow.png"
@@ -1004,7 +1006,8 @@
             "standard": "kirlia.png"
         },
         "282": {
-            "standard": "gardevoir.png"
+            "standard": "gardevoir.png",
+            "mega": "gardevoir-mega.png"
         },
         "283": {
             "standard": "surskit.png"
@@ -1064,10 +1067,12 @@
             "standard": "delcatty.png"
         },
         "302": {
-            "standard": "sableye.png"
+            "standard": "sableye.png",
+            "mega": "sableye-mega.png"
         },
         "303": {
-            "standard": "mawile.png"
+            "standard": "mawile.png",
+            "mega": "mawile-mega.png"
         },
         "304": {
             "standard": "aron.png"
@@ -1076,23 +1081,24 @@
             "standard": "lairon.png"
         },
         "306": {
-            "standard": "aggron.png"
+            "standard": "aggron.png",
+            "mega": "aggron-mega.png"
         },
         "307": {
             "female": "meditite-f.png",
-            "male": "meditite.png",
-            "standard": "meditite.png"
+            "male": "meditite.png"
         },
         "308": {
             "female": "medicham-f.png",
             "male": "medicham.png",
-            "standard": "medicham.png"
+            "mega": "medicham-mega.png"
         },
         "309": {
             "standard": "electrike.png"
         },
         "310": {
-            "standard": "manectric.png"
+            "standard": "manectric.png",
+            "mega": "manectric-mega.png"
         },
         "311": {
             "standard": "plusle.png"
@@ -1108,24 +1114,22 @@
         },
         "315": {
             "female": "roselia-f.png",
-            "male": "roselia.png",
-            "standard": "roselia.png"
+            "male": "roselia.png"
         },
         "316": {
             "female": "gulpin-f.png",
-            "male": "gulpin.png",
-            "standard": "gulpin.png"
+            "male": "gulpin.png"
         },
         "317": {
             "female": "swalot-f.png",
-            "male": "swalot.png",
-            "standard": "swalot.png"
+            "male": "swalot.png"
         },
         "318": {
             "standard": "carvanha.png"
         },
         "319": {
-            "standard": "sharpedo.png"
+            "standard": "sharpedo.png",
+            "mega": "sharpedo-mega.png"
         },
         "320": {
             "standard": "wailmer.png"
@@ -1135,13 +1139,12 @@
         },
         "322": {
             "female": "numel-f.png",
-            "male": "numel.png",
-            "standard": "numel.png"
+            "male": "numel.png"
         },
         "323": {
             "female": "camerupt-f.png",
             "male": "camerupt.png",
-            "standard": "camerupt.png"
+            "mega": "camerupt-mega.png"
         },
         "324": {
             "standard": "torkoal.png"
@@ -1169,14 +1172,14 @@
         },
         "332": {
             "female": "cacturne-f.png",
-            "male": "cacturne.png",
-            "standard": "cacturne.png"
+            "male": "cacturne.png"
         },
         "333": {
             "standard": "swablu.png"
         },
         "334": {
-            "standard": "altaria.png"
+            "standard": "altaria.png",
+            "mega": "altaria-mega.png"
         },
         "335": {
             "standard": "zangoose.png"
@@ -1224,12 +1227,14 @@
             "standard": "feebas.png"
         },
         "350": {
-            "female": "milotic.png",
-            "male": "milotic.png",
-            "standard": "milotic.png"
+            "female": "milotic-f.png",
+            "male": "milotic.png"
         },
         "351": {
-            "standard": "castform.png"
+            "standard": "castform.png",
+            "rainy": "castform-rainy.png",
+            "snowy": "castform-snowy.png",
+            "sunny": "castform-sunny.png"
         },
         "352": {
             "standard": "kecleon.png"
@@ -1238,7 +1243,8 @@
             "standard": "shuppet.png"
         },
         "354": {
-            "standard": "banette.png"
+            "standard": "banette.png",
+            "mega": "banette-mega.png"
         },
         "355": {
             "standard": "duskull.png"
@@ -1253,7 +1259,8 @@
             "standard": "chimecho.png"
         },
         "359": {
-            "standard": "absol.png"
+            "standard": "absol.png",
+            "mega": "absol-mega.png"
         },
         "360": {
             "standard": "wynaut.png"
@@ -1262,7 +1269,8 @@
             "standard": "snorunt.png"
         },
         "362": {
-            "standard": "glalie.png"
+            "standard": "glalie.png",
+            "mega": "glalie-mega.png"
         },
         "363": {
             "standard": "spheal.png"
@@ -1284,8 +1292,7 @@
         },
         "369": {
             "female": "relicanth-f.png",
-            "male": "relicanth.png",
-            "standard": "relicanth.png"
+            "male": "relicanth.png"
         },
         "370": {
             "standard": "luvdisc.png"
@@ -1297,7 +1304,8 @@
             "standard": "shelgon.png"
         },
         "373": {
-            "standard": "salamence.png"
+            "standard": "salamence.png",
+            "mega": "salamence-mega.png"
         },
         "374": {
             "standard": "beldum.png"
@@ -1306,7 +1314,8 @@
             "standard": "metang.png"
         },
         "376": {
-            "standard": "metagross.png"
+            "standard": "metagross.png",
+            "mega": "metagross-mega.png"
         },
         "377": {
             "standard": "regirock.png"
@@ -1318,33 +1327,33 @@
             "standard": "registeel.png"
         },
         "380": {
-            "mega": "latias-mega.png",
-            "standard": "latias.png"
+            "standard": "latias.png",
+            "mega": "latias-mega.png"
         },
         "381": {
-            "mega": "latios-mega.png",
-            "standard": "latios.png"
+            "standard": "latios.png",
+            "mega": "latios-mega.png"
         },
         "382": {
-            "primal": "kyogre-primal.png",
-            "standard": "kyogre.png"
+            "standard": "kyogre.png",
+            "primal": "kyogre-primal.png"
         },
         "383": {
-            "primal": "groudon-primal.png",
-            "standard": "groudon.png"
+            "standard": "groudon.png",
+            "primal": "groudon-primal.png"
         },
         "384": {
-            "mega": "rayquaza-mega.png",
-            "standard": "rayquaza.png"
+            "standard": "rayquaza.png",
+            "mega": "rayquaza-mega.png"
         },
         "385": {
             "standard": "jirachi.png"
         },
         "386": {
+            "normal": "deoxys-normal.png",
             "attack": "deoxys-attack.png",
-            "defense": "deoxys-defense.png",
-            "speed": "deoxys-speed.png",
-            "standard": "deoxys.png"
+            "female": "deoxys-defense.png",
+            "speed": "deoxys-speed.png"
         },
         "387": {
             "standard": "turtwig.png"
@@ -1375,57 +1384,50 @@
         },
         "396": {
             "female": "starly-f.png",
-            "male": "starly.png",
-            "standard": "starly.png"
+            "male": "starly.png"
         },
         "397": {
             "female": "staravia-f.png",
-            "male": "staravia.png",
-            "standard": "staravia.png"
+            "male": "staravia.png"
         },
         "398": {
             "female": "staraptor-f.png",
-            "male": "staraptor.png",
-            "standard": "staraptor.png"
+            "male": "staraptor.png"
         },
         "399": {
             "female": "bidoof-f.png",
-            "male": "bidoof.png",
-            "standard": "bidoof.png"
+            "male": "bidoof.png"
         },
         "400": {
             "female": "bibarel-f.png",
-            "male": "bibarel.png",
-            "standard": "bibarel.png"
+            "male": "bibarel.png"
         },
         "401": {
             "female": "kricketot-f.png",
-            "male": "kricketot.png",
-            "standard": "kricketot.png"
+            "male": "kricketot.png"
         },
         "402": {
             "female": "kricketune-f.png",
-            "male": "kricketune.png",
-            "standard": "kricketune.png"
+            "male": "kricketune.png"
         },
         "403": {
-            "standard": "shinx.png"
+            "female": "shinx-f.png",
+            "male": "shinx.png"
         },
         "404": {
             "female": "luxio-f.png",
-            "male": "luxio.png",
-            "standard": "luxio.png"
+            "male": "luxio.png"
         },
         "405": {
             "female": "luxray-f.png",
-            "male": "luxray.png",
-            "standard": "luxray.png"
+            "male": "luxray.png"
         },
         "406": {
             "standard": "budew.png"
         },
         "407": {
-            "standard": "roserade.png"
+            "female": "roserade-f.png",
+            "male": "roserade.png"
         },
         "408": {
             "standard": "cranidos.png"
@@ -1440,15 +1442,13 @@
             "standard": "bastiodon.png"
         },
         "412": {
-            "plant": "burmy.png",
+            "plant": "burmy-plant.png",
             "sandy": "burmy-sandy.png",
-            "standard": "burmy.png",
             "trash": "burmy-trash.png"
         },
         "413": {
-            "plant": "wormadam.png",
+            "plant": "wormadam-plant.png",
             "sandy": "wormadam-sandy.png",
-            "standard": "wormadam.png",
             "trash": "wormadam-trash.png"
         },
         "414": {
@@ -1456,43 +1456,41 @@
         },
         "415": {
             "female": "combee-f.png",
-            "male": "combee.png",
-            "standard": "combee.png"
+            "male": "combee.png"
         },
         "416": {
             "standard": "vespiquen.png"
         },
         "417": {
             "female": "pachirisu-f.png",
-            "male": "pachirisu.png",
-            "standard": "pachirisu.png"
+            "male": "pachirisu.png"
         },
         "418": {
             "female": "buizel-f.png",
-            "male": "buizel.png",
-            "standard": "buizel.png"
+            "male": "buizel.png"
         },
         "419": {
             "female": "floatzel-f.png",
-            "male": "floatzel.png",
-            "standard": "floatzel.png"
+            "male": "floatzel.png"
         },
         "420": {
             "standard": "cherubi.png"
         },
         "421": {
-            "standard": "cherrim.png"
+            "overcast": "cherrim-overcast.png",
+            "sunshine": "cherrim-sunshine.png"
         },
         "422": {
-            "standard": "shellos.png"
+            "west": "shellos-west.png",
+            "east": "shellos-east.png"
         },
         "423": {
-            "standard": "gastrodon.png"
+            "west": "gastrodon-west.png",
+            "east": "gastrodon-east.png"
         },
         "424": {
             "female": "ambipom-f.png",
-            "male": "ambipom.png",
-            "standard": "ambipom.png"
+            "male": "ambipom.png"
         },
         "425": {
             "standard": "drifloon.png"
@@ -1504,7 +1502,8 @@
             "standard": "buneary.png"
         },
         "428": {
-            "standard": "lopunny.png"
+            "standard": "lopunny.png",
+            "mega": "lopunny-mega.png"
         },
         "429": {
             "standard": "mismagius.png"
@@ -1537,7 +1536,7 @@
             "standard": "bonsly.png"
         },
         "439": {
-            "standard": "mime-jr.png"
+            "mime jr": "mime-jr.png"
         },
         "440": {
             "standard": "happiny.png"
@@ -1550,18 +1549,16 @@
         },
         "443": {
             "female": "gible-f.png",
-            "male": "gible.png",
-            "standard": "gible.png"
+            "male": "gible.png"
         },
         "444": {
-            "female": "gabite.png",
-            "male": "gabite-f.png",
-            "standard": "gabite.png"
+            "female": "gabite-f.png",
+            "male": "gabite.png"
         },
         "445": {
             "female": "garchomp-f.png",
             "male": "garchomp.png",
-            "standard": "garchomp.png"
+            "mega": "garchomp-mega.png"
         },
         "446": {
             "standard": "munchlax.png"
@@ -1570,15 +1567,16 @@
             "standard": "riolu.png"
         },
         "448": {
-            "standard": "lucario.png"
+            "standard": "lucario.png",
+            "mega": "lucario-mega.png"
         },
         "449": {
-            "standard": "hippopotas.png"
+            "female": "hippopotas-f.png",
+            "male": "hippopotas.png"
         },
         "450": {
-            "standard": "hippowdon.png",
-            "male": "hippowdon.png",
-            "female": "hippowdon-f.png"
+            "female": "hippowdon-f.png",
+            "male": "hippowdon.png"
         },
         "451": {
             "standard": "skorupi.png"
@@ -1588,44 +1586,38 @@
         },
         "453": {
             "female": "croagunk-f.png",
-            "male": "croagunk.png",
-            "standard": "croagunk.png"
+            "male": "croagunk.png"
         },
         "454": {
             "female": "toxicroak-f.png",
-            "male": "toxicroak.png",
-            "standard": "toxicroak.png"
+            "male": "toxicroak.png"
         },
         "455": {
             "standard": "carnivine.png"
         },
         "456": {
             "female": "finneon-f.png",
-            "male": "finneon.png",
-            "standard": "finneon.png"
+            "male": "finneon.png"
         },
         "457": {
             "female": "lumineon-f.png",
-            "male": "lumineon.png",
-            "standard": "lumineon.png"
+            "male": "lumineon.png"
         },
         "458": {
             "standard": "mantyke.png"
         },
         "459": {
             "female": "snover-f.png",
-            "male": "snover.png",
-            "standard": "snover.png"
+            "male": "snover.png"
         },
         "460": {
             "female": "abomasnow-f.png",
             "male": "abomasnow.png",
-            "standard": "abomasnow.png"
+            "mega": "abomasnow-mega.png"
         },
         "461": {
             "female": "weavile-f.png",
-            "male": "weavile.png",
-            "standard": "weavile.png"
+            "male": "weavile.png"
         },
         "462": {
             "standard": "magnezone.png"
@@ -1635,13 +1627,11 @@
         },
         "464": {
             "female": "rhyperior-f.png",
-            "male": "rhyperior.png",
-            "standard": "rhyperior.png"
+            "male": "rhyperior.png"
         },
         "465": {
             "female": "tangrowth-f.png",
-            "male": "tangrowth.png",
-            "standard": "tangrowth.png"
+            "male": "tangrowth.png"
         },
         "466": {
             "standard": "electivire.png"
@@ -1666,14 +1656,14 @@
         },
         "473": {
             "female": "mamoswine-f.png",
-            "male": "mamoswine.png",
-            "standard": "mamoswine.png"
+            "male": "mamoswine.png"
         },
         "474": {
-            "standard": "porygon-z.png"
+            "porygon z": "porygon-z.png"
         },
         "475": {
-            "standard": "gallade.png"
+            "standard": "gallade.png",
+            "mega": "gallade-mega.png"
         },
         "476": {
             "standard": "probopass.png"
@@ -1685,7 +1675,11 @@
             "standard": "froslass.png"
         },
         "479": {
-            "standard": "rotom.png"
+            "standard": "rotom.png",
+            "female": "rotom-frost.png",
+            "heat": "rotom-heat.png",
+            "mow": "rotom-mow.png",
+            "wash": "rotom-wash.png"
         },
         "480": {
             "standard": "uxie.png"
@@ -1709,7 +1703,8 @@
             "standard": "regigigas.png"
         },
         "487": {
-            "standard": "giratina.png"
+            "altered": "giratina-altered.png",
+            "origin": "giratina-origin.png"
         },
         "488": {
             "standard": "cresselia.png"
@@ -1724,11 +1719,25 @@
             "standard": "darkrai.png"
         },
         "492": {
-            "sky": "shaymin-sky.png",
-            "standard": "shaymin.png"
+            "land": "shaymin-land.png",
+            "sky": "shaymin-sky.png"
         },
         "493": {
-            "standard": "arceus.png"
+            "normal": "arceus-normal.png",
+            "bug": "arceus-bug.png",
+            "dark": "arceus-dark.png",
+            "dragon": "arceus-dragon.png",
+            "electric": "arceus-electric.png",
+            "female": "arceus-flying.png",
+            "ghost": "arceus-ghost.png",
+            "grass": "arceus-grass.png",
+            "ground": "arceus-ground.png",
+            "ice": "arceus-ice.png",
+            "poison": "arceus-poison.png",
+            "psychic": "arceus-psychic.png",
+            "rock": "arceus-rock.png",
+            "steel": "arceus-steel.png",
+            "water": "arceus-water.png"
         },
         "494": {
             "standard": "victini.png"
@@ -1813,8 +1822,7 @@
         },
         "521": {
             "female": "unfezant-f.png",
-            "male": "unfezant.png",
-            "standard": "unfezant.png"
+            "male": "unfezant.png"
         },
         "522": {
             "standard": "blitzle.png"
@@ -1844,7 +1852,8 @@
             "standard": "excadrill.png"
         },
         "531": {
-            "standard": "audino.png"
+            "standard": "audino.png",
+            "mega": "audino-mega.png"
         },
         "532": {
             "standard": "timburr.png"
@@ -1901,7 +1910,8 @@
             "standard": "lilligant.png"
         },
         "550": {
-            "standard": "basculin.png"
+            "red striped": "basculin-red-striped.png",
+            "blue striped": "basculin-blue-striped.png"
         },
         "551": {
             "standard": "sandile.png"
@@ -1913,16 +1923,14 @@
             "standard": "krookodile.png"
         },
         "554": {
-            "galar": "darumaka-galarian.png",
-            "sinnoh": "darumaka.png",
-            "standard": "darumaka.png"
+            "standard": "darumaka.png",
+            "galarian": "darumaka-galarian.png"
         },
         "555": {
-            "galar": "darmanitan-galarian-standard.png",
-            "galarzen": "darmanitan-galarian-zen.png",
-            "sinnoh": "darmanitan-standard.png",
-            "sinnohzen": "darmanitan-zen.png",
-            "standard": "darmanitan-standard.png"
+            "standard": "darmanitan-standard.png",
+            "zen": "darmanitan-zen.png",
+            "galarian standard": "darmanitan-galarian-standard.png",
+            "galarian zen": "darmanitan-galarian-zen.png"
         },
         "556": {
             "standard": "maractus.png"
@@ -1943,9 +1951,8 @@
             "standard": "sigilyph.png"
         },
         "562": {
-            "galar": "yamask-galarian.png",
             "standard": "yamask.png",
-            "unova": "yamask.png"
+            "galarian": "yamask-galarian.png"
         },
         "563": {
             "standard": "cofagrigus.png"
@@ -1966,8 +1973,8 @@
             "standard": "trubbish.png"
         },
         "569": {
-            "gmax": "garbodor-gigantamax.png",
-            "standard": "garbodor.png"
+            "standard": "garbodor.png",
+            "gigantamax": "garbodor-gigantamax.png"
         },
         "570": {
             "standard": "zorua.png"
@@ -2015,10 +2022,16 @@
             "standard": "vanilluxe.png"
         },
         "585": {
-            "standard": "deerling.png"
+            "spring": "deerling-spring.png",
+            "autumn": "deerling-autumn.png",
+            "summer": "deerling-summer.png",
+            "winter": "deerling-winter.png"
         },
         "586": {
-            "standard": "sawsbuck.png"
+            "spring": "sawsbuck-spring.png",
+            "autumn": "sawsbuck-autumn.png",
+            "summer": "sawsbuck-summer.png",
+            "winter": "sawsbuck-winter.png"
         },
         "587": {
             "standard": "emolga.png"
@@ -2037,13 +2050,11 @@
         },
         "592": {
             "female": "frillish-f.png",
-            "male": "frillish.png",
-            "standard": "frillish.png"
+            "male": "frillish.png"
         },
         "593": {
             "female": "jellicent-f.png",
-            "male": "jellicent.png",
-            "standard": "jellicent.png"
+            "male": "jellicent.png"
         },
         "594": {
             "standard": "alomomola.png"
@@ -2118,9 +2129,8 @@
             "standard": "accelgor.png"
         },
         "618": {
-            "galar": "stunfisk-galarian.png",
             "standard": "stunfisk.png",
-            "unova": "stunfisk.png"
+            "galarian": "stunfisk-galarian.png"
         },
         "619": {
             "standard": "mienfoo.png"
@@ -2189,10 +2199,12 @@
             "standard": "virizion.png"
         },
         "641": {
-            "standard": "tornadus.png"
+            "incarnate": "tornadus-incarnate.png",
+            "therian": "tornadus-therian.png"
         },
         "642": {
-            "standard": "thundurus.png"
+            "incarnate": "thundurus-incarnate.png",
+            "therian": "thundurus-therian.png"
         },
         "643": {
             "standard": "reshiram.png"
@@ -2201,19 +2213,28 @@
             "standard": "zekrom.png"
         },
         "645": {
-            "standard": "landorus.png"
+            "incarnate": "landorus-incarnate.png",
+            "therian": "landorus-therian.png"
         },
         "646": {
-            "standard": "kyurem.png"
+            "standard": "kyurem.png",
+            "black": "kyurem-black.png",
+            "white": "kyurem-white.png"
         },
         "647": {
-            "standard": "keldeo.png"
+            "ordinary": "keldeo-ordinary.png",
+            "resolute": "keldeo-resolute.png"
         },
         "648": {
-            "standard": "meloetta.png"
+            "aria": "meloetta-aria.png",
+            "pirouette": "meloetta-pirouette.png"
         },
         "649": {
-            "standard": "genesect.png"
+            "standard": "genesect.png",
+            "burn": "genesect-burn.png",
+            "chill": "genesect-chill.png",
+            "douse": "genesect-douse.png",
+            "shock": "genesect-shock.png"
         },
         "650": {
             "standard": "chespin.png"
@@ -2240,7 +2261,8 @@
             "standard": "frogadier.png"
         },
         "658": {
-            "standard": "greninja.png"
+            "standard": "greninja.png",
+            "ash": "greninja-ash.png"
         },
         "659": {
             "standard": "bunnelby.png"
@@ -2264,24 +2286,54 @@
             "standard": "spewpa.png"
         },
         "666": {
-            "standard": "vivillon.png"
+            "meadow": "vivillon-meadow.png",
+            "archipelago": "vivillon-archipelago.png",
+            "continental": "vivillon-continental.png",
+            "elegant": "vivillon-elegant.png",
+            "female": "vivillon-fancy.png",
+            "garden": "vivillon-garden.png",
+            "high plains": "vivillon-high-plains.png",
+            "icy snow": "vivillon-icy-snow.png",
+            "jungle": "vivillon-jungle.png",
+            "marine": "vivillon-marine.png",
+            "modern": "vivillon-modern.png",
+            "monsoon": "vivillon-monsoon.png",
+            "ocean": "vivillon-ocean.png",
+            "poke ball": "vivillon-poke-ball.png",
+            "polar": "vivillon-polar.png",
+            "river": "vivillon-river.png",
+            "sandstorm": "vivillon-sandstorm.png",
+            "savanna": "vivillon-savanna.png",
+            "sun": "vivillon-sun.png",
+            "tundra": "vivillon-tundra.png"
         },
         "667": {
             "standard": "litleo.png"
         },
         "668": {
             "female": "pyroar-f.png",
-            "male": "pyroar.png",
-            "standard": "pyroar.png"
+            "male": "pyroar.png"
         },
         "669": {
-            "standard": "flabebe.png"
+            "red": "flabebe-red.png",
+            "blue": "flabebe-blue.png",
+            "orange": "flabebe-orange.png",
+            "white": "flabebe-white.png",
+            "yellow": "flabebe-yellow.png"
         },
         "670": {
-            "standard": "floette.png"
+            "red": "floette-red.png",
+            "blue": "floette-blue.png",
+            "orange": "floette-orange.png",
+            "white": "floette-white.png",
+            "yellow": "floette-yellow.png"
         },
         "671": {
-            "standard": "florges.png"
+            "red": "florges-red.png",
+            "blue": "florges-blue.png",
+            "orange": "florges-orange.png",
+            "white": "florges-white.png",
+            "yellow": "florges-yellow.png"
         },
         "672": {
             "standard": "skiddo.png"
@@ -2296,15 +2348,23 @@
             "standard": "pangoro.png"
         },
         "676": {
-            "standard": "furfrou.png"
+            "natural": "furfrou-natural.png",
+            "dandy": "furfrou-dandy.png",
+            "debutante": "furfrou-debutante.png",
+            "diamond": "furfrou-diamond.png",
+            "heart": "furfrou-heart.png",
+            "kabuki": "furfrou-kabuki.png",
+            "la reine": "furfrou-la-reine.png",
+            "matron": "furfrou-matron.png",
+            "pharaoh": "furfrou-pharaoh.png",
+            "star": "furfrou-star.png"
         },
         "677": {
             "standard": "espurr.png"
         },
         "678": {
-            "female": "meowstic-female.png",
             "male": "meowstic-male.png",
-            "standard": "meowstic-male.png"
+            "female": "meowstic-female.png"
         },
         "679": {
             "standard": "honedge.png"
@@ -2313,7 +2373,8 @@
             "standard": "doublade.png"
         },
         "681": {
-            "standard": "aegislash.png"
+            "shield": "aegislash-shield.png",
+            "blade": "aegislash-blade.png"
         },
         "682": {
             "standard": "spritzee.png"
@@ -2400,10 +2461,16 @@
             "standard": "trevenant.png"
         },
         "710": {
-            "standard": "pumpkaboo.png"
+            "average": "pumpkaboo-average.png",
+            "large": "pumpkaboo-large.png",
+            "small": "pumpkaboo-small.png",
+            "super": "pumpkaboo-super.png"
         },
         "711": {
-            "standard": "gourgeist.png"
+            "average": "gourgeist-average.png",
+            "large": "gourgeist-large.png",
+            "small": "gourgeist-small.png",
+            "super": "gourgeist-super.png"
         },
         "712": {
             "standard": "bergmite.png"
@@ -2419,25 +2486,23 @@
         },
         "716": {
             "active": "xerneas-active.png",
-            "neutral": "xerneas.png",
-            "standard": "xerneas-active.png"
+            "standard": "xerneas.png"
         },
         "717": {
             "standard": "yveltal.png"
         },
         "718": {
-            "10": "zygarde-10.png",
             "50": "zygarde-50.png",
-            "complete": "zygarde-complete.png",
-            "standard": "zygarde-50.png"
+            "10": "zygarde-10.png",
+            "complete": "zygarde-complete.png"
         },
         "719": {
-            "mega": "diancie-mega.png",
-            "standard": "diancie.png"
+            "standard": "diancie.png",
+            "mega": "diancie-mega.png"
         },
         "720": {
-            "unbound": "hoopa-unbound.png",
-            "standard": "hoopa.png"
+            "female": "hoopa-confined.png",
+            "unbound": "hoopa-unbound.png"
         },
         "721": {
             "standard": "volcanion.png"
@@ -2469,6 +2534,21 @@
         "730": {
             "standard": "primarina.png"
         },
+        "731": {
+            "standard": "pikipek.png"
+        },
+        "732": {
+            "standard": "trumbeak.png"
+        },
+        "733": {
+            "standard": "toucannon.png"
+        },
+        "734": {
+            "standard": "yungoos.png"
+        },
+        "735": {
+            "standard": "gumshoos.png"
+        },
         "736": {
             "standard": "grubbin.png"
         },
@@ -2477,6 +2557,18 @@
         },
         "738": {
             "standard": "vikavolt.png"
+        },
+        "739": {
+            "standard": "crabrawler.png"
+        },
+        "740": {
+            "standard": "crabominable.png"
+        },
+        "741": {
+            "baile": "oricorio-baile.png",
+            "pau": "oricorio-pau.png",
+            "pom pom": "oricorio-pom-pom.png",
+            "sensu": "oricorio-sensu.png"
         },
         "742": {
             "standard": "cutiefly.png"
@@ -2488,12 +2580,13 @@
             "standard": "rockruff.png"
         },
         "745": {
-            "standard": "lycanroc.png"
+            "midday": "lycanroc-midday.png",
+            "dusk": "lycanroc-dusk.png",
+            "midnight": "lycanroc-midnight.png"
         },
         "746": {
-            "school": "wishiwashi-school.png",
             "solo": "wishiwashi-solo.png",
-            "standard": "wishiwashi-solo.png"
+            "school": "wishiwashi-school.png"
         },
         "747": {
             "standard": "mareanie.png"
@@ -2571,28 +2664,37 @@
             "standard": "pyukumuku.png"
         },
         "772": {
-            "standard": "type-null.png"
+            "type null": "type-null.png"
         },
         "773": {
+            "normal": "silvally-normal.png",
             "bug": "silvally-bug.png",
             "dark": "silvally-dark.png",
             "dragon": "silvally-dragon.png",
             "electric": "silvally-electric.png",
-            "fairy": "silvally-fairy.png",
-            "fighting": "silvally-fighting.png",
-            "fire": "silvally-fire.png",
-            "flying": "silvally-flying.png",
+            "female": "silvally-flying.png",
             "ghost": "silvally-ghost.png",
             "grass": "silvally-grass.png",
             "ground": "silvally-ground.png",
             "ice": "silvally-ice.png",
-            "normal": "silvally-normal.png",
             "poison": "silvally-poison.png",
             "psychic": "silvally-psychic.png",
             "rock": "silvally-rock.png",
-            "standard": "silvally-normal.png",
             "steel": "silvally-steel.png",
             "water": "silvally-water.png"
+        },
+        "774": {
+            "meteor": "minior-meteor.png",
+            "blue core": "minior-blue-core.png",
+            "green core": "minior-green-core.png",
+            "indigo core": "minior-indigo-core.png",
+            "orange core": "minior-orange-core.png",
+            "red core": "minior-red-core.png",
+            "violet core": "minior-violet-core.png",
+            "yellow core": "minior-yellow-core.png"
+        },
+        "775": {
+            "standard": "komala.png"
         },
         "776": {
             "standard": "turtonator.png"
@@ -2601,7 +2703,11 @@
             "standard": "togedemaru.png"
         },
         "778": {
-            "standard": "mimikyu.png"
+            "standard": "mimikyu.png",
+            "busted": "mimikyu-busted.png"
+        },
+        "779": {
+            "standard": "bruxish.png"
         },
         "780": {
             "standard": "drampa.png"
@@ -2610,25 +2716,25 @@
             "standard": "dhelmise.png"
         },
         "782": {
-            "standard": "jangmo-o.png"
+            "jangmo o": "jangmo-o.png"
         },
         "783": {
-            "standard": "hakamo-o.png"
+            "hakamo o": "hakamo-o.png"
         },
         "784": {
-            "standard": "kommo-o.png"
+            "kommo o": "kommo-o.png"
         },
         "785": {
-            "standard": "tapu-koko.png"
+            "tapu koko": "tapu-koko.png"
         },
         "786": {
-            "standard": "tapu-lele.png"
+            "tapu lele": "tapu-lele.png"
         },
         "787": {
-            "standard": "tapu-bulu.png"
+            "tapu bulu": "tapu-bulu.png"
         },
         "788": {
-            "standard": "tapu-fini.png"
+            "female": "tapu-fini.png"
         },
         "789": {
             "standard": "cosmog.png"
@@ -2664,17 +2770,14 @@
             "standard": "guzzlord.png"
         },
         "800": {
-            "dawnwings": "necrozma-dawn-wings.png",
-            "dawn": "necrozma-dawn-wings.png",
-            "dusk": "necrozma-dusk-mane.png",
-            "duskmane": "necrozma-dusk-mane.png",
             "standard": "necrozma.png",
+            "dawn wings": "necrozma-dawn-wings.png",
+            "dusk mane": "necrozma-dusk-mane.png",
             "ultra": "necrozma-ultra.png"
         },
         "801": {
-            "original": "magearna-original.png",
-            "pokeball": "magearna-original.png",
-            "standard": "magearna.png"
+            "standard": "magearna.png",
+            "original": "magearna-original.png"
         },
         "802": {
             "standard": "marshadow.png"
@@ -2698,8 +2801,8 @@
             "standard": "meltan.png"
         },
         "809": {
-            "gmax": "melmetal-gigantamax.png",
-            "standard": "melmetal.png"
+            "standard": "melmetal.png",
+            "gigantamax": "melmetal-gigantamax.png"
         },
         "810": {
             "standard": "grookey.png"
@@ -2708,8 +2811,8 @@
             "standard": "thwackey.png"
         },
         "812": {
-            "gmax": "rillaboom-gigantamax.png",
-            "standard": "rillaboom.png"
+            "standard": "rillaboom.png",
+            "gigantamax": "rillaboom-gigantamax.png"
         },
         "813": {
             "standard": "scorbunny.png"
@@ -2718,8 +2821,8 @@
             "standard": "raboot.png"
         },
         "815": {
-            "gmax": "cinderace-gigantamax.png",
-            "standard": "cinderace.png"
+            "standard": "cinderace.png",
+            "gigantamax": "cinderace-gigantamax.png"
         },
         "816": {
             "standard": "sobble.png"
@@ -2728,8 +2831,8 @@
             "standard": "drizzile.png"
         },
         "818": {
-            "gmax": "inteleon-gigantamax.png",
-            "standard": "inteleon.png"
+            "standard": "inteleon.png",
+            "gigantamax": "inteleon-gigantamax.png"
         },
         "819": {
             "standard": "skwovet.png"
@@ -2744,8 +2847,8 @@
             "standard": "corvisquire.png"
         },
         "823": {
-            "gmax": "corviknight-gigantamax.png",
-            "standard": "corviknight.png"
+            "standard": "corviknight.png",
+            "gigantamax": "corviknight-gigantamax.png"
         },
         "824": {
             "standard": "blipbug.png"
@@ -2754,8 +2857,8 @@
             "standard": "dottler.png"
         },
         "826": {
-            "gmax": "orbeetle-gigantamax.png",
-            "standard": "orbeetle.png"
+            "standard": "orbeetle.png",
+            "gigantamax": "orbeetle-gigantamax.png"
         },
         "827": {
             "standard": "nickit.png"
@@ -2779,8 +2882,8 @@
             "standard": "chewtle.png"
         },
         "834": {
-            "gmax": "drednaw-gigantamax.png",
-            "standard": "drednaw.png"
+            "standard": "drednaw.png",
+            "gigantamax": "drednaw-gigantamax.png"
         },
         "835": {
             "standard": "yamper.png"
@@ -2795,29 +2898,31 @@
             "standard": "carkol.png"
         },
         "839": {
-            "gmax": "coalossal-gigantamax.png",
-            "standard": "coalossal.png"
+            "standard": "coalossal.png",
+            "gigantamax": "coalossal-gigantamax.png"
         },
         "840": {
             "standard": "applin.png"
         },
         "841": {
-            "gmax": "flapple-gigantamax.png",
-            "standard": "flapple.png"
+            "standard": "flapple.png",
+            "gigantamax": "flapple-gigantamax.png"
         },
         "842": {
-            "gmax": "appletun-gigantamax.png",
-            "standard": "appletun.png"
+            "standard": "appletun.png",
+            "gigantamax": "appletun-gigantamax.png"
         },
         "843": {
             "standard": "silicobra.png"
         },
         "844": {
-            "gmax": "sandaconda-gigantamax.png",
-            "standard": "sandaconda.png"
+            "standard": "sandaconda.png",
+            "gigantamax": "sandaconda-gigantamax.png"
         },
         "845": {
-            "standard": "cramorant.png"
+            "standard": "cramorant.png",
+            "gulping": "cramorant-gulping.png",
+            "gorging": "cramorant-gorging.png"
         },
         "846": {
             "standard": "arrokuda.png"
@@ -2830,16 +2935,15 @@
         },
         "849": {
             "amped": "toxtricity-amped.png",
-            "gmax": "toxtricity-gigantamax.png",
-            "lowkey": "toxtricity-low-key.png",
-            "standard": "toxtricity-amped.png"
+            "low key": "toxtricity-low-key.png",
+            "gigantamax": "toxtricity-gigantamax.png"
         },
         "850": {
             "standard": "sizzlipede.png"
         },
         "851": {
-            "gmax": "centiskorch-gigantamax.png",
-            "standard": "centiskorch.png"
+            "standard": "centiskorch.png",
+            "gigantamax": "centiskorch-gigantamax.png"
         },
         "852": {
             "standard": "clobbopus.png"
@@ -2848,13 +2952,9 @@
             "standard": "grapploct.png"
         },
         "854": {
-            "authentic": "sinistea.png",
-            "phony": "sinistea.png",
             "standard": "sinistea.png"
         },
         "855": {
-            "authentic": "polteageist.png",
-            "phony": "polteageist.png",
             "standard": "polteageist.png"
         },
         "856": {
@@ -2864,8 +2964,8 @@
             "standard": "hattrem.png"
         },
         "858": {
-            "gmax": "hatterene-gigantamax.png",
-            "standard": "hatterene.png"
+            "standard": "hatterene.png",
+            "gigantamax": "hatterene-gigantamax.png"
         },
         "859": {
             "standard": "impidimp.png"
@@ -2874,8 +2974,8 @@
             "standard": "morgrem.png"
         },
         "861": {
-            "gmax": "grimmsnarl-gigantamax.png",
-            "standard": "grimmsnarl.png"
+            "standard": "grimmsnarl.png",
+            "gigantamax": "grimmsnarl-gigantamax.png"
         },
         "862": {
             "standard": "obstagoon.png"
@@ -2890,7 +2990,7 @@
             "standard": "sirfetchd.png"
         },
         "866": {
-            "standard": "mr-rime.png"
+            "mr rime": "mr-rime.png"
         },
         "867": {
             "standard": "runerigus.png"
@@ -2899,71 +2999,62 @@
             "standard": "milcery.png"
         },
         "869": {
-            "caramel-swirl-berry": "alcremie-caramel-swirl-berry.png",
-            "caramel-swirl-clover": "alcremie-caramel-swirl-clover.png",
-            "caramel-swirl-flower": "alcremie-caramel-swirl-flower.png",
-            "caramel-swirl-love": "alcremie-caramel-swirl-love.png",
-            "caramel-swirl-ribbon": "alcremie-caramel-swirl-ribbon.png",
-            "caramel-swirl-star": "alcremie-caramel-swirl-star.png",
-            "caramel-swirl-strawberry": "alcremie-caramel-swirl-strawberry.png",
-            "gmax": "alcremie-gigantamax.png",
-            "lemon-cream-berry": "alcremie-lemon-cream-berry.png",
-            "lemon-cream-clover": "alcremie-lemon-cream-clover.png",
-            "lemon-cream-flower": "alcremie-lemon-cream-flower.png",
-            "lemon-cream-love": "alcremie-lemon-cream-love.png",
-            "lemon-cream-ribbon": "alcremie-lemon-cream-ribbon.png",
-            "lemon-cream-star": "alcremie-lemon-cream-star.png",
-            "lemon-cream-strawberry": "alcremie-lemon-cream-strawberry.png",
-            "matcha-cream-berry": "alcremie-matcha-cream-berry.png",
-            "matcha-cream-clover": "alcremie-matcha-cream-clover.png",
-            "matcha-cream-flower": "alcremie-matcha-cream-flower.png",
-            "matcha-cream-love": "alcremie-matcha-cream-love.png",
-            "matcha-cream-ribbon": "alcremie-matcha-cream-ribbon.png",
-            "matcha-cream-star": "alcremie-matcha-cream-star.png",
-            "matcha-cream-strawberry": "alcremie-matcha-cream-strawberry.png",
-            "mint-cream-berry": "alcremie-mint-cream-berry.png",
-            "mint-cream-clover": "alcremie-mint-cream-clover.png",
-            "mint-cream-flower": "alcremie-mint-cream-flower.png",
-            "mint-cream-love": "alcremie-mint-cream-love.png",
-            "mint-cream-ribbon": "alcremie-mint-cream-ribbon.png",
-            "mint-cream-star": "alcremie-mint-cream-star.png",
-            "mint-cream-strawberry": "alcremie-mint-cream-strawberry.png",
-            "rainbow-swirl-berry": "alcremie-rainbow-swirl-berry.png",
-            "rainbow-swirl-clover": "alcremie-rainbow-swirl-clover.png",
-            "rainbow-swirl-flower": "alcremie-rainbow-swirl-flower.png",
-            "rainbow-swirl-love": "alcremie-rainbow-swirl-love.png",
-            "rainbow-swirl-ribbon": "alcremie-rainbow-swirl-ribbon.png",
-            "rainbow-swirl-star": "alcremie-rainbow-swirl-star.png",
-            "rainbow-swirl-strawberry": "alcremie-rainbow-swirl-strawberry.png",
-            "ruby-cream-berry": "alcremie-ruby-cream-berry.png",
-            "ruby-cream-clover": "alcremie-ruby-cream-clover.png",
-            "ruby-cream-flower": "alcremie-ruby-cream-flower.png",
-            "ruby-cream-love": "alcremie-ruby-cream-love.png",
-            "ruby-cream-ribbon": "alcremie-ruby-cream-ribbon.png",
-            "ruby-cream-star": "alcremie-ruby-cream-star.png",
-            "ruby-cream-strawberry": "alcremie-ruby-cream-strawberry.png",
-            "ruby-swirl-berry": "alcremie-ruby-swirl-berry.png",
-            "ruby-swirl-clover": "alcremie-ruby-swirl-clover.png",
-            "ruby-swirl-flower": "alcremie-ruby-swirl-flower.png",
-            "ruby-swirl-love": "alcremie-ruby-swirl-love.png",
-            "ruby-swirl-ribbon": "alcremie-ruby-swirl-ribbon.png",
-            "ruby-swirl-star": "alcremie-ruby-swirl-star.png",
-            "ruby-swirl-strawberry": "alcremie-ruby-swirl-strawberry.png",
-            "salted-cream-berry": "alcremie-salted-cream-berry.png",
-            "salted-cream-clover": "alcremie-salted-cream-clover.png",
-            "salted-cream-flower": "alcremie-salted-cream-flower.png",
-            "salted-cream-love": "alcremie-salted-cream-love.png",
-            "salted-cream-ribbon": "alcremie-salted-cream-ribbon.png",
-            "salted-cream-star": "alcremie-salted-cream-star.png",
-            "salted-cream-strawberry": "alcremie-salted-cream-strawberry.png",
-            "standard": "alcremie.png",
-            "vanilla-cream-berry": "alcremie-vanilla-cream-berry.png",
-            "vanilla-cream-clover": "alcremie-vanilla-cream-clover.png",
-            "vanilla-cream-flower": "alcremie-vanilla-cream-flower.png",
-            "vanilla-cream-love": "alcremie-vanilla-cream-love.png",
-            "vanilla-cream-ribbon": "alcremie-vanilla-cream-ribbon.png",
-            "vanilla-cream-star": "alcremie-vanilla-cream-star.png",
-            "vanilla-cream-strawberry": "alcremie-vanilla-cream-strawberry.png"
+            "vanilla cream berry": "alcremie-vanilla-cream-berry.png",
+            "vanilla cream clover": "alcremie-vanilla-cream-clover.png",
+            "female": "alcremie-salted-cream-flower.png",
+            "vanilla cream love": "alcremie-vanilla-cream-love.png",
+            "vanilla cream ribbon": "alcremie-vanilla-cream-ribbon.png",
+            "vanilla cream star": "alcremie-vanilla-cream-star.png",
+            "vanilla cream strawberry": "alcremie-vanilla-cream-strawberry.png",
+            "caramel swirl berry": "alcremie-caramel-swirl-berry.png",
+            "caramel swirl clover": "alcremie-caramel-swirl-clover.png",
+            "caramel swirl love": "alcremie-caramel-swirl-love.png",
+            "caramel swirl ribbon": "alcremie-caramel-swirl-ribbon.png",
+            "caramel swirl star": "alcremie-caramel-swirl-star.png",
+            "caramel swirl strawberry": "alcremie-caramel-swirl-strawberry.png",
+            "lemon cream berry": "alcremie-lemon-cream-berry.png",
+            "lemon cream clover": "alcremie-lemon-cream-clover.png",
+            "lemon cream love": "alcremie-lemon-cream-love.png",
+            "lemon cream ribbon": "alcremie-lemon-cream-ribbon.png",
+            "lemon cream star": "alcremie-lemon-cream-star.png",
+            "lemon cream strawberry": "alcremie-lemon-cream-strawberry.png",
+            "matcha cream berry": "alcremie-matcha-cream-berry.png",
+            "matcha cream clover": "alcremie-matcha-cream-clover.png",
+            "matcha cream love": "alcremie-matcha-cream-love.png",
+            "matcha cream ribbon": "alcremie-matcha-cream-ribbon.png",
+            "matcha cream star": "alcremie-matcha-cream-star.png",
+            "matcha cream strawberry": "alcremie-matcha-cream-strawberry.png",
+            "mint cream berry": "alcremie-mint-cream-berry.png",
+            "mint cream clover": "alcremie-mint-cream-clover.png",
+            "mint cream love": "alcremie-mint-cream-love.png",
+            "mint cream ribbon": "alcremie-mint-cream-ribbon.png",
+            "mint cream star": "alcremie-mint-cream-star.png",
+            "mint cream strawberry": "alcremie-mint-cream-strawberry.png",
+            "rainbow swirl berry": "alcremie-rainbow-swirl-berry.png",
+            "rainbow swirl clover": "alcremie-rainbow-swirl-clover.png",
+            "rainbow swirl love": "alcremie-rainbow-swirl-love.png",
+            "rainbow swirl ribbon": "alcremie-rainbow-swirl-ribbon.png",
+            "rainbow swirl star": "alcremie-rainbow-swirl-star.png",
+            "rainbow swirl strawberry": "alcremie-rainbow-swirl-strawberry.png",
+            "ruby cream berry": "alcremie-ruby-cream-berry.png",
+            "ruby cream clover": "alcremie-ruby-cream-clover.png",
+            "ruby cream love": "alcremie-ruby-cream-love.png",
+            "ruby cream ribbon": "alcremie-ruby-cream-ribbon.png",
+            "ruby cream star": "alcremie-ruby-cream-star.png",
+            "ruby cream strawberry": "alcremie-ruby-cream-strawberry.png",
+            "ruby swirl berry": "alcremie-ruby-swirl-berry.png",
+            "ruby swirl clover": "alcremie-ruby-swirl-clover.png",
+            "ruby swirl love": "alcremie-ruby-swirl-love.png",
+            "ruby swirl ribbon": "alcremie-ruby-swirl-ribbon.png",
+            "ruby swirl star": "alcremie-ruby-swirl-star.png",
+            "ruby swirl strawberry": "alcremie-ruby-swirl-strawberry.png",
+            "salted cream berry": "alcremie-salted-cream-berry.png",
+            "salted cream clover": "alcremie-salted-cream-clover.png",
+            "salted cream love": "alcremie-salted-cream-love.png",
+            "salted cream ribbon": "alcremie-salted-cream-ribbon.png",
+            "salted cream star": "alcremie-salted-cream-star.png",
+            "salted cream strawberry": "alcremie-salted-cream-strawberry.png",
+            "gigantamax": "alcremie-gigantamax.png"
         },
         "870": {
             "standard": "falinks.png"
@@ -2981,24 +3072,23 @@
             "standard": "stonjourner.png"
         },
         "875": {
-            "ice": "eiscue.png",
-            "noice": "eiscue-noice.png",
-            "standard": "eiscue.png"
+            "ice": "eiscue-ice.png",
+            "noice": "eiscue-noice.png"
         },
         "876": {
-            "female": "indeedee-female.png",
-            "male": "indeedee.png",
-            "standard": "indeedee.png"
+            "male": "indeedee-male.png",
+            "female": "indeedee-female.png"
         },
         "877": {
-            "standard": "morpeko.png"
+            "female": "morpeko-full-belly.png",
+            "hangry": "morpeko-hangry.png"
         },
         "878": {
             "standard": "cufant.png"
         },
         "879": {
-            "gmax": "copperajah-gigantamax.png",
-            "standard": "copperajah.png"
+            "standard": "copperajah.png",
+            "gigantamax": "copperajah-gigantamax.png"
         },
         "880": {
             "standard": "dracozolt.png"
@@ -3013,8 +3103,8 @@
             "standard": "arctovish.png"
         },
         "884": {
-            "gmax": "duraludon-gigantamax.png",
-            "standard": "duraludon.png"
+            "standard": "duraludon.png",
+            "gigantamax": "duraludon-gigantamax.png"
         },
         "885": {
             "standard": "dreepy.png"
@@ -3027,32 +3117,28 @@
         },
         "888": {
             "crowned": "zacian-crowned.png",
-            "heroofmanybattles": "zacian.png",
-            "standard": "zacian.png"
+            "hero": "zacian-hero.png"
         },
         "889": {
             "crowned": "zamazenta-crowned.png",
-            "heroofmanybattles": "zamazenta.png",
-            "standard": "zamazenta.png"
+            "hero": "zamazenta-hero.png"
         },
         "890": {
-            "eternamax": "eternatus-eternamax.png",
-            "standard": "eternatus.png"
+            "standard": "eternatus.png",
+            "eternamax": "eternatus-eternamax.png"
         },
         "891": {
             "standard": "kubfu.png"
         },
         "892": {
-            "gmax": "urshifu-rapid-strike.png",
-            "gmaxrapidstrike": "urshifu-rapid-strike.png",
-            "gmaxsinglestrike": "urshifu-single-strike.png",
-            "rapidstrike": "urshifu-rapid-strike.png",
-            "singlestrike": "urshifu-single-strike.png",
-            "standard": "urshifu-single-strike.png"
+            "rapid strike": "urshifu-rapid-strike.png",
+            "single strike": "urshifu-single-strike.png",
+            "rapid strike gigantamax": "urshifu-rapid-strike-gigantamax.png",
+            "single strike gigantamax": "urshifu-single-strike-gigantamax.png"
         },
         "893": {
-            "dada": "zarude-dada.png",
-            "standard": "zarude.png"
+            "standard": "zarude.png",
+            "dada": "zarude-dada.png"
         },
         "894": {
             "standard": "regieleki.png"
@@ -3067,9 +3153,9 @@
             "standard": "spectrier.png"
         },
         "898": {
-            "ice": "calyrex-ice-rider.png",
-            "shadow": "calyrex-shadow-rider.png",
-            "standard": "calyrex.png"
+            "standard": "calyrex.png",
+            "ice rider": "calyrex-ice-rider.png",
+            "shadow rider": "calyrex-shadow-rider.png"
         }
     }
 }

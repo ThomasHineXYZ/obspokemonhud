@@ -1,26 +1,33 @@
 {
+    "map": "HOME",
     "slot1": {
         "dexnumber": 0,
-        "shiny": false
+        "variant": "standard",
+        "shiny": true
     },
     "slot2": {
         "dexnumber": 0,
-        "shiny": false
+        "variant": "standard",
+        "shiny": true
     },
     "slot3": {
         "dexnumber": 0,
-        "shiny": false
+        "variant": "standard",
+        "shiny": true
     },
     "slot4": {
         "dexnumber": 0,
-        "shiny": false
+        "variant": "standard",
+        "shiny": true
     },
     "slot5": {
         "dexnumber": 0,
+        "variant": "standard",
         "shiny": true
     },
     "slot6": {
         "dexnumber": 0,
+        "variant": "standard",
         "shiny": false
     }
 }

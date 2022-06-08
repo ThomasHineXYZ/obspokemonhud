@@ -25,6 +25,9 @@ run_boolean = False
 # The style for the sprites to use
 sprite_map = {}
 
+# Possible styles for sprites to use
+sprite_types = []
+
 # Dictionary for the team sprite image sources
 team_sprite_image_sources = []
 
@@ -66,17 +69,6 @@ def script_properties():
     # Add in a file path property for the team.json file
     obs.obs_properties_add_path(properties, "json_file", "Team JSON File", obs.OBS_PATH_FILE, "*.json", None)
 
-    # Set up the sprite style dropdown
-    sprite_style = obs.obs_properties_add_list(
-        properties,
-        "sprite_style",
-        "Sprite Style",
-        obs.OBS_COMBO_TYPE_EDITABLE,
-        obs.OBS_COMBO_FORMAT_STRING
-    )
-    obs.obs_property_list_add_string(sprite_style, "", "")
-    obs.obs_property_list_add_string(sprite_style, "home", "home")
-    obs.obs_property_list_add_string(sprite_style, "showdown", "showdown")
 
     # Team image locations.
     # Set up the settings and add in a blank value as the first value
@@ -84,7 +76,7 @@ def script_properties():
         properties,
         "slot1_sprite_image_source",
         "Slot 1 Image Source",
-        obs.OBS_COMBO_TYPE_EDITABLE,
+        obs.OBS_COMBO_TYPE_LIST,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot1_sprite_image_source, "", "")
@@ -93,7 +85,7 @@ def script_properties():
         properties,
         "slot2_sprite_image_source",
         "Slot 2 Image Source",
-        obs.OBS_COMBO_TYPE_EDITABLE,
+        obs.OBS_COMBO_TYPE_LIST,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot2_sprite_image_source, "", "")
@@ -102,7 +94,7 @@ def script_properties():
         properties,
         "slot3_sprite_image_source",
         "Slot 3 Image Source",
-        obs.OBS_COMBO_TYPE_EDITABLE,
+        obs.OBS_COMBO_TYPE_LIST,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot3_sprite_image_source, "", "")
@@ -111,7 +103,7 @@ def script_properties():
         properties,
         "slot4_sprite_image_source",
         "Slot 4 Image Source",
-        obs.OBS_COMBO_TYPE_EDITABLE,
+        obs.OBS_COMBO_TYPE_LIST,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot4_sprite_image_source, "", "")
@@ -120,7 +112,7 @@ def script_properties():
         properties,
         "slot5_sprite_image_source",
         "Slot 5 Image Source",
-        obs.OBS_COMBO_TYPE_EDITABLE,
+        obs.OBS_COMBO_TYPE_LIST,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot5_sprite_image_source, "", "")
@@ -129,7 +121,7 @@ def script_properties():
         properties,
         "slot6_sprite_image_source",
         "Slot 6 Image Source",
-        obs.OBS_COMBO_TYPE_EDITABLE,
+        obs.OBS_COMBO_TYPE_LIST,
         obs.OBS_COMBO_FORMAT_STRING
     )
     obs.obs_property_list_add_string(slot6_sprite_image_source, "", "")
@@ -183,8 +175,6 @@ def script_defaults(settings):
     obs.obs_data_set_default_int(settings, "sprite_height", 50)
     obs.obs_data_set_default_int(settings, "sprite_width", 50)
 
-    # Set the default sprite style as using the Showdown type
-    obs.obs_data_set_default_string(settings, "sprite_style", "showdown")
 
 
 def script_update(settings):
@@ -205,6 +195,7 @@ def script_update(settings):
     global json_file
     global run_boolean
     global sprite_map
+    global sprite_style
     global team_sprite_image_sources
 
     # Set up the check interval
@@ -229,8 +220,7 @@ def script_update(settings):
     for source in team_sprite_image_sources:
         setup_source(source, sprite_height, sprite_width)
 
-    # Set up the sprite style
-    sprite_style = obs.obs_data_get_string(settings, "sprite_style")
+    
 
     # Set up the run bool
     run_boolean = obs.obs_data_get_bool(settings, "run_boolean")
@@ -246,10 +236,6 @@ def script_update(settings):
     if not json_file:
         return
 
-    # If the sprite style isn't chosen
-    if not sprite_style:
-        return
-
     # If not all of the team slots are set, return out
     if not (
         team_sprite_image_sources[0] and
@@ -261,9 +247,6 @@ def script_update(settings):
     ):
         return
 
-    # Load up the sprite map
-    with open(f"{script_path()}map_{sprite_style}.json", 'r') as file:
-        sprite_map = json.load(file)
 
     # So now, if everything is set up then set the timer
     obs.timer_add(update_team, check_interval * 1000)
@@ -282,7 +265,6 @@ def update_team():
     # Set up the required global variables
     global json_file
     global json_file_contents
-    global sprite_style
     global team_sprite_image_sources
 
     # Load up the JSON file in to a dictionary
@@ -311,6 +293,13 @@ def update_sprite_sources(source_name, team_slot):
 
     Given the source name list, it updates the path for the sprite sources
     """
+    # Set up the sprite style
+    with open(json_file, 'r') as file:
+        array = json.load(file)
+
+    # Load up the sprite map
+    with open(f"{script_path()}map_{array['map']}.json", 'r') as file:
+        sprite_map = json.load(file)
 
     # If debug is enabled, print out this bit of text
     if debug:
@@ -326,7 +315,7 @@ def update_sprite_sources(source_name, team_slot):
             sprite_map['sprites'],
             team_slot['shiny'],
             team_slot["dexnumber"],
-            None
+            team_slot["variant"]
         )
         location = cache_image(
             sprite,
@@ -361,13 +350,8 @@ def get_sprite_location(urls, sprites, shiny, dex_number, variant):
     if str(dex_number) not in sprites.keys():
         print("I don't belong")
         return
+    return link + sprites[str(dex_number)][variant]
 
-    if variant in sprites[str(dex_number)].keys():
-        return link + sprites[str(dex_number)][variant]
-
-    # If the given forms, genders, etc aren't available, just give the standard
-    # sprite
-    return link + sprites[str(dex_number)]['standard']
 
 
 def cache_image(link, shiny, location, image_type):

@@ -704,12 +704,12 @@
             "standard": "misdreavus.gif"
         },
         "201": {
-            "a": "unown.gif",
             "b": "unown-b.gif",
             "c": "unown-c.gif",
             "d": "unown-d.gif",
             "e": "unown-e.gif",
-            "f": "unown-f.gif",
+            "exclamation": "unown-exclamation.gif",
+            "female": "unown-f.gif",
             "g": "unown-g.gif",
             "h": "unown-h.gif",
             "j": "unown-j.gif",
@@ -720,6 +720,7 @@
             "o": "unown-o.gif",
             "p": "unown-p.gif",
             "q": "unown-q.gif",
+            "question": "unown-question.gif",
             "r": "unown-r.gif",
             "s": "unown-s.gif",
             "t": "unown-t.gif",
@@ -729,8 +730,7 @@
             "x": "unown-x.gif",
             "y": "unown-y.gif",
             "z": "unown-z.gif",
-            "exclamation": "unown-exclamation.gif",
-            "question": "unown-question.gif"
+            "male": "unown.gif"
         },
         "202": {
             "female": "wobbuffet-f.gif",
@@ -894,9 +894,7 @@
         "249": {
             "standard": "lugia.gif"
         },
-        "250": {
-            "standard": "hooh.gif"
-        },
+        "250": {},
         "251": {
             "standard": "celebi.gif"
         },
@@ -2736,14 +2734,9 @@
         "781": {
             "standard": "dhelmise.gif"
         },
-        "782": {
-            "standard": "jangmoo.gif"
-        },
-        "783": {
-            "standard": "hakamoo.gif"
-        },
+        "782": {},
+        "783": {},
         "784": {
-            "standard": "kommoo.gif",
             "totem": "kommo-o-totem.gif"
         },
         "785": {
